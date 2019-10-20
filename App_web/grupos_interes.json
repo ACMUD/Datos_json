@@ -1,1 +1,37 @@
-[]
+[{
+  "Abreviacion":"GISAC",
+  "nombre": "Grupo de investigación de seguridad, auditoria y control de datos",
+  "Responsable": "Eduardo Rios",
+  "Descripción": "",
+  "Prerrequisitos":[{
+    "nombre": ""
+  },
+    {
+      "nombre": ""
+    }
+  ],
+  "TemasTrabajados":[{
+    "nombre": "",
+    "descripcion": ""
+  },
+    {
+      "nombre": "",
+      "descripcion":""
+    }
+  ],
+  "ProyectosRealizados":[
+    {
+      "nombre": "",
+      "descripcion": ""
+    },
+    {
+      "nombre": "",
+      "descripcion":""
+    }
+  ],
+  "horarios":[{
+    "dia":"",
+    "hora":""
+  }]
+
+}]
