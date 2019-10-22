@@ -31,7 +31,8 @@
   ],
   "horarios":[{
     "dia":"",
-    "hora":""
+    "hora":"",
+    "lugar": ""
   }]
 
 }]
