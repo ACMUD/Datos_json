@@ -1,1 +1,18 @@
-[]
+[{
+  "title": "",
+  "cover-image": "",
+  "relevance": 1,
+  "source": "",
+  "author": "",
+  "date": "",
+  "location": "",
+  "content": {
+    "paragraphs": [{
+      "text": "",
+      "image": ""
+    }]
+  },
+  "tags": [{
+    "name": ""
+  }]
+}]
