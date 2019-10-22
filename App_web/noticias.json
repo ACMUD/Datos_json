@@ -1,27 +1,282 @@
 [{
-  "title": "",
-  "cover-image": {
-    "route": "",
-    "source" : ""
-  },
-  "relevance": 1,
-  "source": "",
-  "author": "",
-  "date": "",
-  "location": "",
-  "content": {
-    "sections": [{
-      "title": "",
-      "paragraphs": [{
-        "text": "",
-        "media": {
-          "route": "",
-          "source" : ""
-        }
-      }]
-    }]
-  },
-  "tags": [{
-    "name": ""
-  }]
-}]
+        "title": "The 10 most important moments in AI so far",
+        "subtitle": "From Isaac Asimov’s first robot stories to AlphaGo, AI has had its ups and downs. But its history is just starting.",
+        "cover-image": {
+            "route": "https://images.fastcompany.net/image/upload/w_1153,ar_16:9,c_fill,g_auto,f_auto,q_auto,fl_lossy/wp-cms/uploads/2019/09/p-1-the-5-most-important-moments-in-ai-so-far.jpg",
+            "source": "Pixabay/Pexels"
+        },
+        "relevance": 1,
+        "source": "https://www.fastcompany.com/90402503/the-10-most-important-moments-in-ai-so-far",
+        "author": "Mark Sullivan",
+        "date": "09/16/19",
+        "location": "",
+        "content": {
+            "sections": [{
+                    "title": "",
+                    "paragraphs": [{
+                        "text": "Artificial intelligence is still in its youth. But some very big things have already happened. Some of them captured the attention of the culture, while others produced shockwaves felt mainly within the stuffy confines of academia. These are some of the key moments that propelled AI forward in the most profound ways.",
+                        "media": {
+                            "route": "",
+                            "source": ""
+                        }
+                    }]
+                },
+                {
+                    "title": "1. ISAAC ASIMOV WRITES THE THREE LAWS OF ROBOTICS (1942)",
+                    "paragraphs": [{
+                        "text": "Asimov’s story “Runaround” marks the first time the famed science-fiction author listed his “Three Laws of Robotics” in full: First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm. Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law. Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws. “Runaround” tells the story of Speedy, a robot put in a situation where balancing the third law with the first two seems impossible.Asimov’ s stories in the Robot series got science - fiction fans, some of them scientists, thinking about the possibility of thinking machines.Even today, many people go through the intellectual exercise of applying Asimov’ s laws to modern AI.",
+                        "media": {
+                            "route": "",
+                            "source": ""
+                        }
+                    }]
+                },
+                {
+                    "title": "2. ALAN TURING PROPOSES THE IMITATION GAME (1950)",
+                    "paragraphs": [{
+                            "text": "“I propose to consider the question ‘Can machines think?'” So began Alan Turing’s seminal 1950 research paper that developed a framework for thinking about machine intelligence. He asked why, if a machine could imitate the sentient behavior of a human, would it not itself be sentient.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-2-the-5-most-important-moments-in-ai-so-far-1.jpg",
+                                "source": "Alan Turing authored the first benchmark to measure machine sentience in 1950. [Photo: Unknown/Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "That theoretical question gave rise to Turing’s famous “Imitation Game,” an exercise in which a human “interrogator” is challenged to differentiate between the text-only responses of a machine and a human being. No machine capable of passing a test like that existed in Turing’s era, or does today. But his test provided a simple benchmark for identifying intelligence in a machine. It helped give shape to a philosophy of artificial intelligence.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "3. DARTMOUTH HOLDS AN AI CONFERENCE (1956)",
+                    "paragraphs": [{
+                            "text": "By 1955, scientists around the world had begun to think conceptually about things like neural networks and natural language, but there was no unifying concept to envelop various kinds of machine intelligence. A Dartmouth College math professor named John McCarthy coined the term “artificial intelligence” to encapsulate it all.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "McCarthy led a group that applied for a grant to hold an AI conference the following year. They invited many of the top advanced science researchers of the day to Dartmouth Hall for the event in summer 1956. The scientists discussed numerous potential areas of AI study, including learning and search, vision, reasoning, language and cognition, gaming (particularly chess), and human interactions with intelligent machines such as personal robots.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The general consensus from the discussions was that AI had great potential to benefit human beings. They yielded a general framework of research areas where machine intelligence could have an impact. The conference organized and energized AI as a research discipline for years to come.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "4. FRANK ROSENBLATT BUILDS THE PERCEPTRON (1957)",
+                    "paragraphs": [{
+                            "text": "The basic structure of a neural network is called a “perceptron.” It’s a series of inputs that report data to a node that then computes the inputs and arrives at a classification and a confidence level. For example, the inputs might analyze different aspects of an image and “vote” (with varying levels of surety) on whether there’s a face depicted in it. The node might then calculate the “votes” and the confidence levels and derive a consensus. Today’s neural networks, running on powerful computers, connect billions of these structures.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-1-the-5-most-important-moments-in-ai-so-far.jpg",
+                                "source": "Frank Rosenblatt built a mechanical neural network at Cornell Aeronautical Laboratory in 1957. [Photo: Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "But perceptrons existed well before powerful computers did. In the late 1950s, a young research psychologist named Frank Rosenblatt built an electromechanical model of a perceptron called the Mark I Perceptron, which today sits in the Smithsonian. It was an analog neural network that consisted of a grid of light-sensitive photoelectric cells connected by wires to banks of nodes containing electrical motors with rotary resistors. Rosenblatt developed a “Perceptron Algorithm” that directed the network to gradually tune its input strengths until they consistently correctly identified objects, effectively allowing it to learn.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Scientists debated the relevance of the Perceptron well into the 1980s. It was important for creating a physical embodiment of the neural network, which until then had been mainly an academic concept.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "5. AI EXPERIENCES ITS FIRST WINTER (1970S)",
+                    "paragraphs": [{
+                            "text": "Artificial intelligence has spent most of its history in the research realm. Throughout much of the 1960s, government agencies such as the U.S. Defense Advanced Research Projects Agency (DARPA) plowed money into research and asked little about the eventual return on their investment. And AI researchers often oversold the potential of their work so that they could keep their funding. This all changed in the late 1960s and early ’70s. Two reports, the Automatic Language Processing Advisory Committee (ALPAC) report to the U.S. Government in 1966, and the Lighthill Report for the British government in 1973, looked at AI research in a pragmatic way and returned very pessimistic analyses about the potential of the technology. Both reports questioned the tangible progress of various areas of AI research. The Lighthill Report argued that AI for tasks like speech recognition would be very difficult to scale to a size useful to the government or military.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "As a result, both the U.S. government and the British government began cutting off funding for university AI research. DARPA, through which AI research funding had flowed freely during most of the ’60s, now demanded that research proposals come with clear timelines and detailed descriptions of the deliverables. That left AI looking like a disappointment that might never reach human-level capabilities. AI’s first “winter” lasted throughout the ’70s and into the ’80s.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "6. THE SECOND AI WINTER ARRIVES (1987)",
+                    "paragraphs": [{
+                            "text": "The 1980s opened with the development and success of “expert systems,” which stored large amounts of domain knowledge and emulated the decision-making of human experts. The technology was originally developed by Carnegie Mellon for Digital Equipment Corporation, and corporations deployed the technology rapidly. But expert systems required expensive, specialized hardware, which became a problem when Sun Microsystems workstations and Apple and IBM personal computers became available with comparable power and lower prices. The market for the expert systems computers collapsed in 1987, with the main providers of the machines leaving the market.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The success of expert systems in the early ’80s had encouraged DARPA to increase funding in AI research, but that changed again as the agency again choked off much of the funding to AI for all but a few hand-picked programs. Once again the term “artificial intelligence” became almost taboo in the research community. To avoid being seen as impractical dreamers begging for funding, researchers began using different names for AI-related work–like “informatics,” “machine learning,” and “analytics. This second “AI winter” lasted well into the 2000s.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "7. IBM’S DEEP BLUE BEATS KASPAROV (1997)",
+                    "paragraphs": [{
+                            "text": "The public profile of artificial intelligence got a boost in 1997 when IBM’s Deep Blue chess computer defeated then-world champion Garry Kasparov in chess. In a series of six games played in a television studio, Deep Blue won two games, Kasparov won one, and three of the games ended in draws. Kasparov had defeated an earlier version of Deep Blue the year before.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-3-the-5-most-important-moments-in-ai-so-far.jpg",
+                                "source": "IBM’s Deep Blue defeated the world’s best human chess player, Gary Kasparov, in 1997. [Photo: James the Photographer/Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "Deep Blue had plenty of computing power, and it used a “brute force” approach, evaluating 200 million possible moves a second to find the best possible one. Humans have the capacity to examine only about 50 moves per turn. The effect of Deep Blue was AI-like, but the computer was not actually thinking about strategy and learning as it played, as later systems would.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Still, Deep Blue’s victory over Kasparov brought AI back to the public mind in impressive fashion. Some people were fascinated. Others were uncomfortable with a machine beating an expert-level human chess player. Investors were impressed: Deep Blue’s victory pushed IBM’s stock up $10 to a then-all time high.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "8. A NEURAL NET SEES CATS (2011)",
+                    "paragraphs": [{
+                            "text": "By 2011, scientists in universities around the world were talking about—and creating—neural networks. That year, Google engineer Jeff Dean met a Stanford computer science professor named Andrew Ng. The two hatched the idea of building a large neural net, giving it massive computing power using Google’s server resources, and feeding it a massive data set of images.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The neural network they built ran across 16,000 server processors. They fed it 10 million random, unlabeled screen grabs from YouTube. Dean and Ng didn’t ask the neural network to come up with any specific information or label the images. When neural nets run in this kind of unsupervised fashion, they will naturally try to find patterns in the data and form classifications.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The neural network processed the image data for three days. It then returned an output containing three blurry images depicting visual patterns it had seen over and over in the test images—a human face, a human body, and a cat. That research was a major breakthrough in the use of neural networks and unsupervised learning in computer vision tasks. The event also marked the start of the Google Brain project.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "9. GEOFFREY HINTON UNLEASHES DEEP NEURAL NETWORKS (2012)",
+                    "paragraphs": [{
+                            "text": "The year after Dean and Ng’s breakthrough, University of Toronto professor Geoffrey Hinton and two of his students built a computer vision neural network model called AlexNet to compete in an image recognition contest called ImageNet. Entrants were to use their systems to process millions of test images and identify them with the greatest possible accuracy. AlexNet won the contest with an error rate of less than half that of the runner-up. In only 15.3% of cases was the correct label not in AlexNet’s top five most-likely answers. The previous best score had been 26%.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-4-the-5-most-important-moments-in-ai-so-far.jpg",
+                                "source": "Geoffrey Hinton’s research at the University of Toronto helped bring about a renaissance in deep learning. [Photo: Eviatar Bach/Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "The victory made a strong case that deep neural networks running on graphics processors were far better than other systems at accurately identifying and classifying images. This, perhaps more than any other single event, kicked off the current renaissance in deep neural networks, earning Hinton the moniker of “godfather of deep learning.” Along with fellow AI gurus Yoshua Bengio and Yann LeCun, Hinton won the coveted Turing Prize for 2018.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "10. ALPHAGO DEFEATS HUMAN GO CHAMPION (2016)",
+                    "paragraphs": [{
+                            "text": "Back in 2013, researchers at a British startup called DeepMind published a paper showing how they could use a neural network to play and beat 50 old Atari games. Impressed, Google snatched up the company for a reported $400 million. But DeepMind’s glory days were ahead of it.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Several years later, DeepMind’s scientists, now within Google, moved on from Atari games to one of AI’s most long-standing challenges, the Japanese board game Go. They developed a neural network model called AlphaGo that was designed to play Go, and learn by playing. The software played thousands of games against other AlphaGo versions, learning from both its winning and losing strategies.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "It worked. AlphaGo defeated the greatest Go player in the world, Lee Sedol, four games to one in a series of games in March 2016. The whole affair was captured in a documentary. Watching it, it’s hard to miss the sense of sadness when Sedol is defeated. It seemed like humans—not just one human—had been defeated.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Recent advances in deep neural networks have had such sweeping impact that the real story of artificial intelligence may be just beginning. There will still be lots of hope, hype, and impatience, but it seems clear now that AI will impact every aspect of 21st-century life—possibly in ways even more profound than the internet.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [{
+                "name": "ai"
+            },
+            {
+                "name": "THE THREE LAWS OF ROBOTICS"
+            },
+            {
+                "name": "ALAN TURING"
+            },
+            {
+                "name": "this is a tag :v"
+            }
+        ]
+    },
+    {
+        "title": "",
+        "subtitle": "",
+        "cover-image": {
+            "route": "",
+            "source": ""
+        },
+        "relevance": 1,
+        "source": "",
+        "author": "",
+        "date": "",
+        "location": "",
+        "content": {
+            "sections": [{
+                "title": "",
+                "paragraphs": [{
+                    "text": "",
+                    "media": {
+                        "route": "",
+                        "source": ""
+                    }
+                }]
+            }]
+        },
+        "tags": [{
+            "name": ""
+        }]
+    }
+]
