@@ -1,0 +1,169 @@
+[
+    {
+        "name" : "Mauricio",
+        "lastName": "Perilla",
+        "img" : "imgMembers/MauricioPerilla.jpg",
+        "email" : {
+            "personal" : "mauperillar@gmail.com",
+            "institutional" : "mperillar@correo.udistrital.edu.co"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : 2,
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "Colaborador",
+            "yearsInGroup": 0
+        },
+        "programmingLanguages" : ["--"],
+        "description" : "",
+        "age" : 19
+    },
+
+    {
+        "name" : "Miguel",
+        "lastName": "Rodríguez Mendoza",
+        "img" : "imgMembers/MiguelRodriguez.jpeg",
+        "email" : {
+            "personal" : "--",
+            "institutional" : "--"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : "",
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "--",
+            "yearsInGroup": "--"
+        },
+        "programmingLanguages" : ["--"],
+        "description" : "",
+        "age" : 19
+    },
+
+    {
+        "name" : "Julieth Tatiana",
+        "lastName": "Riaño Mora",
+        "img" : "imgMembers/JulietMora.jpg",
+        "email" : {
+            "personal" : "--",
+            "institutional" : "--"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : "",
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "--",
+            "yearsInGroup": "--"
+        },
+        "programmingLanguages" : ["--"],
+        "description" : "",
+        "age" : 17
+    },
+
+    {
+        "name" : "Diego Alejandro",
+        "lastName": "Hernandez Martinez",
+        "img" : "imgMembers/DiegoHernandez.jpg",
+        "email" : {
+            "personal" : "dahm1997@gmail.com",
+            "institutional" : "--"
+        },
+        "occupation" : "--", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : "--",
+            "currentSemester" : "",
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "--",
+            "totalSemester" : "--" 
+        },
+
+        "infoACM" : {
+            "occupation" : "--",
+            "yearsInGroup": "--"
+        },
+
+        "programmingLanguages" : ["Java","Python","C++","JavaScript","Latex"],
+
+        "description" : "",
+        "age" : 21
+    },
+
+    {
+        "name" : "Daniel Alejandro",
+        "lastName": "Montiel Rodriguez",
+        "img" : "imgMembers/DanielMontiel.jpg",
+        "email" : {
+            "personal" : "--",
+            "institutional" : "--"
+        },
+        "occupation" : "--", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : "--",
+            "currentSemester" : "",
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "--",
+            "totalSemester" : "--" 
+        },
+
+        "infoACM" : {
+            "occupation" : "--",
+            "yearsInGroup": "--"
+        },
+
+        "programmingLanguages" : ["--"],
+
+        "description" : "",
+        "age" : 19
+    },
+
+    {
+        "name" : "Andres",
+        "lastName": "Ramirez",
+        "img" : "imgMembers/AndresRamirez.jpeg",
+        "email" : {
+            "personal" : "--",
+            "institutional" : "--"
+        },
+        "occupation" : "--", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : "--",
+            "currentSemester" : "",
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "--",
+            "totalSemester" : "--" 
+        },
+
+        "infoACM" : {
+            "occupation" : "--",
+            "yearsInGroup": "--"
+        },
+
+        "programmingLanguages" : ["--"],
+
+        "description" : "",
+        "age" : 21
+    }
+]
