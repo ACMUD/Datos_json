@@ -1,15 +1,24 @@
 [{
   "title": "",
-  "cover-image": "",
+  "cover-image": {
+    "route": "",
+    "source" : ""
+  },
   "relevance": 1,
   "source": "",
   "author": "",
   "date": "",
   "location": "",
   "content": {
-    "paragraphs": [{
-      "text": "",
-      "image": ""
+    "sections": [{
+      "title": "",
+      "paragraphs": [{
+        "text": "",
+        "media": {
+          "route": "",
+          "source" : ""
+        }
+      }]
     }]
   },
   "tags": [{
