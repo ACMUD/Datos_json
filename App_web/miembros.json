@@ -39,7 +39,7 @@
         "academicLevel" : "Pregrado",
         "infoStudent" : {
             "status" : true,
-            "currentSemester" : "0",
+            "currentSemester" : 0,
             "universityDegree" : "Systems Engineer",
             "levelDegree" : "Pregrado",
             "totalSemester" : 10 
@@ -47,7 +47,7 @@
 
         "infoACM" : {
             "occupation" : "Colaborador",
-            "yearsInGroup": "0"
+            "yearsInGroup": 0
         },
         "programmingLanguages" : ["Java","Javascript","Angular","React","PHP","Laravel","Python"],
         "description" : "Persona apasionada por las historias y la tecnología.",
@@ -66,7 +66,7 @@
         "academicLevel" : "Pregrado",
         "infoStudent" : {
             "status" : true,
-            "currentSemester" : "0",
+            "currentSemester" : 0,
             "universityDegree" : "Systems Engineer",
             "levelDegree" : "Pregrado",
             "totalSemester" : 10 
@@ -74,7 +74,7 @@
 
         "infoACM" : {
             "occupation" : "Colaborador",
-            "yearsInGroup": "0"
+            "yearsInGroup": 0
         },
         "programmingLanguages" : ["Polymer","NodeJS","Bootstrap","PHP","JavaScript"],
         "description" : "Estudiante en ingeniería de sistemas con certificado alto en cursos de entrenamiento en programacion",
@@ -96,12 +96,12 @@
             "currentSemester" : 10,
             "universityDegree" : "Systems Engineer",
             "levelDegree" : "Pregrado",
-            "totalSemester" : "10" 
+            "totalSemester" : 10 
         },
 
         "infoACM" : {
             "occupation" : "Colaborador",
-            "yearsInGroup": "0"
+            "yearsInGroup": 0
         },
 
         "programmingLanguages" : ["Java","Python","C++","JavaScript","Latex"],
@@ -125,12 +125,12 @@
             "currentSemester" : 0,
             "universityDegree" : "Systems Engineer",
             "levelDegree" : "Pregrado",
-            "totalSemester" : "10" 
+            "totalSemester" : 10 
         },
 
         "infoACM" : {
             "occupation" : "Colaborador",
-            "yearsInGroup": "0"
+            "yearsInGroup": 0
         },
 
         "programmingLanguages" : ["c++"],
