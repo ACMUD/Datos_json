@@ -1,4 +1,5 @@
-[{
+[
+    {
         "title": "Ayudar a los vehículos autónomos a ver a la vuelta de las esquinas",
         "subtitle": "Al detectar pequeños cambios en las sombras, un nuevo sistema identifica los objetos que se aproximan y que pueden causar una colisión.",
         "cover-image": {
@@ -11,9 +12,11 @@
         "date": "27/10/19",
         "location": "",
         "content": {
-            "sections": [{
+            "sections": [
+                {
                     "title": "",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "Para mejorar la seguridad de los sistemas autónomos, los ingenieros del MIT han desarrollado un sistema que puede detectar pequeños cambios en las sombras del terreno para determinar si hay un objeto en movimiento a la vuelta de la esquina.",
                             "media": {
                                 "route": "",
@@ -66,7 +69,8 @@
                 },
                 {
                     "title": "Extensión de ShadowCam",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "Para su trabajo, los investigadores se basaron en su sistema, llamado 'ShadowCam', que utiliza técnicas de visión por ordenador para detectar y clasificar los cambios en las sombras en el suelo. Los profesores del MIT William Freeman y Antonio Torralba, que no son coautores del documento del IROS, colaboraron en las versiones anteriores del sistema, que se presentaron en conferencias en 2017 y 2018.",
                             "media": {
                                 "route": "",
@@ -126,7 +130,8 @@
                 },
                 {
                     "title": "Pruebas sin etiquetas",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "En una prueba, los investigadores evaluaron el desempeño del sistema en la clasificación de objetos en movimiento o estacionarios usando AprilTags y el nuevo método basado en DSO. Una silla de ruedas autónoma se dirigió hacia varias esquinas de los pasillos mientras que los humanos giraban la esquina hacia el camino de la silla de ruedas. Ambos métodos lograron la misma precisión de clasificación del 70 por ciento, lo que indica que ya no se necesitan los AprilTags.",
                             "media": {
                                 "route": "",
@@ -151,7 +156,8 @@
                 }
             ]
         },
-        "tags": [{
+        "tags": [
+            {
                 "name": "Investigación"
             },
             {
@@ -175,6 +181,120 @@
         ]
     },
     {
+        "title": "Bioimpresión: Células vivas en una impresora 3D",
+        "subtitle": "Con un nuevo proceso desarrollado en TU Wien (Viena), las células vivas se pueden integrar en estructuras finas creadas en una impresora 3D - extremadamente rápido y con una resolución muy alta.",
+        "cover-image": {
+            "route": "https://www.tuwien.at/fileadmin/_processed_/0/e/csm_Bioprinting_2eeea8edd6.jpg",
+            "source": "Cells spreading in a 3D scaffold - from left to right: week 1, week 3 week 5. Top: 3D setup, bottom: one layer only."
+        },
+        "relevance": 3,
+        "source": "https://www.tuwien.at/en/tu-wien/news/news-articles/news/bioprinting-living-cells-in-a-3d-printer/",
+        "author": "Florian Aigner",
+        "date": "21/10/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "El crecimiento de los tejidos y el comportamiento de las células pueden ser controlados e investigados particularmente bien al incrustar las células en un delicado marco tridimensional. Esto se logra utilizando métodos de impresión 3D aditivos, las llamadas técnicas de 'bioimpresión'. Sin embargo, esto implica una serie de desafíos: Algunos métodos son muy imprecisos o sólo permiten un período de tiempo muy corto en el que las células pueden procesarse sin dañarse. Además, los materiales utilizados deben ser compatibles con las células durante y después del proceso de biopriting tridimensional. Esto restringe la variedad de materiales posibles. En la Universidad Técnica de Viena (Viena) se ha desarrollado un proceso de bioimpresión de alta resolución con materiales completamente nuevos: Gracias a una 'tinta biológica' especial para la impresora 3D, las células pueden ser incrustadas en una matriz 3D impresa con precisión micrométrica - a una velocidad de impresión de un metro por segundo, órdenes de magnitud más rápido de lo que antes era posible.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "El medio ambiente es importante",
+                    "paragraphs": [
+                        {
+                            "text": "'El comportamiento de una célula depende crucialmente de las propiedades mecánicas, químicas y geométricas de su entorno', dice el Prof. Aleksandr Ovsianikov, jefe del grupo de investigación de Impresión y Biofabricación 3D del Instituto de Ciencia y Tecnología de Materiales (TU Wien). 'Las estructuras en las que están incrustadas las células deben ser permeables a los nutrientes para que las células puedan sobrevivir y multiplicarse. Pero también es importante si las estructuras son rígidas o flexibles, si son estables o se degradan con el tiempo'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Es posible producir primero estructuras adecuadas y luego colonizarlas con células vivas - pero este enfoque puede dificultar la colocación de las células en el interior del andamiaje, y es casi imposible lograr una distribución celular homogénea de esta manera. La mejor opción es integrar las células vivas directamente en la estructura 3D durante la producción de la estructura - esta técnica se conoce como 'bioimpresión'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Imprimir objetos 3D microscópicamente finos ya no es un problema hoy en día. Sin embargo, el uso de células vivas presenta a la ciencia desafíos completamente nuevos: 'Hasta ahora, simplemente ha habido una falta de sustancias químicas adecuadas', dice Aleksandr Ovsianikov. 'Se necesitan líquidos o geles que se solidifiquen exactamente donde se iluminan con un rayo láser enfocado. Sin embargo, estos materiales no deben ser dañinos para las células, y todo el proceso tiene que ser extremadamente rápido'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Dos fotones a la vez",
+                    "paragraphs": [
+                        {
+                            "text": "Para lograr una resolución extremadamente alta, en TU Wien se han utilizado métodos de polimerización de dos fotones durante años. Este método utiliza una reacción química que sólo se inicia cuando una molécula del material absorbe simultáneamente dos fotones del rayo láser. Esto sólo es posible cuando el rayo láser tiene una intensidad especialmente alta. En estos puntos la sustancia se endurece, mientras que permanece líquida en todas partes. Por lo tanto, este método de dos fotones es el más adecuado para producir estructuras extremadamente finas con alta precisión.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Sin embargo, estas técnicas de alta resolución suelen tener la desventaja de ser muy lentas, a menudo en el rango de micrómetros o unos pocos milímetros por segundo. En TU Wien, sin embargo, los materiales compatibles con las células pueden procesarse a una velocidad de más de un metro por segundo - un paso adelante decisivo. Sólo si todo el proceso puede completarse en unas pocas horas existe una buena posibilidad de que las células sobrevivan y se desarrollen aún más.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Numerosas opciones nuevas",
+                    "paragraphs": [
+                        {
+                            "text": "'Nuestro método ofrece muchas posibilidades para adaptar el entorno de las células', dice Aleksandr Ovsianikov. Dependiendo de cómo se construya la estructura, puede hacerse más rígida o más blanda. También son posibles los gradientes finos y continuos. De esta manera, es posible definir exactamente cómo debe verse la estructura para permitir el tipo deseado de crecimiento y migración celular. La intensidad del láser también se puede utilizar para determinar la facilidad con la que la estructura se degradará con el tiempo.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Ovsianikov está convencido de que este es un importante paso adelante para la investigación celular: 'Utilizando estos andamios 3D, es posible investigar el comportamiento de las células con una precisión hasta ahora inalcanzable. Es posible estudiar la propagación de enfermedades, y si se utilizan células madre, incluso es posible producir tejidos a medida de esta manera'. El proyecto de investigación es una cooperación internacional e interdisciplinaria en la que participaron tres institutos diferentes de la Universidad Politécnica de Viena: El grupo de investigación de Ovsianikov fue responsable de la tecnología de impresión en sí, el Instituto de Química Sintética Aplicada desarrolló fotoiniciadores rápidos y amigables con las células (las sustancias que inician el proceso de endurecimiento cuando se iluminan) y el Instituto de Estructuras Livianas y Biomecánica Estructural analizó las propiedades mecánicas de las estructuras impresas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La tecnología de impresión 3D de alta resolución y los materiales están siendo comercializados por la joven pero exitosa spin-off de TU Wien, UPNano GmbH.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Tecnología"
+            },
+            {
+                "name": "Impresión 3D"
+            },
+            {
+                "name": "Impresión 3D"
+            },
+            {
+                "name": "Bio Impresión"
+            }
+        ]
+    },
+    {
         "title": "The 10 most important moments in AI so far",
         "subtitle": "From Isaac Asimov’s first robot stories to AlphaGo, AI has had its ups and downs. But its history is just starting.",
         "cover-image": {
@@ -187,29 +307,35 @@
         "date": "16/09/19",
         "location": "",
         "content": {
-            "sections": [{
+            "sections": [
+                {
                     "title": "",
-                    "paragraphs": [{
-                        "text": "Artificial intelligence is still in its youth. But some very big things have already happened. Some of them captured the attention of the culture, while others produced shockwaves felt mainly within the stuffy confines of academia. These are some of the key moments that propelled AI forward in the most profound ways.",
-                        "media": {
-                            "route": "",
-                            "source": ""
+                    "paragraphs": [
+                        {
+                            "text": "Artificial intelligence is still in its youth. But some very big things have already happened. Some of them captured the attention of the culture, while others produced shockwaves felt mainly within the stuffy confines of academia. These are some of the key moments that propelled AI forward in the most profound ways.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
                         }
-                    }]
+                    ]
                 },
                 {
                     "title": "1. ISAAC ASIMOV WRITES THE THREE LAWS OF ROBOTICS (1942)",
-                    "paragraphs": [{
-                        "text": "Asimov’s story “Runaround” marks the first time the famed science-fiction author listed his “Three Laws of Robotics” in full: First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm. Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law. Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws. “Runaround” tells the story of Speedy, a robot put in a situation where balancing the third law with the first two seems impossible.Asimov’ s stories in the Robot series got science - fiction fans, some of them scientists, thinking about the possibility of thinking machines.Even today, many people go through the intellectual exercise of applying Asimov’ s laws to modern AI.",
-                        "media": {
-                            "route": "",
-                            "source": ""
+                    "paragraphs": [
+                        {
+                            "text": "Asimov’s story “Runaround” marks the first time the famed science-fiction author listed his “Three Laws of Robotics” in full: First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm. Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law. Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws. “Runaround” tells the story of Speedy, a robot put in a situation where balancing the third law with the first two seems impossible.Asimov’ s stories in the Robot series got science - fiction fans, some of them scientists, thinking about the possibility of thinking machines.Even today, many people go through the intellectual exercise of applying Asimov’ s laws to modern AI.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
                         }
-                    }]
+                    ]
                 },
                 {
                     "title": "2. ALAN TURING PROPOSES THE IMITATION GAME (1950)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "“I propose to consider the question ‘Can machines think?'” So began Alan Turing’s seminal 1950 research paper that developed a framework for thinking about machine intelligence. He asked why, if a machine could imitate the sentient behavior of a human, would it not itself be sentient.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-2-the-5-most-important-moments-in-ai-so-far-1.jpg",
@@ -227,7 +353,8 @@
                 },
                 {
                     "title": "3. DARTMOUTH HOLDS AN AI CONFERENCE (1956)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "By 1955, scientists around the world had begun to think conceptually about things like neural networks and natural language, but there was no unifying concept to envelop various kinds of machine intelligence. A Dartmouth College math professor named John McCarthy coined the term “artificial intelligence” to encapsulate it all.",
                             "media": {
                                 "route": "",
@@ -252,7 +379,8 @@
                 },
                 {
                     "title": "4. FRANK ROSENBLATT BUILDS THE PERCEPTRON (1957)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The basic structure of a neural network is called a “perceptron.” It’s a series of inputs that report data to a node that then computes the inputs and arrives at a classification and a confidence level. For example, the inputs might analyze different aspects of an image and “vote” (with varying levels of surety) on whether there’s a face depicted in it. The node might then calculate the “votes” and the confidence levels and derive a consensus. Today’s neural networks, running on powerful computers, connect billions of these structures.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-1-the-5-most-important-moments-in-ai-so-far.jpg",
@@ -277,7 +405,8 @@
                 },
                 {
                     "title": "5. AI EXPERIENCES ITS FIRST WINTER (1970S)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "Artificial intelligence has spent most of its history in the research realm. Throughout much of the 1960s, government agencies such as the U.S. Defense Advanced Research Projects Agency (DARPA) plowed money into research and asked little about the eventual return on their investment. And AI researchers often oversold the potential of their work so that they could keep their funding. This all changed in the late 1960s and early ’70s. Two reports, the Automatic Language Processing Advisory Committee (ALPAC) report to the U.S. Government in 1966, and the Lighthill Report for the British government in 1973, looked at AI research in a pragmatic way and returned very pessimistic analyses about the potential of the technology. Both reports questioned the tangible progress of various areas of AI research. The Lighthill Report argued that AI for tasks like speech recognition would be very difficult to scale to a size useful to the government or military.",
                             "media": {
                                 "route": "",
@@ -295,7 +424,8 @@
                 },
                 {
                     "title": "6. THE SECOND AI WINTER ARRIVES (1987)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The 1980s opened with the development and success of “expert systems,” which stored large amounts of domain knowledge and emulated the decision-making of human experts. The technology was originally developed by Carnegie Mellon for Digital Equipment Corporation, and corporations deployed the technology rapidly. But expert systems required expensive, specialized hardware, which became a problem when Sun Microsystems workstations and Apple and IBM personal computers became available with comparable power and lower prices. The market for the expert systems computers collapsed in 1987, with the main providers of the machines leaving the market.",
                             "media": {
                                 "route": "",
@@ -313,7 +443,8 @@
                 },
                 {
                     "title": "7. IBM’S DEEP BLUE BEATS KASPAROV (1997)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The public profile of artificial intelligence got a boost in 1997 when IBM’s Deep Blue chess computer defeated then-world champion Garry Kasparov in chess. In a series of six games played in a television studio, Deep Blue won two games, Kasparov won one, and three of the games ended in draws. Kasparov had defeated an earlier version of Deep Blue the year before.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-3-the-5-most-important-moments-in-ai-so-far.jpg",
@@ -338,7 +469,8 @@
                 },
                 {
                     "title": "8. A NEURAL NET SEES CATS (2011)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "By 2011, scientists in universities around the world were talking about—and creating—neural networks. That year, Google engineer Jeff Dean met a Stanford computer science professor named Andrew Ng. The two hatched the idea of building a large neural net, giving it massive computing power using Google’s server resources, and feeding it a massive data set of images.",
                             "media": {
                                 "route": "",
@@ -363,7 +495,8 @@
                 },
                 {
                     "title": "9. GEOFFREY HINTON UNLEASHES DEEP NEURAL NETWORKS (2012)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The year after Dean and Ng’s breakthrough, University of Toronto professor Geoffrey Hinton and two of his students built a computer vision neural network model called AlexNet to compete in an image recognition contest called ImageNet. Entrants were to use their systems to process millions of test images and identify them with the greatest possible accuracy. AlexNet won the contest with an error rate of less than half that of the runner-up. In only 15.3% of cases was the correct label not in AlexNet’s top five most-likely answers. The previous best score had been 26%.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-4-the-5-most-important-moments-in-ai-so-far.jpg",
@@ -381,7 +514,8 @@
                 },
                 {
                     "title": "10. ALPHAGO DEFEATS HUMAN GO CHAMPION (2016)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "Back in 2013, researchers at a British startup called DeepMind published a paper showing how they could use a neural network to play and beat 50 old Atari games. Impressed, Google snatched up the company for a reported $400 million. But DeepMind’s glory days were ahead of it.",
                             "media": {
                                 "route": "",
@@ -413,7 +547,8 @@
                 }
             ]
         },
-        "tags": [{
+        "tags": [
+            {
                 "name": "ai"
             },
             {
@@ -440,19 +575,25 @@
         "date": "",
         "location": "",
         "content": {
-            "sections": [{
-                "title": "",
-                "paragraphs": [{
-                    "text": "",
-                    "media": {
-                        "route": "",
-                        "source": ""
-                    }
-                }]
-            }]
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
         },
-        "tags": [{
-            "name": ""
-        }]
+        "tags": [
+            {
+                "name": ""
+            }
+        ]
     }
 ]
