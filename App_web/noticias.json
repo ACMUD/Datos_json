@@ -1,4 +1,180 @@
 [{
+        "title": "Ayudar a los vehículos autónomos a ver a la vuelta de las esquinas",
+        "subtitle": "Al detectar pequeños cambios en las sombras, un nuevo sistema identifica los objetos que se aproximan y que pueden causar una colisión.",
+        "cover-image": {
+            "route": "https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/MIT-Shadow-Sensing_0.jpg?itok=iB40fnsy",
+            "source": "MIT News Office"
+        },
+        "relevance": 2,
+        "source": "https://news.mit.edu/2019/helping-autonomous-vehicles-see-around-corners-1028",
+        "author": "Rob Matheson",
+        "date": "27/10/19",
+        "location": "",
+        "content": {
+            "sections": [{
+                    "title": "",
+                    "paragraphs": [{
+                            "text": "Para mejorar la seguridad de los sistemas autónomos, los ingenieros del MIT han desarrollado un sistema que puede detectar pequeños cambios en las sombras del terreno para determinar si hay un objeto en movimiento a la vuelta de la esquina.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los coches autónomos podrían algún día utilizar el sistema para evitar rápidamente una posible colisión con otro coche o peatón que saliera de la esquina de un edificio o de entre coches aparcados. En el futuro, los robots que puedan navegar por los pasillos del hospital para tomar medicamentos o hacer entregas de suministros podrían usar el sistema para evitar golpear a las personas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "En una ponencia que se presentará en la Conferencia Internacional sobre Robots y Sistemas Inteligentes (IROS) de la próxima semana, los investigadores describen experimentos exitosos con un coche autónomo conduciendo alrededor de un aparcamiento y un pasillo de navegación autónomo para sillas de ruedas. Al detectar y detener un vehículo que se aproxima, el sistema basado en el automóvil supera en más de medio segundo al LiDAR tradicional, que sólo puede detectar objetos visibles.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Esto puede no parecer mucho, pero fracciones de un segundo asunto cuando se trata de vehículos autónomos de rápido movimiento, dicen los investigadores.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Para las aplicaciones en las que los robots se mueven en entornos con otros objetos o personas en movimiento, nuestro método puede proporcionar al robot una advertencia temprana de que alguien viene a la vuelta de la esquina, de modo que el vehículo puede reducir la velocidad, adaptar su trayectoria y prepararse con antelación para evitar una colisión', añade la coautora Daniela Rus, directora del Laboratorio de Ciencias de la Computación e Inteligencia Artificial (CSAIL) y catedrática de Ingeniería Eléctrica y Ciencias de la Computación de la Universidad de Nueva York. 'El gran sueño es proporcionar una especie de'visión de rayos X' a los vehículos que se mueven rápido por las calles.'",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Actualmente, el sistema sólo se ha probado en interiores. Las velocidades robóticas son mucho más bajas en interiores y las condiciones de iluminación son más consistentes, lo que facilita que el sistema detecte y analice las sombras.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Acompañando a Rus en el trabajo están: el primer autor Felix Naser SM'19, un ex investigador de CSAIL; Alexander Amini, un estudiante graduado de CSAIL; Igor Gilitschenski, un postdoctorado de CSAIL; la recién graduada Christina Liao'19; Guy Rosman del Instituto de Investigación Toyota; y Sertac Karaman, un profesor asociado de aeronáutica y astronáutica en el MIT.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Extensión de ShadowCam",
+                    "paragraphs": [{
+                            "text": "Para su trabajo, los investigadores se basaron en su sistema, llamado 'ShadowCam', que utiliza técnicas de visión por ordenador para detectar y clasificar los cambios en las sombras en el suelo. Los profesores del MIT William Freeman y Antonio Torralba, que no son coautores del documento del IROS, colaboraron en las versiones anteriores del sistema, que se presentaron en conferencias en 2017 y 2018.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Para la entrada, ShadowCam utiliza secuencias de fotogramas de vídeo de una cámara que apuntan a un área específica, como el suelo frente a una esquina. Detecta cambios en la intensidad de la luz con el tiempo, de imagen en imagen, que pueden indicar que algo se aleja o se acerca. Algunos de esos cambios pueden ser difíciles de detectar o invisibles a simple vista, y pueden ser determinados por varias propiedades del objeto y del entorno. ShadowCam calcula esa información y clasifica cada imagen como un objeto estacionario o un objeto dinámico en movimiento. Si llega a una imagen dinámica, reacciona en consecuencia",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La adaptación de ShadowCam para vehículos autónomos requería algunos avances. La primera versión, por ejemplo, se basaba en forrar un área con etiquetas de realidad aumentada llamadas 'AprilTags', que se asemejan a los códigos QR simplificados. Los robots exploran AprilTags para detectar y calcular su posición y orientación 3D precisa en relación con la etiqueta. ShadowCam utilizó las etiquetas como características del entorno para centrarse en parches específicos de píxeles que pueden contener sombras. Pero modificar los entornos reales con AprilTags no es práctico",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los investigadores desarrollaron un proceso novedoso que combina el registro de imágenes y una nueva técnica de odometría visual. A menudo utilizado en la visión por ordenador, el registro de imágenes esencialmente superpone múltiples imágenes para revelar variaciones en las imágenes. El registro de imágenes médicas, por ejemplo, se superpone a las exploraciones médicas para comparar y analizar las diferencias anatómicas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La odometría visual, utilizada para los Mars Rovers, estima el movimiento de una cámara en tiempo real analizando la pose y la geometría en secuencias de imágenes. Los investigadores emplean específicamente 'Direct Sparse Odometry' (DSO), que puede calcular puntos de característica en entornos similares a los capturados por AprilTags. Esencialmente, DSO traza las características de un entorno en una nube de puntos 3D, y luego una tubería de visión computarizada selecciona sólo las características ubicadas en una región de interés, como el piso cerca de una esquina. (Las regiones de interés fueron anotadas manualmente de antemano).",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Como ShadowCam toma secuencias de imágenes de entrada de una región de interés, utiliza el método de registro de imágenes DSO para superponer todas las imágenes desde el mismo punto de vista del robot. Incluso cuando un robot se está moviendo, es capaz de concentrarse exactamente en el mismo parche de píxeles en el que se encuentra una sombra para ayudar a detectar cualquier desviación sutil entre las imágenes.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "A continuación se presenta la amplificación de señales, una técnica introducida en el primer trabajo. Los píxeles que pueden contener sombras reciben un aumento de color que reduce la relación señal/ruido. Esto hace que las señales extremadamente débiles de los cambios de sombra sean mucho más detectables. Si la señal aumentada alcanza un cierto umbral - basado en parte en cuánto se desvía de otras sombras cercanas - ShadowCam clasifica la imagen como 'dinámica'. Dependiendo de la intensidad de la señal, el sistema puede indicar al robot que reduzca la velocidad o se detenga.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Al detectar esa señal, puedes tener cuidado. Puede ser la sombra de una persona que corre detrás de la esquina o de un auto estacionado, de modo que el auto autónomo puede disminuir la velocidad o detenerse por completo', dice Naser.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Pruebas sin etiquetas",
+                    "paragraphs": [{
+                            "text": "En una prueba, los investigadores evaluaron el desempeño del sistema en la clasificación de objetos en movimiento o estacionarios usando AprilTags y el nuevo método basado en DSO. Una silla de ruedas autónoma se dirigió hacia varias esquinas de los pasillos mientras que los humanos giraban la esquina hacia el camino de la silla de ruedas. Ambos métodos lograron la misma precisión de clasificación del 70 por ciento, lo que indica que ya no se necesitan los AprilTags.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "En una prueba separada, los investigadores implementaron ShadowCam en un auto autónomo en un estacionamiento, donde las luces fueron apagadas, imitando las condiciones de conducción nocturna. Compararon los tiempos de detección de automóviles versus LiDAR. En un escenario de ejemplo, ShadowCam detectó que el coche giraba alrededor de los pilares unos 0,72 segundos más rápido que el LiDAR. Además, debido a que los investigadores habían ajustado ShadowCam específicamente a las condiciones de iluminación del garaje, el sistema logró una precisión de clasificación de alrededor del 86 por ciento.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "A continuación, los investigadores están desarrollando el sistema para trabajar en diferentes condiciones de iluminación interior y exterior. En el futuro, también podría haber formas de acelerar la detección de sombras del sistema y automatizar el proceso de anotar áreas específicas para la detección de sombras.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [{
+                "name": "Investigación"
+            },
+            {
+                "name": "Algoritmos"
+            },
+            {
+                "name": "Robótica"
+            },
+            {
+                "name": "Robots"
+            },
+            {
+                "name": "Inteligencia artificial"
+            },
+            {
+                "name": "Aprendizaje automático"
+            },
+            {
+                "name": "Vehículos autónomos"
+            }
+        ]
+    },
+    {
         "title": "The 10 most important moments in AI so far",
         "subtitle": "From Isaac Asimov’s first robot stories to AlphaGo, AI has had its ups and downs. But its history is just starting.",
         "cover-image": {
@@ -8,7 +184,7 @@
         "relevance": 1,
         "source": "https://www.fastcompany.com/90402503/the-10-most-important-moments-in-ai-so-far",
         "author": "Mark Sullivan",
-        "date": "09/16/19",
+        "date": "16/09/19",
         "location": "",
         "content": {
             "sections": [{
