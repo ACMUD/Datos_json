@@ -1,1 +1,599 @@
-[]
+[
+    {
+        "title": "Ayudar a los vehículos autónomos a ver a la vuelta de las esquinas",
+        "subtitle": "Al detectar pequeños cambios en las sombras, un nuevo sistema identifica los objetos que se aproximan y que pueden causar una colisión.",
+        "cover-image": {
+            "route": "https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/MIT-Shadow-Sensing_0.jpg?itok=iB40fnsy",
+            "source": "MIT News Office"
+        },
+        "relevance": 2,
+        "source": "https://news.mit.edu/2019/helping-autonomous-vehicles-see-around-corners-1028",
+        "author": "Rob Matheson",
+        "date": "27/10/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "Para mejorar la seguridad de los sistemas autónomos, los ingenieros del MIT han desarrollado un sistema que puede detectar pequeños cambios en las sombras del terreno para determinar si hay un objeto en movimiento a la vuelta de la esquina.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los coches autónomos podrían algún día utilizar el sistema para evitar rápidamente una posible colisión con otro coche o peatón que saliera de la esquina de un edificio o de entre coches aparcados. En el futuro, los robots que puedan navegar por los pasillos del hospital para tomar medicamentos o hacer entregas de suministros podrían usar el sistema para evitar golpear a las personas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "En una ponencia que se presentará en la Conferencia Internacional sobre Robots y Sistemas Inteligentes (IROS) de la próxima semana, los investigadores describen experimentos exitosos con un coche autónomo conduciendo alrededor de un aparcamiento y un pasillo de navegación autónomo para sillas de ruedas. Al detectar y detener un vehículo que se aproxima, el sistema basado en el automóvil supera en más de medio segundo al LiDAR tradicional, que sólo puede detectar objetos visibles.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Esto puede no parecer mucho, pero fracciones de un segundo asunto cuando se trata de vehículos autónomos de rápido movimiento, dicen los investigadores.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Para las aplicaciones en las que los robots se mueven en entornos con otros objetos o personas en movimiento, nuestro método puede proporcionar al robot una advertencia temprana de que alguien viene a la vuelta de la esquina, de modo que el vehículo puede reducir la velocidad, adaptar su trayectoria y prepararse con antelación para evitar una colisión', añade la coautora Daniela Rus, directora del Laboratorio de Ciencias de la Computación e Inteligencia Artificial (CSAIL) y catedrática de Ingeniería Eléctrica y Ciencias de la Computación de la Universidad de Nueva York. 'El gran sueño es proporcionar una especie de'visión de rayos X' a los vehículos que se mueven rápido por las calles.'",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Actualmente, el sistema sólo se ha probado en interiores. Las velocidades robóticas son mucho más bajas en interiores y las condiciones de iluminación son más consistentes, lo que facilita que el sistema detecte y analice las sombras.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Acompañando a Rus en el trabajo están: el primer autor Felix Naser SM'19, un ex investigador de CSAIL; Alexander Amini, un estudiante graduado de CSAIL; Igor Gilitschenski, un postdoctorado de CSAIL; la recién graduada Christina Liao'19; Guy Rosman del Instituto de Investigación Toyota; y Sertac Karaman, un profesor asociado de aeronáutica y astronáutica en el MIT.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Extensión de ShadowCam",
+                    "paragraphs": [
+                        {
+                            "text": "Para su trabajo, los investigadores se basaron en su sistema, llamado 'ShadowCam', que utiliza técnicas de visión por ordenador para detectar y clasificar los cambios en las sombras en el suelo. Los profesores del MIT William Freeman y Antonio Torralba, que no son coautores del documento del IROS, colaboraron en las versiones anteriores del sistema, que se presentaron en conferencias en 2017 y 2018.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Para la entrada, ShadowCam utiliza secuencias de fotogramas de vídeo de una cámara que apuntan a un área específica, como el suelo frente a una esquina. Detecta cambios en la intensidad de la luz con el tiempo, de imagen en imagen, que pueden indicar que algo se aleja o se acerca. Algunos de esos cambios pueden ser difíciles de detectar o invisibles a simple vista, y pueden ser determinados por varias propiedades del objeto y del entorno. ShadowCam calcula esa información y clasifica cada imagen como un objeto estacionario o un objeto dinámico en movimiento. Si llega a una imagen dinámica, reacciona en consecuencia",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La adaptación de ShadowCam para vehículos autónomos requería algunos avances. La primera versión, por ejemplo, se basaba en forrar un área con etiquetas de realidad aumentada llamadas 'AprilTags', que se asemejan a los códigos QR simplificados. Los robots exploran AprilTags para detectar y calcular su posición y orientación 3D precisa en relación con la etiqueta. ShadowCam utilizó las etiquetas como características del entorno para centrarse en parches específicos de píxeles que pueden contener sombras. Pero modificar los entornos reales con AprilTags no es práctico",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los investigadores desarrollaron un proceso novedoso que combina el registro de imágenes y una nueva técnica de odometría visual. A menudo utilizado en la visión por ordenador, el registro de imágenes esencialmente superpone múltiples imágenes para revelar variaciones en las imágenes. El registro de imágenes médicas, por ejemplo, se superpone a las exploraciones médicas para comparar y analizar las diferencias anatómicas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La odometría visual, utilizada para los Mars Rovers, estima el movimiento de una cámara en tiempo real analizando la pose y la geometría en secuencias de imágenes. Los investigadores emplean específicamente 'Direct Sparse Odometry' (DSO), que puede calcular puntos de característica en entornos similares a los capturados por AprilTags. Esencialmente, DSO traza las características de un entorno en una nube de puntos 3D, y luego una tubería de visión computarizada selecciona sólo las características ubicadas en una región de interés, como el piso cerca de una esquina. (Las regiones de interés fueron anotadas manualmente de antemano).",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Como ShadowCam toma secuencias de imágenes de entrada de una región de interés, utiliza el método de registro de imágenes DSO para superponer todas las imágenes desde el mismo punto de vista del robot. Incluso cuando un robot se está moviendo, es capaz de concentrarse exactamente en el mismo parche de píxeles en el que se encuentra una sombra para ayudar a detectar cualquier desviación sutil entre las imágenes.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "A continuación se presenta la amplificación de señales, una técnica introducida en el primer trabajo. Los píxeles que pueden contener sombras reciben un aumento de color que reduce la relación señal/ruido. Esto hace que las señales extremadamente débiles de los cambios de sombra sean mucho más detectables. Si la señal aumentada alcanza un cierto umbral - basado en parte en cuánto se desvía de otras sombras cercanas - ShadowCam clasifica la imagen como 'dinámica'. Dependiendo de la intensidad de la señal, el sistema puede indicar al robot que reduzca la velocidad o se detenga.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Al detectar esa señal, puedes tener cuidado. Puede ser la sombra de una persona que corre detrás de la esquina o de un auto estacionado, de modo que el auto autónomo puede disminuir la velocidad o detenerse por completo', dice Naser.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Pruebas sin etiquetas",
+                    "paragraphs": [
+                        {
+                            "text": "En una prueba, los investigadores evaluaron el desempeño del sistema en la clasificación de objetos en movimiento o estacionarios usando AprilTags y el nuevo método basado en DSO. Una silla de ruedas autónoma se dirigió hacia varias esquinas de los pasillos mientras que los humanos giraban la esquina hacia el camino de la silla de ruedas. Ambos métodos lograron la misma precisión de clasificación del 70 por ciento, lo que indica que ya no se necesitan los AprilTags.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "En una prueba separada, los investigadores implementaron ShadowCam en un auto autónomo en un estacionamiento, donde las luces fueron apagadas, imitando las condiciones de conducción nocturna. Compararon los tiempos de detección de automóviles versus LiDAR. En un escenario de ejemplo, ShadowCam detectó que el coche giraba alrededor de los pilares unos 0,72 segundos más rápido que el LiDAR. Además, debido a que los investigadores habían ajustado ShadowCam específicamente a las condiciones de iluminación del garaje, el sistema logró una precisión de clasificación de alrededor del 86 por ciento.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "A continuación, los investigadores están desarrollando el sistema para trabajar en diferentes condiciones de iluminación interior y exterior. En el futuro, también podría haber formas de acelerar la detección de sombras del sistema y automatizar el proceso de anotar áreas específicas para la detección de sombras.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Investigación"
+            },
+            {
+                "name": "Algoritmos"
+            },
+            {
+                "name": "Robótica"
+            },
+            {
+                "name": "Robots"
+            },
+            {
+                "name": "Inteligencia artificial"
+            },
+            {
+                "name": "Aprendizaje automático"
+            },
+            {
+                "name": "Vehículos autónomos"
+            }
+        ]
+    },
+    {
+        "title": "Bioimpresión: Células vivas en una impresora 3D",
+        "subtitle": "Con un nuevo proceso desarrollado en TU Wien (Viena), las células vivas se pueden integrar en estructuras finas creadas en una impresora 3D - extremadamente rápido y con una resolución muy alta.",
+        "cover-image": {
+            "route": "https://www.tuwien.at/fileadmin/_processed_/0/e/csm_Bioprinting_2eeea8edd6.jpg",
+            "source": "Cells spreading in a 3D scaffold - from left to right: week 1, week 3 week 5. Top: 3D setup, bottom: one layer only."
+        },
+        "relevance": 3,
+        "source": "https://www.tuwien.at/en/tu-wien/news/news-articles/news/bioprinting-living-cells-in-a-3d-printer/",
+        "author": "Florian Aigner",
+        "date": "21/10/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "El crecimiento de los tejidos y el comportamiento de las células pueden ser controlados e investigados particularmente bien al incrustar las células en un delicado marco tridimensional. Esto se logra utilizando métodos de impresión 3D aditivos, las llamadas técnicas de 'bioimpresión'. Sin embargo, esto implica una serie de desafíos: Algunos métodos son muy imprecisos o sólo permiten un período de tiempo muy corto en el que las células pueden procesarse sin dañarse. Además, los materiales utilizados deben ser compatibles con las células durante y después del proceso de biopriting tridimensional. Esto restringe la variedad de materiales posibles. En la Universidad Técnica de Viena (Viena) se ha desarrollado un proceso de bioimpresión de alta resolución con materiales completamente nuevos: Gracias a una 'tinta biológica' especial para la impresora 3D, las células pueden ser incrustadas en una matriz 3D impresa con precisión micrométrica - a una velocidad de impresión de un metro por segundo, órdenes de magnitud más rápido de lo que antes era posible.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "El medio ambiente es importante",
+                    "paragraphs": [
+                        {
+                            "text": "'El comportamiento de una célula depende crucialmente de las propiedades mecánicas, químicas y geométricas de su entorno', dice el Prof. Aleksandr Ovsianikov, jefe del grupo de investigación de Impresión y Biofabricación 3D del Instituto de Ciencia y Tecnología de Materiales (TU Wien). 'Las estructuras en las que están incrustadas las células deben ser permeables a los nutrientes para que las células puedan sobrevivir y multiplicarse. Pero también es importante si las estructuras son rígidas o flexibles, si son estables o se degradan con el tiempo'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Es posible producir primero estructuras adecuadas y luego colonizarlas con células vivas - pero este enfoque puede dificultar la colocación de las células en el interior del andamiaje, y es casi imposible lograr una distribución celular homogénea de esta manera. La mejor opción es integrar las células vivas directamente en la estructura 3D durante la producción de la estructura - esta técnica se conoce como 'bioimpresión'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Imprimir objetos 3D microscópicamente finos ya no es un problema hoy en día. Sin embargo, el uso de células vivas presenta a la ciencia desafíos completamente nuevos: 'Hasta ahora, simplemente ha habido una falta de sustancias químicas adecuadas', dice Aleksandr Ovsianikov. 'Se necesitan líquidos o geles que se solidifiquen exactamente donde se iluminan con un rayo láser enfocado. Sin embargo, estos materiales no deben ser dañinos para las células, y todo el proceso tiene que ser extremadamente rápido'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Dos fotones a la vez",
+                    "paragraphs": [
+                        {
+                            "text": "Para lograr una resolución extremadamente alta, en TU Wien se han utilizado métodos de polimerización de dos fotones durante años. Este método utiliza una reacción química que sólo se inicia cuando una molécula del material absorbe simultáneamente dos fotones del rayo láser. Esto sólo es posible cuando el rayo láser tiene una intensidad especialmente alta. En estos puntos la sustancia se endurece, mientras que permanece líquida en todas partes. Por lo tanto, este método de dos fotones es el más adecuado para producir estructuras extremadamente finas con alta precisión.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Sin embargo, estas técnicas de alta resolución suelen tener la desventaja de ser muy lentas, a menudo en el rango de micrómetros o unos pocos milímetros por segundo. En TU Wien, sin embargo, los materiales compatibles con las células pueden procesarse a una velocidad de más de un metro por segundo - un paso adelante decisivo. Sólo si todo el proceso puede completarse en unas pocas horas existe una buena posibilidad de que las células sobrevivan y se desarrollen aún más.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Numerosas opciones nuevas",
+                    "paragraphs": [
+                        {
+                            "text": "'Nuestro método ofrece muchas posibilidades para adaptar el entorno de las células', dice Aleksandr Ovsianikov. Dependiendo de cómo se construya la estructura, puede hacerse más rígida o más blanda. También son posibles los gradientes finos y continuos. De esta manera, es posible definir exactamente cómo debe verse la estructura para permitir el tipo deseado de crecimiento y migración celular. La intensidad del láser también se puede utilizar para determinar la facilidad con la que la estructura se degradará con el tiempo.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Ovsianikov está convencido de que este es un importante paso adelante para la investigación celular: 'Utilizando estos andamios 3D, es posible investigar el comportamiento de las células con una precisión hasta ahora inalcanzable. Es posible estudiar la propagación de enfermedades, y si se utilizan células madre, incluso es posible producir tejidos a medida de esta manera'. El proyecto de investigación es una cooperación internacional e interdisciplinaria en la que participaron tres institutos diferentes de la Universidad Politécnica de Viena: El grupo de investigación de Ovsianikov fue responsable de la tecnología de impresión en sí, el Instituto de Química Sintética Aplicada desarrolló fotoiniciadores rápidos y amigables con las células (las sustancias que inician el proceso de endurecimiento cuando se iluminan) y el Instituto de Estructuras Livianas y Biomecánica Estructural analizó las propiedades mecánicas de las estructuras impresas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La tecnología de impresión 3D de alta resolución y los materiales están siendo comercializados por la joven pero exitosa spin-off de TU Wien, UPNano GmbH.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Tecnología"
+            },
+            {
+                "name": "Impresión 3D"
+            },
+            {
+                "name": "Impresión 3D"
+            },
+            {
+                "name": "Bio Impresión"
+            }
+        ]
+    },
+    {
+        "title": "The 10 most important moments in AI so far",
+        "subtitle": "From Isaac Asimov’s first robot stories to AlphaGo, AI has had its ups and downs. But its history is just starting.",
+        "cover-image": {
+            "route": "https://images.fastcompany.net/image/upload/w_1153,ar_16:9,c_fill,g_auto,f_auto,q_auto,fl_lossy/wp-cms/uploads/2019/09/p-1-the-5-most-important-moments-in-ai-so-far.jpg",
+            "source": "Pixabay/Pexels"
+        },
+        "relevance": 1,
+        "source": "https://www.fastcompany.com/90402503/the-10-most-important-moments-in-ai-so-far",
+        "author": "Mark Sullivan",
+        "date": "16/09/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "Artificial intelligence is still in its youth. But some very big things have already happened. Some of them captured the attention of the culture, while others produced shockwaves felt mainly within the stuffy confines of academia. These are some of the key moments that propelled AI forward in the most profound ways.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "1. ISAAC ASIMOV WRITES THE THREE LAWS OF ROBOTICS (1942)",
+                    "paragraphs": [
+                        {
+                            "text": "Asimov’s story “Runaround” marks the first time the famed science-fiction author listed his “Three Laws of Robotics” in full: First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm. Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law. Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws. “Runaround” tells the story of Speedy, a robot put in a situation where balancing the third law with the first two seems impossible.Asimov’ s stories in the Robot series got science - fiction fans, some of them scientists, thinking about the possibility of thinking machines.Even today, many people go through the intellectual exercise of applying Asimov’ s laws to modern AI.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "2. ALAN TURING PROPOSES THE IMITATION GAME (1950)",
+                    "paragraphs": [
+                        {
+                            "text": "“I propose to consider the question ‘Can machines think?'” So began Alan Turing’s seminal 1950 research paper that developed a framework for thinking about machine intelligence. He asked why, if a machine could imitate the sentient behavior of a human, would it not itself be sentient.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-2-the-5-most-important-moments-in-ai-so-far-1.jpg",
+                                "source": "Alan Turing authored the first benchmark to measure machine sentience in 1950. [Photo: Unknown/Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "That theoretical question gave rise to Turing’s famous “Imitation Game,” an exercise in which a human “interrogator” is challenged to differentiate between the text-only responses of a machine and a human being. No machine capable of passing a test like that existed in Turing’s era, or does today. But his test provided a simple benchmark for identifying intelligence in a machine. It helped give shape to a philosophy of artificial intelligence.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "3. DARTMOUTH HOLDS AN AI CONFERENCE (1956)",
+                    "paragraphs": [
+                        {
+                            "text": "By 1955, scientists around the world had begun to think conceptually about things like neural networks and natural language, but there was no unifying concept to envelop various kinds of machine intelligence. A Dartmouth College math professor named John McCarthy coined the term “artificial intelligence” to encapsulate it all.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "McCarthy led a group that applied for a grant to hold an AI conference the following year. They invited many of the top advanced science researchers of the day to Dartmouth Hall for the event in summer 1956. The scientists discussed numerous potential areas of AI study, including learning and search, vision, reasoning, language and cognition, gaming (particularly chess), and human interactions with intelligent machines such as personal robots.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The general consensus from the discussions was that AI had great potential to benefit human beings. They yielded a general framework of research areas where machine intelligence could have an impact. The conference organized and energized AI as a research discipline for years to come.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "4. FRANK ROSENBLATT BUILDS THE PERCEPTRON (1957)",
+                    "paragraphs": [
+                        {
+                            "text": "The basic structure of a neural network is called a “perceptron.” It’s a series of inputs that report data to a node that then computes the inputs and arrives at a classification and a confidence level. For example, the inputs might analyze different aspects of an image and “vote” (with varying levels of surety) on whether there’s a face depicted in it. The node might then calculate the “votes” and the confidence levels and derive a consensus. Today’s neural networks, running on powerful computers, connect billions of these structures.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-1-the-5-most-important-moments-in-ai-so-far.jpg",
+                                "source": "Frank Rosenblatt built a mechanical neural network at Cornell Aeronautical Laboratory in 1957. [Photo: Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "But perceptrons existed well before powerful computers did. In the late 1950s, a young research psychologist named Frank Rosenblatt built an electromechanical model of a perceptron called the Mark I Perceptron, which today sits in the Smithsonian. It was an analog neural network that consisted of a grid of light-sensitive photoelectric cells connected by wires to banks of nodes containing electrical motors with rotary resistors. Rosenblatt developed a “Perceptron Algorithm” that directed the network to gradually tune its input strengths until they consistently correctly identified objects, effectively allowing it to learn.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Scientists debated the relevance of the Perceptron well into the 1980s. It was important for creating a physical embodiment of the neural network, which until then had been mainly an academic concept.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "5. AI EXPERIENCES ITS FIRST WINTER (1970S)",
+                    "paragraphs": [
+                        {
+                            "text": "Artificial intelligence has spent most of its history in the research realm. Throughout much of the 1960s, government agencies such as the U.S. Defense Advanced Research Projects Agency (DARPA) plowed money into research and asked little about the eventual return on their investment. And AI researchers often oversold the potential of their work so that they could keep their funding. This all changed in the late 1960s and early ’70s. Two reports, the Automatic Language Processing Advisory Committee (ALPAC) report to the U.S. Government in 1966, and the Lighthill Report for the British government in 1973, looked at AI research in a pragmatic way and returned very pessimistic analyses about the potential of the technology. Both reports questioned the tangible progress of various areas of AI research. The Lighthill Report argued that AI for tasks like speech recognition would be very difficult to scale to a size useful to the government or military.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "As a result, both the U.S. government and the British government began cutting off funding for university AI research. DARPA, through which AI research funding had flowed freely during most of the ’60s, now demanded that research proposals come with clear timelines and detailed descriptions of the deliverables. That left AI looking like a disappointment that might never reach human-level capabilities. AI’s first “winter” lasted throughout the ’70s and into the ’80s.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "6. THE SECOND AI WINTER ARRIVES (1987)",
+                    "paragraphs": [
+                        {
+                            "text": "The 1980s opened with the development and success of “expert systems,” which stored large amounts of domain knowledge and emulated the decision-making of human experts. The technology was originally developed by Carnegie Mellon for Digital Equipment Corporation, and corporations deployed the technology rapidly. But expert systems required expensive, specialized hardware, which became a problem when Sun Microsystems workstations and Apple and IBM personal computers became available with comparable power and lower prices. The market for the expert systems computers collapsed in 1987, with the main providers of the machines leaving the market.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The success of expert systems in the early ’80s had encouraged DARPA to increase funding in AI research, but that changed again as the agency again choked off much of the funding to AI for all but a few hand-picked programs. Once again the term “artificial intelligence” became almost taboo in the research community. To avoid being seen as impractical dreamers begging for funding, researchers began using different names for AI-related work–like “informatics,” “machine learning,” and “analytics. This second “AI winter” lasted well into the 2000s.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "7. IBM’S DEEP BLUE BEATS KASPAROV (1997)",
+                    "paragraphs": [
+                        {
+                            "text": "The public profile of artificial intelligence got a boost in 1997 when IBM’s Deep Blue chess computer defeated then-world champion Garry Kasparov in chess. In a series of six games played in a television studio, Deep Blue won two games, Kasparov won one, and three of the games ended in draws. Kasparov had defeated an earlier version of Deep Blue the year before.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-3-the-5-most-important-moments-in-ai-so-far.jpg",
+                                "source": "IBM’s Deep Blue defeated the world’s best human chess player, Gary Kasparov, in 1997. [Photo: James the Photographer/Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "Deep Blue had plenty of computing power, and it used a “brute force” approach, evaluating 200 million possible moves a second to find the best possible one. Humans have the capacity to examine only about 50 moves per turn. The effect of Deep Blue was AI-like, but the computer was not actually thinking about strategy and learning as it played, as later systems would.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Still, Deep Blue’s victory over Kasparov brought AI back to the public mind in impressive fashion. Some people were fascinated. Others were uncomfortable with a machine beating an expert-level human chess player. Investors were impressed: Deep Blue’s victory pushed IBM’s stock up $10 to a then-all time high.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "8. A NEURAL NET SEES CATS (2011)",
+                    "paragraphs": [
+                        {
+                            "text": "By 2011, scientists in universities around the world were talking about—and creating—neural networks. That year, Google engineer Jeff Dean met a Stanford computer science professor named Andrew Ng. The two hatched the idea of building a large neural net, giving it massive computing power using Google’s server resources, and feeding it a massive data set of images.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The neural network they built ran across 16,000 server processors. They fed it 10 million random, unlabeled screen grabs from YouTube. Dean and Ng didn’t ask the neural network to come up with any specific information or label the images. When neural nets run in this kind of unsupervised fashion, they will naturally try to find patterns in the data and form classifications.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "The neural network processed the image data for three days. It then returned an output containing three blurry images depicting visual patterns it had seen over and over in the test images—a human face, a human body, and a cat. That research was a major breakthrough in the use of neural networks and unsupervised learning in computer vision tasks. The event also marked the start of the Google Brain project.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "9. GEOFFREY HINTON UNLEASHES DEEP NEURAL NETWORKS (2012)",
+                    "paragraphs": [
+                        {
+                            "text": "The year after Dean and Ng’s breakthrough, University of Toronto professor Geoffrey Hinton and two of his students built a computer vision neural network model called AlexNet to compete in an image recognition contest called ImageNet. Entrants were to use their systems to process millions of test images and identify them with the greatest possible accuracy. AlexNet won the contest with an error rate of less than half that of the runner-up. In only 15.3% of cases was the correct label not in AlexNet’s top five most-likely answers. The previous best score had been 26%.",
+                            "media": {
+                                "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-4-the-5-most-important-moments-in-ai-so-far.jpg",
+                                "source": "Geoffrey Hinton’s research at the University of Toronto helped bring about a renaissance in deep learning. [Photo: Eviatar Bach/Wikimedia Commons]"
+                            }
+                        },
+                        {
+                            "text": "The victory made a strong case that deep neural networks running on graphics processors were far better than other systems at accurately identifying and classifying images. This, perhaps more than any other single event, kicked off the current renaissance in deep neural networks, earning Hinton the moniker of “godfather of deep learning.” Along with fellow AI gurus Yoshua Bengio and Yann LeCun, Hinton won the coveted Turing Prize for 2018.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "10. ALPHAGO DEFEATS HUMAN GO CHAMPION (2016)",
+                    "paragraphs": [
+                        {
+                            "text": "Back in 2013, researchers at a British startup called DeepMind published a paper showing how they could use a neural network to play and beat 50 old Atari games. Impressed, Google snatched up the company for a reported $400 million. But DeepMind’s glory days were ahead of it.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Several years later, DeepMind’s scientists, now within Google, moved on from Atari games to one of AI’s most long-standing challenges, the Japanese board game Go. They developed a neural network model called AlphaGo that was designed to play Go, and learn by playing. The software played thousands of games against other AlphaGo versions, learning from both its winning and losing strategies.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "It worked. AlphaGo defeated the greatest Go player in the world, Lee Sedol, four games to one in a series of games in March 2016. The whole affair was captured in a documentary. Watching it, it’s hard to miss the sense of sadness when Sedol is defeated. It seemed like humans—not just one human—had been defeated.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Recent advances in deep neural networks have had such sweeping impact that the real story of artificial intelligence may be just beginning. There will still be lots of hope, hype, and impatience, but it seems clear now that AI will impact every aspect of 21st-century life—possibly in ways even more profound than the internet.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "ai"
+            },
+            {
+                "name": "THE THREE LAWS OF ROBOTICS"
+            },
+            {
+                "name": "ALAN TURING"
+            },
+            {
+                "name": "this is a tag :v"
+            }
+        ]
+    },
+    {
+        "title": "",
+        "subtitle": "",
+        "cover-image": {
+            "route": "",
+            "source": ""
+        },
+        "relevance": 1,
+        "source": "",
+        "author": "",
+        "date": "",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": ""
+            }
+        ]
+    }
+]
