@@ -1,21 +1,9 @@
 [{
   "Abreviacion":"GIWEB",
-  "nombre": "Grupo de Interes en Desarrollo Web",
+  "Nombre": "Grupo de Interes en Desarrollo Web",
   "Responsable": "Luis Gutierrez",
-  "Descripción": "",
-  "Prerrequisitos":[{
-    "nombre": "conocimientos basicos en javascript"
-    },
-    {
-      "nombre": "conocimientos basicos en html"
-    },
-    {
-      "nombre": "conocimientos basicos en css"
-    },
-    {
-      "nombre": "conocimiento del modelo: vista-controlador"
-    }
-  ],
+  "Descripcion": "",
+  "Prerrequisitos":["conocimientos basicos en javascript","conocimientos basicos en html","conocimientos basicos en css","conocimiento del modelo: vista-controlador"],
   "TemasTrabajados":[{
     "nombre": "Framework Angular 2+",
     "descripcion": ""
@@ -44,9 +32,7 @@
   "nombre": "grupo de interés en desarrollo de videojuegos",
   "Responsable": "Edwar Diaz Ruiz",
   "Descripción": "grupos enfocado el desarrollo de videojuegos , actualmente enfocado al desarrollo mediante unreal engine",
-  "Prerrequisitos":[{
-    "nombre": "tener un PC que corra unreal"
-  }
+  "Prerrequisitos":["tener un PC que corra unreal"
   ],
   "TemasTrabajados":[{
     "nombre": "manejo del motor Unreal",
@@ -90,46 +76,91 @@
   }]
 
 },
+  {
+    "Abreviacion":"GISAC",
+    "nombre": "Grupo de interes de seguridad, auditoria y control",
+    "Responsable": "Cristian Eduardo Ríos Guarín",
+    "Descripción": "La cadena de seguridad de una organización es tan fuerte como lo es su eslabón más débil. Este es un ejemplo de cómo funciona la seguridad de la información, y, con esta premisa en mente, es necesario advertir a la sociedad de lo vulnerables que son (ellos y su información) en un mundo digital que no para de evolucionar a pasos agigantados. Por eso, en este grupo buscamos aprender e informar a la comunidad sobre temas relacionados con la seguridad informática, para lograr así mermar la vulnerabilidad que tienen las personas en la sociedad donde que vivimos.",
+    "Prerrequisitos":["ninguno"
+    ],
+    "TemasTrabajados":[{
+      "nombre": "Seguridad de la información",
+      "descripcion": "Breve introducción acerca de la temática del grupo, su historia y conceptos claves para comprender el mundo de la seguridad informática."
+    },
+      {
+        "nombre": "Hacking ético",
+        "descripcion":"Presentación de la “ética del profesional de seguridad informática”, la importancia de la seguridad de la información y de la integridad de los profesionales encargados de esta misma. Se introducen técnicas y herramientas que serán de gran ayuda para la realización de esta tarea."
+      },
+      {
+        "nombre": "Ingeniería social.",
+        "descripcion":"Herramientas de lenguaje, psicología y aplicaciones informáticas, cuya finalidad es aumentar la capacidad de recolección de información del profesional de seguridad."
+      },
+      {
+        "nombre": "Introducción a Linux (Kali Linux).",
+        "descripcion":"Manejo del sistema operativo, estructura, arquitectura, jerarquía, permisos de usuario y utilización de recursos por parte del mismo."
+      },
+      {
+        "nombre": "Pentesting.",
+        "descripcion":"Metodologías y fases necesarios para realizar una “prueba de intrusión” de manera profesional."
+      }
+    ],
+    "ProyectosRealizados":[
+      {
+        "nombre": "Taller - Spyware.",
+        "descripcion": "Concientización sobre la vulnerabilidad que tienen las personas y lo fácil que es para un atacante obtener información personal y privada, simplemente con una herramienta spyware."
+      }
+    ],
+    "horarios":[{
+      "dia":"Viernes",
+      "hora":"12:00-14:00.",
+      "lugar": "Sede Calle 34."
+    }]
+
+  },
 {
-  "Abreviacion":"GISAC",
-  "nombre": "Grupo de interes de seguridad, auditoria y control",
-  "Responsable": "Cristian Eduardo Ríos Guarín",
-  "Descripción": "La cadena de seguridad de una organización es tan fuerte como lo es su eslabón más débil. Este es un ejemplo de cómo funciona la seguridad de la información, y, con esta premisa en mente, es necesario advertir a la sociedad de lo vulnerables que son (ellos y su información) en un mundo digital que no para de evolucionar a pasos agigantados. Por eso, en este grupo buscamos aprender e informar a la comunidad sobre temas relacionados con la seguridad informática, para lograr así mermar la vulnerabilidad que tienen las personas en la sociedad donde que vivimos.",
-  "Prerrequisitos":[{
-    "nombre": ""
-  }
+  "Abreviacion":"GICLOUD",
+  "nombre": "GICLOUD",
+  "Responsable": "Diego Alejandro Correa Ramirez",
+  "Descripción": "Aprender a usar las herramientas que ofrece google cloud para soportar aplicaciones en la nube",
+  "Prerrequisitos":["Programacion orientada a objetos"
   ],
   "TemasTrabajados":[{
-    "nombre": "Seguridad de la información",
-    "descripcion": "Breve introducción acerca de la temática del grupo, su historia y conceptos claves para comprender el mundo de la seguridad informática."
+    "nombre": "Explorando la plataforma",
+    "descripcion": "Familiarizacion con la consola de google y ver donde encontrar cada cosa que se necesite."
   },
     {
-      "nombre": "Hacking ético",
-      "descripcion":"Presentación de la “ética del profesional de seguridad informática”, la importancia de la seguridad de la información y de la integridad de los profesionales encargados de esta misma. Se introducen técnicas y herramientas que serán de gran ayuda para la realización de esta tarea."
+      "nombre": "Herramientas",
+      "descripcion":"Instalacion de las herramientas para el curso que son Docker y Google Cloud SDK."
     },
     {
-      "nombre": "Ingeniería social.",
-      "descripcion":"Herramientas de lenguaje, psicología y aplicaciones informáticas, cuya finalidad es aumentar la capacidad de recolección de información del profesional de seguridad."
+      "nombre": "CloudSQL",
+      "descripcion":"Interaccion con el motor Mysql provisto por google y ver como conectarse al mismo."
     },
     {
-      "nombre": "Introducción a Linux (Kali Linux).",
-      "descripcion":"Manejo del sistema operativo, estructura, arquitectura, jerarquía, permisos de usuario y utilización de recursos por parte del mismo."
+      "nombre": "Docker",
+      "descripcion":"Exposicion de que es Docker y como se usa (a nivel teorico) para ejecutar aplicacion."
     },
     {
-      "nombre": "Pentesting.",
-      "descripcion":"Metodologías y fases necesarios para realizar una “prueba de intrusión” de manera profesional."
+      "nombre": "Ejecucion de Docker",
+      "descripcion":"Practica para conocer como usar docker para ejecutar una aplicacion web."
+    },
+    {
+      "nombre": "Despliegue",
+      "descripcion":"Practica para desplegar una aplicacion en la plataforma de google cloud y como vincular los diferentes recursos en un sistema funcional."
+    },
+    {
+      "nombre": "Automatizacion",
+      "descripcion":"Practica para automitizar despliegues de aplicaciones en google cloud."
     }
   ],
   "ProyectosRealizados":[
-    {
-      "nombre": "Taller - Spyware.",
-      "descripcion": "Concientización sobre la vulnerabilidad que tienen las personas y lo fácil que es para un atacante obtener información personal y privada, simplemente con una herramienta spyware."
-    }
+
   ],
   "horarios":[{
-    "dia":"Viernes",
-    "hora":"12:00-14:00.",
+    "dia":"Jueves",
+    "hora":"10:00-12:00.",
     "lugar": "Sede Calle 34."
   }]
 
-}]
+}
+  ]
