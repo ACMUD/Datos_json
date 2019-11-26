@@ -31,7 +31,7 @@
   "Abreviacion":"GIGAME",
   "nombre": "grupo de interés en desarrollo de videojuegos",
   "Responsable": "Edwar Diaz Ruiz",
-  "Descripción": "grupos enfocado el desarrollo de videojuegos , actualmente enfocado al desarrollo mediante unreal engine",
+  "Descripcion": "grupos enfocado el desarrollo de videojuegos , actualmente enfocado al desarrollo mediante unreal engine",
   "Prerrequisitos":["tener un PC que corra unreal"
   ],
   "TemasTrabajados":[{
@@ -80,7 +80,7 @@
     "Abreviacion":"GISAC",
     "nombre": "Grupo de interes de seguridad, auditoria y control",
     "Responsable": "Cristian Eduardo Ríos Guarín",
-    "Descripción": "La cadena de seguridad de una organización es tan fuerte como lo es su eslabón más débil. Este es un ejemplo de cómo funciona la seguridad de la información, y, con esta premisa en mente, es necesario advertir a la sociedad de lo vulnerables que son (ellos y su información) en un mundo digital que no para de evolucionar a pasos agigantados. Por eso, en este grupo buscamos aprender e informar a la comunidad sobre temas relacionados con la seguridad informática, para lograr así mermar la vulnerabilidad que tienen las personas en la sociedad donde que vivimos.",
+    "Descripcion": "La cadena de seguridad de una organización es tan fuerte como lo es su eslabón más débil. Este es un ejemplo de cómo funciona la seguridad de la información, y, con esta premisa en mente, es necesario advertir a la sociedad de lo vulnerables que son (ellos y su información) en un mundo digital que no para de evolucionar a pasos agigantados. Por eso, en este grupo buscamos aprender e informar a la comunidad sobre temas relacionados con la seguridad informática, para lograr así mermar la vulnerabilidad que tienen las personas en la sociedad donde que vivimos.",
     "Prerrequisitos":["ninguno"
     ],
     "TemasTrabajados":[{
@@ -121,7 +121,7 @@
   "Abreviacion":"GICLOUD",
   "nombre": "GICLOUD",
   "Responsable": "Diego Alejandro Correa Ramirez",
-  "Descripción": "Aprender a usar las herramientas que ofrece google cloud para soportar aplicaciones en la nube",
+  "Descripcion": "Aprender a usar las herramientas que ofrece google cloud para soportar aplicaciones en la nube",
   "Prerrequisitos":["Programacion orientada a objetos"
   ],
   "TemasTrabajados":[{
