@@ -1,4 +1,300 @@
-[{
+[
+    {
+        "title": "Ayudar a los vehículos autónomos a ver a la vuelta de las esquinas",
+        "subtitle": "Al detectar pequeños cambios en las sombras, un nuevo sistema identifica los objetos que se aproximan y que pueden causar una colisión.",
+        "cover-image": {
+            "route": "https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2019/MIT-Shadow-Sensing_0.jpg?itok=iB40fnsy",
+            "source": "MIT News Office"
+        },
+        "relevance": 2,
+        "source": "https://news.mit.edu/2019/helping-autonomous-vehicles-see-around-corners-1028",
+        "author": "Rob Matheson",
+        "date": "27/10/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "Para mejorar la seguridad de los sistemas autónomos, los ingenieros del MIT han desarrollado un sistema que puede detectar pequeños cambios en las sombras del terreno para determinar si hay un objeto en movimiento a la vuelta de la esquina.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los coches autónomos podrían algún día utilizar el sistema para evitar rápidamente una posible colisión con otro coche o peatón que saliera de la esquina de un edificio o de entre coches aparcados. En el futuro, los robots que puedan navegar por los pasillos del hospital para tomar medicamentos o hacer entregas de suministros podrían usar el sistema para evitar golpear a las personas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "En una ponencia que se presentará en la Conferencia Internacional sobre Robots y Sistemas Inteligentes (IROS) de la próxima semana, los investigadores describen experimentos exitosos con un coche autónomo conduciendo alrededor de un aparcamiento y un pasillo de navegación autónomo para sillas de ruedas. Al detectar y detener un vehículo que se aproxima, el sistema basado en el automóvil supera en más de medio segundo al LiDAR tradicional, que sólo puede detectar objetos visibles.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Esto puede no parecer mucho, pero fracciones de un segundo asunto cuando se trata de vehículos autónomos de rápido movimiento, dicen los investigadores.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Para las aplicaciones en las que los robots se mueven en entornos con otros objetos o personas en movimiento, nuestro método puede proporcionar al robot una advertencia temprana de que alguien viene a la vuelta de la esquina, de modo que el vehículo puede reducir la velocidad, adaptar su trayectoria y prepararse con antelación para evitar una colisión', añade la coautora Daniela Rus, directora del Laboratorio de Ciencias de la Computación e Inteligencia Artificial (CSAIL) y catedrática de Ingeniería Eléctrica y Ciencias de la Computación de la Universidad de Nueva York. 'El gran sueño es proporcionar una especie de'visión de rayos X' a los vehículos que se mueven rápido por las calles.'",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Actualmente, el sistema sólo se ha probado en interiores. Las velocidades robóticas son mucho más bajas en interiores y las condiciones de iluminación son más consistentes, lo que facilita que el sistema detecte y analice las sombras.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Acompañando a Rus en el trabajo están: el primer autor Felix Naser SM'19, un ex investigador de CSAIL; Alexander Amini, un estudiante graduado de CSAIL; Igor Gilitschenski, un postdoctorado de CSAIL; la recién graduada Christina Liao'19; Guy Rosman del Instituto de Investigación Toyota; y Sertac Karaman, un profesor asociado de aeronáutica y astronáutica en el MIT.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Extensión de ShadowCam",
+                    "paragraphs": [
+                        {
+                            "text": "Para su trabajo, los investigadores se basaron en su sistema, llamado 'ShadowCam', que utiliza técnicas de visión por ordenador para detectar y clasificar los cambios en las sombras en el suelo. Los profesores del MIT William Freeman y Antonio Torralba, que no son coautores del documento del IROS, colaboraron en las versiones anteriores del sistema, que se presentaron en conferencias en 2017 y 2018.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Para la entrada, ShadowCam utiliza secuencias de fotogramas de vídeo de una cámara que apuntan a un área específica, como el suelo frente a una esquina. Detecta cambios en la intensidad de la luz con el tiempo, de imagen en imagen, que pueden indicar que algo se aleja o se acerca. Algunos de esos cambios pueden ser difíciles de detectar o invisibles a simple vista, y pueden ser determinados por varias propiedades del objeto y del entorno. ShadowCam calcula esa información y clasifica cada imagen como un objeto estacionario o un objeto dinámico en movimiento. Si llega a una imagen dinámica, reacciona en consecuencia",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La adaptación de ShadowCam para vehículos autónomos requería algunos avances. La primera versión, por ejemplo, se basaba en forrar un área con etiquetas de realidad aumentada llamadas 'AprilTags', que se asemejan a los códigos QR simplificados. Los robots exploran AprilTags para detectar y calcular su posición y orientación 3D precisa en relación con la etiqueta. ShadowCam utilizó las etiquetas como características del entorno para centrarse en parches específicos de píxeles que pueden contener sombras. Pero modificar los entornos reales con AprilTags no es práctico",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los investigadores desarrollaron un proceso novedoso que combina el registro de imágenes y una nueva técnica de odometría visual. A menudo utilizado en la visión por ordenador, el registro de imágenes esencialmente superpone múltiples imágenes para revelar variaciones en las imágenes. El registro de imágenes médicas, por ejemplo, se superpone a las exploraciones médicas para comparar y analizar las diferencias anatómicas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La odometría visual, utilizada para los Mars Rovers, estima el movimiento de una cámara en tiempo real analizando la pose y la geometría en secuencias de imágenes. Los investigadores emplean específicamente 'Direct Sparse Odometry' (DSO), que puede calcular puntos de característica en entornos similares a los capturados por AprilTags. Esencialmente, DSO traza las características de un entorno en una nube de puntos 3D, y luego una tubería de visión computarizada selecciona sólo las características ubicadas en una región de interés, como el piso cerca de una esquina. (Las regiones de interés fueron anotadas manualmente de antemano).",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Como ShadowCam toma secuencias de imágenes de entrada de una región de interés, utiliza el método de registro de imágenes DSO para superponer todas las imágenes desde el mismo punto de vista del robot. Incluso cuando un robot se está moviendo, es capaz de concentrarse exactamente en el mismo parche de píxeles en el que se encuentra una sombra para ayudar a detectar cualquier desviación sutil entre las imágenes.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "A continuación se presenta la amplificación de señales, una técnica introducida en el primer trabajo. Los píxeles que pueden contener sombras reciben un aumento de color que reduce la relación señal/ruido. Esto hace que las señales extremadamente débiles de los cambios de sombra sean mucho más detectables. Si la señal aumentada alcanza un cierto umbral - basado en parte en cuánto se desvía de otras sombras cercanas - ShadowCam clasifica la imagen como 'dinámica'. Dependiendo de la intensidad de la señal, el sistema puede indicar al robot que reduzca la velocidad o se detenga.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Al detectar esa señal, puedes tener cuidado. Puede ser la sombra de una persona que corre detrás de la esquina o de un auto estacionado, de modo que el auto autónomo puede disminuir la velocidad o detenerse por completo', dice Naser.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Pruebas sin etiquetas",
+                    "paragraphs": [
+                        {
+                            "text": "En una prueba, los investigadores evaluaron el desempeño del sistema en la clasificación de objetos en movimiento o estacionarios usando AprilTags y el nuevo método basado en DSO. Una silla de ruedas autónoma se dirigió hacia varias esquinas de los pasillos mientras que los humanos giraban la esquina hacia el camino de la silla de ruedas. Ambos métodos lograron la misma precisión de clasificación del 70 por ciento, lo que indica que ya no se necesitan los AprilTags.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "En una prueba separada, los investigadores implementaron ShadowCam en un auto autónomo en un estacionamiento, donde las luces fueron apagadas, imitando las condiciones de conducción nocturna. Compararon los tiempos de detección de automóviles versus LiDAR. En un escenario de ejemplo, ShadowCam detectó que el coche giraba alrededor de los pilares unos 0,72 segundos más rápido que el LiDAR. Además, debido a que los investigadores habían ajustado ShadowCam específicamente a las condiciones de iluminación del garaje, el sistema logró una precisión de clasificación de alrededor del 86 por ciento.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "A continuación, los investigadores están desarrollando el sistema para trabajar en diferentes condiciones de iluminación interior y exterior. En el futuro, también podría haber formas de acelerar la detección de sombras del sistema y automatizar el proceso de anotar áreas específicas para la detección de sombras.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Investigación"
+            },
+            {
+                "name": "Algoritmos"
+            },
+            {
+                "name": "Robótica"
+            },
+            {
+                "name": "Robots"
+            },
+            {
+                "name": "Inteligencia artificial"
+            },
+            {
+                "name": "Aprendizaje automático"
+            },
+            {
+                "name": "Vehículos autónomos"
+            }
+        ]
+    },
+    {
+        "title": "Bioimpresión: Células vivas en una impresora 3D",
+        "subtitle": "Con un nuevo proceso desarrollado en TU Wien (Viena), las células vivas se pueden integrar en estructuras finas creadas en una impresora 3D - extremadamente rápido y con una resolución muy alta.",
+        "cover-image": {
+            "route": "https://www.tuwien.at/fileadmin/_processed_/0/e/csm_Bioprinting_2eeea8edd6.jpg",
+            "source": "Cells spreading in a 3D scaffold - from left to right: week 1, week 3 week 5. Top: 3D setup, bottom: one layer only."
+        },
+        "relevance": 3,
+        "source": "https://www.tuwien.at/en/tu-wien/news/news-articles/news/bioprinting-living-cells-in-a-3d-printer/",
+        "author": "Florian Aigner",
+        "date": "21/10/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "El crecimiento de los tejidos y el comportamiento de las células pueden ser controlados e investigados particularmente bien al incrustar las células en un delicado marco tridimensional. Esto se logra utilizando métodos de impresión 3D aditivos, las llamadas técnicas de 'bioimpresión'. Sin embargo, esto implica una serie de desafíos: Algunos métodos son muy imprecisos o sólo permiten un período de tiempo muy corto en el que las células pueden procesarse sin dañarse. Además, los materiales utilizados deben ser compatibles con las células durante y después del proceso de biopriting tridimensional. Esto restringe la variedad de materiales posibles. En la Universidad Técnica de Viena (Viena) se ha desarrollado un proceso de bioimpresión de alta resolución con materiales completamente nuevos: Gracias a una 'tinta biológica' especial para la impresora 3D, las células pueden ser incrustadas en una matriz 3D impresa con precisión micrométrica - a una velocidad de impresión de un metro por segundo, órdenes de magnitud más rápido de lo que antes era posible.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "El medio ambiente es importante",
+                    "paragraphs": [
+                        {
+                            "text": "'El comportamiento de una célula depende crucialmente de las propiedades mecánicas, químicas y geométricas de su entorno', dice el Prof. Aleksandr Ovsianikov, jefe del grupo de investigación de Impresión y Biofabricación 3D del Instituto de Ciencia y Tecnología de Materiales (TU Wien). 'Las estructuras en las que están incrustadas las células deben ser permeables a los nutrientes para que las células puedan sobrevivir y multiplicarse. Pero también es importante si las estructuras son rígidas o flexibles, si son estables o se degradan con el tiempo'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Es posible producir primero estructuras adecuadas y luego colonizarlas con células vivas - pero este enfoque puede dificultar la colocación de las células en el interior del andamiaje, y es casi imposible lograr una distribución celular homogénea de esta manera. La mejor opción es integrar las células vivas directamente en la estructura 3D durante la producción de la estructura - esta técnica se conoce como 'bioimpresión'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Imprimir objetos 3D microscópicamente finos ya no es un problema hoy en día. Sin embargo, el uso de células vivas presenta a la ciencia desafíos completamente nuevos: 'Hasta ahora, simplemente ha habido una falta de sustancias químicas adecuadas', dice Aleksandr Ovsianikov. 'Se necesitan líquidos o geles que se solidifiquen exactamente donde se iluminan con un rayo láser enfocado. Sin embargo, estos materiales no deben ser dañinos para las células, y todo el proceso tiene que ser extremadamente rápido'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Dos fotones a la vez",
+                    "paragraphs": [
+                        {
+                            "text": "Para lograr una resolución extremadamente alta, en TU Wien se han utilizado métodos de polimerización de dos fotones durante años. Este método utiliza una reacción química que sólo se inicia cuando una molécula del material absorbe simultáneamente dos fotones del rayo láser. Esto sólo es posible cuando el rayo láser tiene una intensidad especialmente alta. En estos puntos la sustancia se endurece, mientras que permanece líquida en todas partes. Por lo tanto, este método de dos fotones es el más adecuado para producir estructuras extremadamente finas con alta precisión.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Sin embargo, estas técnicas de alta resolución suelen tener la desventaja de ser muy lentas, a menudo en el rango de micrómetros o unos pocos milímetros por segundo. En TU Wien, sin embargo, los materiales compatibles con las células pueden procesarse a una velocidad de más de un metro por segundo - un paso adelante decisivo. Sólo si todo el proceso puede completarse en unas pocas horas existe una buena posibilidad de que las células sobrevivan y se desarrollen aún más.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "Numerosas opciones nuevas",
+                    "paragraphs": [
+                        {
+                            "text": "'Nuestro método ofrece muchas posibilidades para adaptar el entorno de las células', dice Aleksandr Ovsianikov. Dependiendo de cómo se construya la estructura, puede hacerse más rígida o más blanda. También son posibles los gradientes finos y continuos. De esta manera, es posible definir exactamente cómo debe verse la estructura para permitir el tipo deseado de crecimiento y migración celular. La intensidad del láser también se puede utilizar para determinar la facilidad con la que la estructura se degradará con el tiempo.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Ovsianikov está convencido de que este es un importante paso adelante para la investigación celular: 'Utilizando estos andamios 3D, es posible investigar el comportamiento de las células con una precisión hasta ahora inalcanzable. Es posible estudiar la propagación de enfermedades, y si se utilizan células madre, incluso es posible producir tejidos a medida de esta manera'. El proyecto de investigación es una cooperación internacional e interdisciplinaria en la que participaron tres institutos diferentes de la Universidad Politécnica de Viena: El grupo de investigación de Ovsianikov fue responsable de la tecnología de impresión en sí, el Instituto de Química Sintética Aplicada desarrolló fotoiniciadores rápidos y amigables con las células (las sustancias que inician el proceso de endurecimiento cuando se iluminan) y el Instituto de Estructuras Livianas y Biomecánica Estructural analizó las propiedades mecánicas de las estructuras impresas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La tecnología de impresión 3D de alta resolución y los materiales están siendo comercializados por la joven pero exitosa spin-off de TU Wien, UPNano GmbH.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Tecnología"
+            },
+            {
+                "name": "Impresión 3D"
+            },
+            {
+                "name": "Impresión 3D"
+            },
+            {
+                "name": "Bio Impresión"
+            }
+        ]
+    },
+    {
         "title": "The 10 most important moments in AI so far",
         "subtitle": "From Isaac Asimov’s first robot stories to AlphaGo, AI has had its ups and downs. But its history is just starting.",
         "cover-image": {
@@ -8,32 +304,38 @@
         "relevance": 1,
         "source": "https://www.fastcompany.com/90402503/the-10-most-important-moments-in-ai-so-far",
         "author": "Mark Sullivan",
-        "date": "09/16/19",
+        "date": "16/09/19",
         "location": "",
         "content": {
-            "sections": [{
+            "sections": [
+                {
                     "title": "",
-                    "paragraphs": [{
-                        "text": "Artificial intelligence is still in its youth. But some very big things have already happened. Some of them captured the attention of the culture, while others produced shockwaves felt mainly within the stuffy confines of academia. These are some of the key moments that propelled AI forward in the most profound ways.",
-                        "media": {
-                            "route": "",
-                            "source": ""
+                    "paragraphs": [
+                        {
+                            "text": "Artificial intelligence is still in its youth. But some very big things have already happened. Some of them captured the attention of the culture, while others produced shockwaves felt mainly within the stuffy confines of academia. These are some of the key moments that propelled AI forward in the most profound ways.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
                         }
-                    }]
+                    ]
                 },
                 {
                     "title": "1. ISAAC ASIMOV WRITES THE THREE LAWS OF ROBOTICS (1942)",
-                    "paragraphs": [{
-                        "text": "Asimov’s story “Runaround” marks the first time the famed science-fiction author listed his “Three Laws of Robotics” in full: First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm. Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law. Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws. “Runaround” tells the story of Speedy, a robot put in a situation where balancing the third law with the first two seems impossible.Asimov’ s stories in the Robot series got science - fiction fans, some of them scientists, thinking about the possibility of thinking machines.Even today, many people go through the intellectual exercise of applying Asimov’ s laws to modern AI.",
-                        "media": {
-                            "route": "",
-                            "source": ""
+                    "paragraphs": [
+                        {
+                            "text": "Asimov’s story “Runaround” marks the first time the famed science-fiction author listed his “Three Laws of Robotics” in full: First Law: A robot may not injure a human being or, through inaction, allow a human being to come to harm. Second Law: A robot must obey the orders given it by human beings except where such orders would conflict with the First Law. Third Law: A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws. “Runaround” tells the story of Speedy, a robot put in a situation where balancing the third law with the first two seems impossible.Asimov’ s stories in the Robot series got science - fiction fans, some of them scientists, thinking about the possibility of thinking machines.Even today, many people go through the intellectual exercise of applying Asimov’ s laws to modern AI.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
                         }
-                    }]
+                    ]
                 },
                 {
                     "title": "2. ALAN TURING PROPOSES THE IMITATION GAME (1950)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "“I propose to consider the question ‘Can machines think?'” So began Alan Turing’s seminal 1950 research paper that developed a framework for thinking about machine intelligence. He asked why, if a machine could imitate the sentient behavior of a human, would it not itself be sentient.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-2-the-5-most-important-moments-in-ai-so-far-1.jpg",
@@ -51,7 +353,8 @@
                 },
                 {
                     "title": "3. DARTMOUTH HOLDS AN AI CONFERENCE (1956)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "By 1955, scientists around the world had begun to think conceptually about things like neural networks and natural language, but there was no unifying concept to envelop various kinds of machine intelligence. A Dartmouth College math professor named John McCarthy coined the term “artificial intelligence” to encapsulate it all.",
                             "media": {
                                 "route": "",
@@ -76,7 +379,8 @@
                 },
                 {
                     "title": "4. FRANK ROSENBLATT BUILDS THE PERCEPTRON (1957)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The basic structure of a neural network is called a “perceptron.” It’s a series of inputs that report data to a node that then computes the inputs and arrives at a classification and a confidence level. For example, the inputs might analyze different aspects of an image and “vote” (with varying levels of surety) on whether there’s a face depicted in it. The node might then calculate the “votes” and the confidence levels and derive a consensus. Today’s neural networks, running on powerful computers, connect billions of these structures.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-1-the-5-most-important-moments-in-ai-so-far.jpg",
@@ -101,7 +405,8 @@
                 },
                 {
                     "title": "5. AI EXPERIENCES ITS FIRST WINTER (1970S)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "Artificial intelligence has spent most of its history in the research realm. Throughout much of the 1960s, government agencies such as the U.S. Defense Advanced Research Projects Agency (DARPA) plowed money into research and asked little about the eventual return on their investment. And AI researchers often oversold the potential of their work so that they could keep their funding. This all changed in the late 1960s and early ’70s. Two reports, the Automatic Language Processing Advisory Committee (ALPAC) report to the U.S. Government in 1966, and the Lighthill Report for the British government in 1973, looked at AI research in a pragmatic way and returned very pessimistic analyses about the potential of the technology. Both reports questioned the tangible progress of various areas of AI research. The Lighthill Report argued that AI for tasks like speech recognition would be very difficult to scale to a size useful to the government or military.",
                             "media": {
                                 "route": "",
@@ -119,7 +424,8 @@
                 },
                 {
                     "title": "6. THE SECOND AI WINTER ARRIVES (1987)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The 1980s opened with the development and success of “expert systems,” which stored large amounts of domain knowledge and emulated the decision-making of human experts. The technology was originally developed by Carnegie Mellon for Digital Equipment Corporation, and corporations deployed the technology rapidly. But expert systems required expensive, specialized hardware, which became a problem when Sun Microsystems workstations and Apple and IBM personal computers became available with comparable power and lower prices. The market for the expert systems computers collapsed in 1987, with the main providers of the machines leaving the market.",
                             "media": {
                                 "route": "",
@@ -137,7 +443,8 @@
                 },
                 {
                     "title": "7. IBM’S DEEP BLUE BEATS KASPAROV (1997)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The public profile of artificial intelligence got a boost in 1997 when IBM’s Deep Blue chess computer defeated then-world champion Garry Kasparov in chess. In a series of six games played in a television studio, Deep Blue won two games, Kasparov won one, and three of the games ended in draws. Kasparov had defeated an earlier version of Deep Blue the year before.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-3-the-5-most-important-moments-in-ai-so-far.jpg",
@@ -162,7 +469,8 @@
                 },
                 {
                     "title": "8. A NEURAL NET SEES CATS (2011)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "By 2011, scientists in universities around the world were talking about—and creating—neural networks. That year, Google engineer Jeff Dean met a Stanford computer science professor named Andrew Ng. The two hatched the idea of building a large neural net, giving it massive computing power using Google’s server resources, and feeding it a massive data set of images.",
                             "media": {
                                 "route": "",
@@ -187,7 +495,8 @@
                 },
                 {
                     "title": "9. GEOFFREY HINTON UNLEASHES DEEP NEURAL NETWORKS (2012)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "The year after Dean and Ng’s breakthrough, University of Toronto professor Geoffrey Hinton and two of his students built a computer vision neural network model called AlexNet to compete in an image recognition contest called ImageNet. Entrants were to use their systems to process millions of test images and identify them with the greatest possible accuracy. AlexNet won the contest with an error rate of less than half that of the runner-up. In only 15.3% of cases was the correct label not in AlexNet’s top five most-likely answers. The previous best score had been 26%.",
                             "media": {
                                 "route": "https://images.fastcompany.net/image/upload/w_596,c_limit,q_auto:best,f_auto/wp-cms/uploads/2019/09/i-4-the-5-most-important-moments-in-ai-so-far.jpg",
@@ -205,7 +514,8 @@
                 },
                 {
                     "title": "10. ALPHAGO DEFEATS HUMAN GO CHAMPION (2016)",
-                    "paragraphs": [{
+                    "paragraphs": [
+                        {
                             "text": "Back in 2013, researchers at a British startup called DeepMind published a paper showing how they could use a neural network to play and beat 50 old Atari games. Impressed, Google snatched up the company for a reported $400 million. But DeepMind’s glory days were ahead of it.",
                             "media": {
                                 "route": "",
@@ -237,7 +547,8 @@
                 }
             ]
         },
-        "tags": [{
+        "tags": [
+            {
                 "name": "ai"
             },
             {
@@ -252,31 +563,645 @@
         ]
     },
     {
-        "title": "",
+        "title": "Los objetos ahora pueden cambiar de color como un camaleón",
+        "subtitle": "El equipo del Laboratorio de Informática e Inteligencia Artificial crea una nueva tinta reprogramable que permite que los objetos cambien de color utilizando la luz",
+        "cover-image": {
+            "route": "https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/1%20Chameleon%20with%20different%20colors.png?itok=NufARFpT",
+            "source": "Imagen cortesía de los investigadores"
+        },
+        "relevance": 4,
+        "source": "https://news.mit.edu/2019/changing-colors-photochromeleon-mit-csail-0910",
+        "author": "Rachel Gordon",
+        "date": "10/09/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "La capacidad de cambio de color de los camaleones ha dejado perplejos a los observadores. El filósofo Aristóteles fue desconcertado durante mucho tiempo por estas criaturas adaptables. Pero mientras que los humanos no pueden camuflarse mucho más allá de un traje verde para igualar el césped, los objetos inanimados son otra historia.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Un equipo del Laboratorio de Ciencias de la Computación e Inteligencia Artificial (CSAIL) del MIT nos ha acercado a esta realidad camaleónica, a través de un nuevo sistema que utiliza tinta reprogramable para permitir que los objetos cambien de color cuando están expuestos a los rayos ultravioleta (UV) y a fuentes de luz visibles.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Apodado 'PhotoChromeleon', el sistema utiliza una mezcla de colorantes fotocromáticos que pueden ser rociados o pintados sobre la superficie de cualquier objeto para cambiar su color - un proceso totalmente reversible que puede repetirse infinitamente.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "PhotoChromeleon se puede utilizar para personalizar cualquier cosa, desde una funda de teléfono hasta un coche, o zapatos que necesiten una actualización. El color permanece, incluso cuando se utiliza en entornos naturales.",
+                            "media": {
+                                "route": "https://youtu.be/fEdN1VciJx0",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Este tipo especial de colorante podría permitir un sinfín de opciones de personalización que podrían mejorar la eficiencia de la fabricación y reducir el desperdicio general', dice Yuhua Jin, autor principal de un nuevo artículo sobre el proyecto. 'Los usuarios podían personalizar sus pertenencias y su apariencia diariamente, sin necesidad de comprar el mismo objeto varias veces en diferentes colores y estilos'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "PhotoChromeleon se basa en el sistema anterior del equipo, 'ColorMod', que utiliza una impresora 3D para fabricar artículos que pueden cambiar de color. Frustrado por algunas de las limitaciones de este proyecto, como el pequeño esquema de color y los resultados de baja resolución, el equipo decidió investigar posibles actualizaciones.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Con ColorMod, cada píxel de un objeto necesitaba ser impreso, por lo que la resolución de cada cuadradito era algo granulada. En cuanto a los colores, cada píxel del objeto sólo podía tener dos estados: transparente y de color propio. Por lo tanto, un tinte azul sólo puede pasar de azul a transparente cuando se activa, y un tinte amarillo sólo puede mostrar amarillo.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Pero con la tinta de PhotoChromeleon, puedes crear cualquier cosa, desde un patrón de cebra a un paisaje amplio o llamas de fuego multicolores, con una gran variedad de colores.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El equipo creó la tinta mezclando tintes fotocromáticos cian, magenta y amarillo (CMY) en una sola solución rociable, eliminando la necesidad de imprimir minuciosamente píxeles individuales en 3-D. Al comprender cómo interactúa cada colorante con diferentes longitudes de onda, el equipo pudo controlar cada canal de color mediante la activación y desactivación con las fuentes de luz correspondientes.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Específicamente, utilizaron tres luces diferentes con diferentes longitudes de onda para eliminar cada color primario por separado. Por ejemplo, si usas una luz azul, ésta sería absorbida por el tinte amarillo y desactivada, y el magenta y el cian permanecerían, resultando en azul. Si usas una luz verde, el magenta la absorberá y la desactivará, y entonces tanto el amarillo como el cian permanecerán, lo que resultará en verde.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Después de recubrir un objeto con la solución, el usuario simplemente coloca el objeto dentro de una caja con un proyector y luz ultravioleta. La luz UV satura los colores de transparente a saturación completa, y el proyector desatura los colores según sea necesario. Una vez que la luz ha activado los colores, aparece el nuevo patrón. Pero si no estás satisfecho con el diseño, todo lo que tienes que hacer es usar la luz UV para borrarlo, y puedes empezar de nuevo.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "También desarrollaron una interfaz de usuario para procesar automáticamente los diseños y patrones que van a los artículos deseados. El usuario puede cargar su plano, y el programa genera el mapeo sobre el objeto antes de que la luz haga su magia.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El equipo probó el sistema en un modelo de coche, una funda de teléfono, un zapato y un pequeño camaleón (de juguete). Dependiendo de la forma y orientación del objeto, el proceso duraba entre 15 y 40 minutos, y todos los patrones tenían altas resoluciones y podían borrarse con éxito cuando se deseaba.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Al dar a los usuarios la autonomía para individualizar sus artículos, se podrían preservar innumerables recursos, y las oportunidades de cambiar creativamente sus posesiones favoritas son ilimitadas', dice la profesora del MIT Stefanie Mueller.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Aunque PhotoChromeleon abre una gama de colores mucho más amplia, no todos los colores estaban representados en los tintes fotocrómicos. Por ejemplo, no hubo una gran coincidencia para el magenta o el cian, así que el equipo tuvo que estimar el colorante más cercano. Planean ampliar este aspecto colaborando con científicos de materiales para crear colorantes mejorados.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Creemos que la incorporación de tintas fotocromáticas novedosas y multi-fotocromáticas en los materiales tradicionales puede añadir valor a los productos Ford al reducir el coste y el tiempo necesario para fabricar piezas de automóvil', dice Alper Kiziltas, especialista técnico en materiales sostenibles y emergentes de Ford Motor Co (Ford ha estado trabajando con el MIT en la tecnología 3D ColorMod a través de una alianza de colaboración). 'Esta tinta podría reducir el número de pasos necesarios para producir una pieza multicolor, o mejorar la durabilidad del color debido a la intemperie o a la degradación UV. Algún día, incluso podremos personalizar nuestros vehículos por capricho'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Computer Science and Artificial Intelligence Laboratory (CSAIL)"
+            },
+            {
+                "name": "Tecnologia"
+            },
+            {
+                "name": "Impresion 3D"
+            },
+            {
+                "name": "Investigacion"
+            },
+            {
+                "name": "Arte"
+            }
+        ]
+    },
+    {
+        "title": "Investigadores visualizan el cambio climático con imágenes generadas por la IA",
         "subtitle": "",
+        "cover-image": {
+            "route": "https://venturebeat.com/wp-content/uploads/2019/09/climate-change-e1571844079918.jpg?zoom=2&resize=578%2C385&strip=all",
+            "source": "Chase Dekker Wild-Life Images/Getty"
+        },
+        "relevance": 3,
+        "source": "https://venturebeat.com/2019/10/23/researchers-visualize-climate-impact-with-ai-generated-images/",
+        "author": "KYLE WIGGERS",
+        "date": "23/10/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "Se han adoptado modelos generativos de IA para sintetizar cosas, desde rostros y apartamentos hasta mariposas, pero una nueva subcategoría busca concienciar sobre el cambio climático ilustrando las consecuencias de las inundaciones catastróficas. En un esfuerzo por establecer una métrica para cuantificar la veracidad de estas imágenes sintéticas del cambio climático, los investigadores de la Universidad de Montreal y de la Universidad de Stanford han detallado recientemente 'varios' métodos de evaluación en un documento preimpreso. Dicen que su trabajo, aunque preliminar, comienza a salvar la brecha entre la cuantificación generativa automatizada y la basada en el ser humano.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La investigación fue co-autorizada por el ganador del Premio Turing y profesor de la Universidad de Montreal Yoshua Bengio, quien fue uno de los primeros en combinar redes neuronales con modelos probabilísticos de secuencias. En un artículo publicado hace casi dos décadas, introdujo el concepto de incrustaciones de palabras, un paradigma de modelado de lenguaje y aprendizaje de características en el que las palabras o frases de un vocabulario se mapean a vectores de números reales. Las incrustaciones - y el trabajo más reciente de Bengio con el científico informático y el investigador de Google Brain Ian Goodfellow en redes generativas adversariales (GAN) - han revolucionado los campos de la traducción automática, la generación de imágenes, la síntesis de audio y los sistemas de texto a voz.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Históricamente, el cambio climático ha sido un tema en torno al cual es difícil movilizar la acción colectiva.... Una de las razones es que es difícil para la gente simular mentalmente los efectos complejos y probabilísticos del cambio climático, que a menudo se perciben como distantes en términos de tiempo y espacio', escribieron los coautores del documento. 'La literatura sobre comunicación climática ha afirmado que las comunicaciones efectivas surgen de mensajes que tienen una carga emocional y son personalmente relevantes en comparación con las formas tradicionales de comunicación experta, como los informes científicos, y que las imágenes en particular son clave para aumentar la conciencia y la preocupación sobre el tema del cambio climático'.",
+                            "media": {
+                                "route": "https://venturebeat.com/wp-content/uploads/2019/10/f08c8229-7b13-4292-85b6-e137e9d034ba.png?w=738&resize=738%2C600&strip=all&strip=all",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los investigadores observan que los métodos de evaluación existentes que podrían aplicarse a las imágenes generadas por el cambio climático tienen 'fuertes limitaciones' en el sentido de que no se correlacionan con el juicio humano, lo que dificulta la medición de la sofisticación de los modelos de generación de imágenes. Proponen una alternativa en un proceso manual en el que participan voluntarios humanos encargados de evaluar combinaciones de estilos de imagen extraídas de modelos, basadas en imágenes de entrada de diversos lugares y tipos de edificios (casas, granjas, calles, ciudades), cada uno con más de una docena de estilos generados por la IA. Los evaluadores eligen entre imágenes reales y semigeneradas, y se calcula una tasa media de error que refleja la proporción de evaluadores que juzgaron la imagen como real, con valores más altos que indican imágenes más realistas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                },
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "En la búsqueda de un enfoque menos costoso y que consume mucho tiempo, el equipo evalúa ocho métodos automatizados diferentes en total. Informan de que las incrustaciones mejor utilizadas de una capa de modelo AI intermedia con Fréchet Inception Distance, una métrica que toma fotos tanto de la distribución de destino como del modelo que se está evaluando y utiliza un sistema de reconocimiento de objetos para determinar las similitudes entre características importantes.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El equipo deja para el trabajo futuro la exploración de mejores métodos de evaluación y el desarrollo de un sintetizador de imagen del cambio climático generativo de última generación propio.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'La visión final de este trabajo es crear una arquitectura ML que, a partir de una imagen de Google StreetView basada en una ubicación elegida por el usuario, sea capaz de generar la imagen más realista de los fenómenos climáticos extremos inducidos por el cambio climático, dadas las características contextuales de esa imagen', escribieron los colaboradores del artículo. 'Si bien la representación realista de las inundaciones es el primer paso para lograr este objetivo, más adelante pretendemos representar otros eventos catastróficos que están siendo reforzados por el cambio climático (por ejemplo, ciclones tropicales o incendios forestales) utilizando un enfoque similar'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Inteligencia Artificial"
+            },
+            {
+                "name": "Investigacion"
+            },
+            {
+                "name": "Medio Ambiente"
+            }
+        ]
+    },
+    {
+        "title": "OpenAI lanza Safety Gym para reforzar el aprendizaje",
+        "subtitle": "",
+        "cover-image": {
+            "route": "https://venturebeat.com/wp-content/uploads/2019/11/d33209dd-b8cd-45f9-8721-b2f784f9ed3e-e1574362283724.png?zoom=2&resize=930%2C543&strip=all",
+            "source": "OpenAI"
+        },
+        "relevance": 4,
+        "source": "https://venturebeat.com/2019/11/21/openai-safety-gym/",
+        "author": "KYLE WIGGERS",
+        "date": "21/11/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "Aunque gran parte del trabajo en la ciencia de datos hasta la fecha se ha centrado en la escala y la sofisticación algorítmica, la seguridad -es decir, las salvaguardias contra los daños- es un ámbito que no deja de merecer la pena seguir. Esto es particularmente cierto en aplicaciones como las de los vehículos de autoconducción, en las que el mal juicio del sistema de aprendizaje de una máquina puede contribuir a un accidente.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Es por eso que empresas como Mobileye de Intel y Nvidia han propuesto marcos para garantizar la toma de decisiones seguras y lógicas, y es por eso que OpenAI - la empresa de investigación con sede en San Francisco cofundada por el director técnico Greg Brockman, el científico jefe Ilya Sutskever y otros - ha lanzado hoy Safety Gym. OpenAI lo describe como un conjunto de herramientas para desarrollar IA que respeta las restricciones de seguridad durante el entrenamiento, y para comparar la 'seguridad' de los algoritmos y la medida en que estos evitan errores durante el aprendizaje.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El Gimnasio de Seguridad está diseñado para reforzar a los agentes de aprendizaje, o la IA que se estimula progresivamente hacia las metas a través de recompensas (o castigos). Aprenden por ensayo y error, lo que puede ser un esfuerzo arriesgado - los agentes a veces intentan comportamientos peligrosos que conducen a errores.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Como remedio, OpenAI propone una forma de aprendizaje de refuerzo llamada aprendizaje de refuerzo restringido, que implementa funciones de coste que la IA debe restringir. En contraste con la práctica común, en la que el comportamiento de un agente se describe mediante una función adaptada para favorecer los objetivos, los agentes restringidos calculan compensaciones que logran ciertos resultados definidos.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'En el aprendizaje normal[de refuerzo], se escogería la colisión como multa al principio del entrenamiento y se mantendría fija para siempre', explica OpenAI en una entrada del blog. 'El problema aquí es que si el pago por viaje es lo suficientemente alto, al agente puede no importarle si tiene muchas colisiones (siempre y cuando pueda completar sus viajes)...[Pero en] el aprendizaje restringido[de refuerzo], usted escogería la tasa de colisión aceptable al comienzo del entrenamiento y ajustaría la multa por colisión hasta que el agente cumpla con ese requisito'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Con este fin, Safety Gym introduce entornos que requieren que los agentes de Inteligencia Artificial - Point, Car, Doggo, o un diseño personalizado - naveguen por entornos desordenados para lograr un objetivo, un botón o una tarea de empuje. Hay dos niveles de dificultad, y cada vez que un agente realiza una acción que es insegura (es decir, se encuentra con un desorden), una luz roja de advertencia parpadea alrededor del agente y el agente incurre en un costo.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Safety Gym se entrega con algoritmos de aprendizaje de refuerzo estándar y restringido fuera de la caja, además del código utilizado para ejecutar experimentos, y OpenAI dice que los resultados preliminares demuestran el rango de dificultad en los entornos de Safety Gym. Los entornos más sencillos son relativamente fáciles de resolver y permiten una iteración rápida, mientras que los entornos más difíciles pueden ser demasiado desafiantes para las técnicas actuales.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "OpenAI deja para el trabajo futuro la mejora del rendimiento en los entornos actuales de Safety Gym, utilizando Safety Gym para investigar técnicas de entrenamiento seguras de IA, y combinando el aprendizaje de refuerzo restringido con especificaciones implícitas como las preferencias humanas. También espera contribuir a la formulación de una métrica que pueda medir la seguridad de los sistemas de IA.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Las métricas de seguridad] podrían integrarse de forma viable en los esquemas de evaluación que los desarrolladores utilizan para probar sus sistemas, y podrían ser utilizadas por el gobierno para crear estándares de seguridad', escribió OpenAI. 'Esperamos que sistemas como Safety Gym puedan facilitar a los desarrolladores de IA la colaboración en seguridad en todo el sector de la IA a través del trabajo en sistemas abiertos y compartidos'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "OpenAI"
+            },
+            {
+                "name": "Inteligencia Artificial"
+            }
+        ]
+    },
+    {
+        "title": "Cómo los hackers pueden usar Wi-Fi para rastrearte dentro de tu casa",
+        "subtitle": "A new UChicago study shows how hackers can use a Wi-Fi receiver to monitor a site remotely for motion, sensing whether a room is occupied.",
+        "cover-image": {
+            "route": "https://news.uchicago.edu/sites/default/files/styles/full_width/public/images/2019-11/UChicago_study_wifi_spying_room_computer.jpg?itok=KpibkeDe",
+            "source": "shutterstock.com"
+        },
+        "relevance": 1,
+        "source": "https://news.uchicago.edu/story/how-hackers-could-use-wi-fi-track-you-inside-your-home",
+        "author": "Rob Mitchum",
+        "date": "14/11/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "Científicos de UChicago examinan la vulnerabilidad de los dispositivos inteligentes y las posibles defensas",
+                    "paragraphs": [
+                        {
+                            "text": "A medida que los dispositivos conectados, como los asistentes de voz, las cámaras de seguridad y los dispositivos inteligentes crecen en popularidad, los hogares y las oficinas donde están instalados se llenan cada vez más de una densa red de señales Wi-Fi.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Un nuevo estudio de la Universidad de Chicago y la Universidad de California en Santa Bárbara revela que los atacantes externos pueden utilizar tecnología de bajo costo para convertir estas señales ambientales en detectores de movimiento, monitoreando la actividad dentro de un edificio sin ser detectados.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Con sólo un pequeño receptor Wi-Fi disponible en el mercado, un atacante de fuera del lugar de destino puede medir la intensidad de las señales emitidas por los dispositivos conectados y monitorizar un lugar de forma remota para ver si hay movimiento, detectando si una habitación está ocupada. La investigación, dirigida por los principales científicos informáticos de UChicago, Heather Zheng y Ben Zhao, revela la técnica de estos ataques, así como las defensas potenciales.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Es lo que llamamos un ataque de vigilancia silencioso', dijo Zheng, profesor de informática de la Universidad de Chicago y experto en redes, seguridad y tecnologías inalámbricas. 'No se trata sólo de la privacidad, sino más bien de la protección de la seguridad física. Con sólo escuchar las señales Wi-Fi existentes, alguien podrá ver a través de la pared y detectar si hay actividad o dónde hay un ser humano, incluso sin conocer la ubicación de los dispositivos. Esencialmente, pueden hacer un seguimiento de vigilancia de muchos lugares. Eso es muy peligroso'.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La investigación se basa en hallazgos anteriores que exponían la capacidad de 'ver a través de las paredes' utilizando señales Wi-Fi. Sin embargo, los métodos anteriores detectaron la actividad en interiores enviando señales al interior del edificio y midiendo la forma en que se reflejan en un receptor, un método que sería fácil de detectar y contra el que sería fácil defenderse. El nuevo enfoque sólo requiere la 'escucha pasiva' de las señales Wi-Fi existentes en un edificio, no necesita transmitir ninguna señal o romper la encriptación, y se vuelve más preciso cuando hay más dispositivos conectados, lo que plantea importantes problemas de seguridad.",
+                            "media": {
+                                "route": "https://news.uchicago.edu/sites/default/files/styles/full_width/public/images/2019-11/sniffer-graphic.png?itok=OzXHp7CE",
+                                "source": "La ilustración muestra cómo los dispositivos económicos pueden convertir las señales Wi-Fi en detectores de movimiento."
+                            }
+                        },
+                        {
+                            "text": "'Lo preocupante aquí es que el atacante tiene un costo mínimo, puede permanecer en silencio sin emitir ninguna señal y aún así obtener información sobre usted', dijo Zheng.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los dispositivos conectados normalmente no se comunican directamente con Internet, sino que lo hacen mediante la transmisión regular de señales a un punto de acceso, un dispositivo de hardware como un enrutador. Cuando una persona camina cerca de cualquiera de los dos dispositivos en esta conversación, cambia la señal sutilmente, de tal manera que la perturbación puede ser detectada por un receptor cercano 'olfateando' la señal. Esa es información suficiente para que un observador sepa si una persona (o un animal grande, agregan los investigadores) está en la sala, con una precisión muy alta.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Debido a que la mayoría de los materiales de construcción no bloquean la propagación de las señales Wi-Fi, el receptor ni siquiera necesita estar en la misma habitación o edificio que el punto de acceso o los dispositivos conectados para captar estos cambios. Estos sniffers Wi-Fi están disponibles en el mercado y son baratos, típicamente menos de $20. También son pequeños y discretos, fáciles de ocultar cerca de las ubicaciones de los objetivos, y pasivos: no envían ninguna señal que pueda ser detectada por el objetivo.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los investigadores también sugirieron diferentes métodos para bloquear esta técnica de vigilancia. Una protección sería aislar los edificios contra las fugas de Wi-Fi; sin embargo, esto también evitaría la entrada de señales deseables, como las procedentes de torres de telefonía móvil. En su lugar, proponen un método técnico sencillo en el que los puntos de acceso emiten una 'señal de cobertura' que se mezcla con las señales de los dispositivos conectados, produciendo datos falsos que confundirían a cualquiera que husmee en busca de firmas de movimiento Wi-Fi.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'Lo que el hacker verá es que siempre hay gente alrededor, así que esencialmente estás creando ruido, y no pueden decir si hay una persona real allí o no', dijo Zheng. 'Puedes pensar en ello como un botón de privacidad en tu punto de acceso; lo pulsas y sacrificas un poco de ancho de banda, pero protege tu privacidad.'",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Zheng espera que los fabricantes de routers consideren la posibilidad de introducir esta característica de privacidad en los modelos futuros; algunas de estas empresas han anunciado nuevas características que utilizan un método similar para la detección de movimiento, comercializado como un beneficio de seguridad para el hogar. La investigación de UChicago ya ha recibido la atención de Technology Review, Business Insider y otras publicaciones tecnológicas, lo que aumenta la concienciación sobre esta nueva vulnerabilidad.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El estudio también refleja un área de investigación creciente en el Departamento de Ciencias de la Computación, examinando temas relacionados con dispositivos cada vez más frecuentes de 'Internet de los objetos' conectados. El Grupo de Seguridad y Privacidad de la IO, que incluye a Zhao y Zheng y a otros miembros del profesorado, como Nick Feamster, Blase Ur y Marshini Chetty, investigará tanto los beneficios como las vulnerabilidades potenciales de estas tecnologías, y un nuevo laboratorio de IO en el Centro de Datos e Informática proporciona dispositivos para que los investigadores y estudiantes puedan hackear y estudiar para la investigación.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Hackers"
+            }
+        ]
+    },
+    {
+        "title": "Los superordenadores más rápidos del mundo alcanzan velocidades más altas que nunca con Linux",
+        "subtitle": "La nueva lista de los ordenadores más rápidos del mundo, los Top 500 de la supercomputación, ya no existe, y cada uno de ellos corre más rápido que un petaflop usando Linux.",
         "cover-image": {
             "route": "",
             "source": ""
         },
-        "relevance": 1,
-        "source": "",
-        "author": "",
-        "date": "",
+        "relevance": 5,
+        "source": "https://www.zdnet.com/article/the-worlds-fastest-supercomputers-hit-higher-speeds-than-ever-with-linux/",
+        "author": "Steven J. Vaughan-Nichols",
+        "date": "18/11/19",
         "location": "",
         "content": {
-            "sections": [{
-                "title": "",
-                "paragraphs": [{
-                    "text": "",
-                    "media": {
-                        "route": "",
-                        "source": ""
-                    }
-                }]
-            }]
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "Sí, ahora se habla mucho de cómo los ordenadores cuánticos pueden hacer trabajos en 200 segundos que les llevaría a los superordenadores más rápidos del mundo 10.000 años. Eso está muy bien. Pero la simple verdad es que, para casi todos los trabajos, las supercomputadoras son más rápidas que cualquier otra cosa en el planeta. Y, en las últimas clasificaciones del Top 500 de superordenadores, la velocidad media de estos corredores con Linux es ahora de un asombroso 1.14 petaflops.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "La más rápida de las máquinas rápidas no ha cambiado desde la lista de las 500 mejores supercomputadoras de junio de 2019. Liderando el camino está el sistema Summit del Laboratorio Nacional de Oak Ridge, que tiene los más altos honores con un resultado de HPL de 148.6 petaflops. Se trata de un superordenador construido por IBM que utiliza CPU Power9 y GPU NVIDIA Tesla V100.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "En un segundo lugar bastante distante se encuentra otra máquina IBM: El sistema Sierra del Laboratorio Nacional Lawrence Livermore. Utiliza los mismos chips, pero 'sólo' alcanzó una velocidad de 94,6 petaflops.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Muy cerca, en el número 3, se encuentra el superordenador Sunway TaihuLight, con una marca HPL de 93,0 petaflops. TaihuLight fue desarrollado por el Centro Nacional de Investigación de Ingeniería y Tecnología de Computación en Paralelo (NRCPC) de China y está instalado en el Centro Nacional de Supercomputación de Wuxi. Funciona exclusivamente con los procesadores SW26010 de Sunway.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Sunway es seguido por el Tianhe-2A (Vía Láctea-2A). Este es un sistema desarrollado por la Universidad Nacional de Tecnología de Defensa de China (NUDT). Está desplegado en el Centro Nacional de Supercomputación en China. Accionado por CPUs Intel Xeon y aceleradores Matrix-2000, tiene una velocidad máxima de 61.4 petaflops.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Con el número 5, el sistema Frontera, construido por Dell, un sistema Dell C6420 está equipado con procesadores Intel Xeon Platinum. Se acelera a 23.5 petaflops. Vive en el Texas Advanced Computing Center de la Universidad de Texas.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El superordenador más potente de la lista es el AiMOS del Rensselaer Polytechnic Institute Center for Computational Innovations (CCI). Entró en la lista en la 25ª posición con 8.0 petaflops. El sistema construido por IBM, como Summit y Sierra, está alimentado por CPUs Power9 y GPUs NVIDIA V100.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "China sigue desarrollando máquinas cada vez más rápidas. Ahora tiene casi la mitad (227) de las supercomputadoras más rápidas del mundo. Al mismo tiempo, el sistema con sede en los EE.UU. se mantiene cerca de su nivel más bajo de todos los tiempos, 118. Dicho esto, los sistemas estadounidenses son, en promedio, significativamente más grandes y rápidos. Por lo tanto, en términos de rendimiento agregado, los superordenadores de EE.UU. todavía tienen una cuota del 37,8% de la lista. China está muy cerca, con una cuota de rendimiento del 31,9%. China está ganando. La lista de junio de 2019 tenía a EE.UU. con el 38,4% del rendimiento agregado de la lista y a China con el 29,9%.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Mientras que en la parte superior, el más rápido de la competencia rápida ha seguido siendo el mismo; es una historia diferente con la lista de Green500. Esta es una lista de los superordenadores de mayor eficiencia energética que se han transformado. El nuevo número 1 es el prototipo de superordenador A64FX, que suministraba 16,9 gigaflops/vatio. Un poco menos verde en el número 2 es NA-1, una máquina de Zettascaler que utiliza los procesadores PEZY-SC2 de PEZY Computing y proporciona 16,3 gigaflops/vatio.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El tercer sistema Green500 es el ya mencionado sistema AiMOS. Demuestra que puedes ser rápido y ecológico. Le siguen otros dos sistemas Power9/NVIDIA V100 IBM",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Aunque los chips rápidos son vitales para las computadoras más rápidas, no todo se trata de los procesadores. Para que las CPUs ofrezcan un alto rendimiento, necesitan datos lo más rápido posible. Mientras que Ethernet se utiliza en el 52% (258) de los 500 sistemas más importantes, últimamente, los datos se entregan cada vez más a menudo a través de HDR InfiniBand de Mellanox Technologies. Ciento cuarenta y uno de los 500 superordenadores más importantes utilizan ahora HDR InfiniBand, incluidos dos de los cinco primeros.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Desde el punto de vista del rendimiento, está claro por qué es así. A pesar de la diferencia en el número de sistemas desplegados, las máquinas basadas en InfiniBand representan el 40% del rendimiento total de las 500 principales, y las máquinas basadas en Ethernet tienen un 29%.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "El nuevo InfiniBand HDR de Mellanox, de 200 gigabits por segundo, también está siendo ampliamente adoptado. En la próxima lista del Top 500, estoy seguro de que veremos muchos sistemas desplegando este nuevo y más rápido InfiniBand",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Independientemente del hardware, los 500 superordenadores más rápidos del mundo tienen una cosa en común: todos ellos ejecutan Linux.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
         },
-        "tags": [{
-            "name": ""
-        }]
+        "tags": [
+            {
+                "name": "Linux"
+            },
+            {
+                "name": "Hardware"
+            },
+            {
+                "name": "Tecnologia"
+            }
+        ]
+    },
+    {
+        "title": "Este huevo LED del tamaño de una habitación captura increíbles modelos 3D de las personas que hay dentro.",
+        "subtitle": "",
+        "cover-image": {
+            "route": "https://techcrunch.com/wp-content/uploads/2019/11/prismatic-egg-google.jpg?w=1390&crop=1",
+            "source": ""
+        },
+        "relevance": 3,
+        "source": "https://techcrunch.com/2019/11/18/this-room-sized-led-egg-captures-amazing-3d-models-of-the-people-inside-it/",
+        "author": "Devin Coldewey",
+        "date": "18/11/19",
+        "location": "",
+        "content": {
+            "sections": [
+                {
+                    "title": "",
+                    "paragraphs": [
+                        {
+                            "text": "Capturar el rendimiento humano en 3D de alta definición es una propuesta complicada, y uno de los muchos desafíos es conseguir la iluminación adecuada. Este nuevo e impresionante proyecto de los investigadores de Google coloca al sujeto en el centro de lo que sólo puede describirse como un huevo prismático de LED, pero los modelos 3D resultantes son notables y, lo que es más importante, relucientes.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Lo que se llama captura volumétrica utiliza múltiples cámaras en una configuración de 360 grados para capturar lo que puede parecer una representación fotorrealista de un sujeto, incluyendo todos los pequeños detalles como la deformación de la ropa, el movimiento del cabello, y así sucesivamente. Tiene dos graves debilidades: En primer lugar, se parece más a una película en 3D que a un modelo, ya que no se puede posar a la persona ni cambiar sus atributos o vestimenta; la segunda es una extensión de la primera, ya que no se puede cambiar la forma en que se ilumina a la persona, independientemente de la iluminación que haya tenido al capturarla, eso es lo que se obtiene.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "'The Relightables' es un intento de un equipo de Google AI de abordar este segundo problema, ya que el primero está bastante extendido. Su sistema no sólo produce un modelo 3D muy detallado de una persona en movimiento, sino que permite que ese modelo sea iluminado de forma realista por fuentes de luz virtuales, lo que permite colocarlo en juegos, películas y otras situaciones en las que la iluminación puede cambiar.",
+                            "media": {
+                                "route": "https://techcrunch.com/wp-content/uploads/2019/11/relightableprocess.jpg",
+                                "source": "Imágenes del papel de Google AI que muestran el proceso de captura y el modelo 3D resultante, solos y en un entorno virtual iluminado."
+                            }
+                        },
+                        {
+                            "text": "Todo esto es gracias al huevo prismático antes mencionado (y un par de líneas de código, por supuesto). El huevo está forrado con 331 luces LED que pueden producir cualquier color, y a medida que la persona es capturada, esos LEDs se desplazan en un patrón estructurado especial que produce un modelo agnóstico de iluminación.",
+                            "media": {
+                                "route": "https://techcrunch.com/wp-content/uploads/2019/11/relightables.gif",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Los modelos resultantes pueden ser colocados en cualquier entorno virtual y reflejarán no la iluminación en la que fueron capturados sino la iluminación de ese pequeño mundo. Los ejemplos en el video de abajo no son exactamente del nivel de calidad de Hollywood, pero puedes ver la idea general de lo que están buscando.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        },
+                        {
+                            "text": "Las limitaciones de la captura volumétrica la hacen inadecuada para muchos usos en el cine, pero al ser religiable, estas prestaciones se acercan mucho más a los modelos 3D ordinarios de lo que eran antes. Por supuesto, todavía tienes que actuar dentro de un huevo gigante. 'Los Relevables' será presentado por el equipo de SIGGRAPH Asia.",
+                            "media": {
+                                "route": "",
+                                "source": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            {
+                "name": "Tecnologia"
+            }
+        ]
     }
 ]

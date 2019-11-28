@@ -1,0 +1,169 @@
+[
+    {
+        "name" : "Mauricio",
+        "lastName": "Perilla",
+        "img" : "imgMembers/MauricioPerilla.jpg",
+        "email" : {
+            "personal" : "mauperillar@gmail.com",
+            "institutional" : "mperillar@correo.udistrital.edu.co"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : 2,
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "Colaborador",
+            "yearsInGroup": 0
+        },
+        "programmingLanguages" : ["Python"],
+        "description" : "Tengo un interés en el mundo de la programación con el fin de automatizar procesos y desarrollar herramientas que puedan dar soluciones o facilitar las tareas cotidianas. Actualmente estoy en segundo semestre en la Universidad Distrital Francisco José de Caldas con el objetivo de adquirir varios conocimientos y participar en diferentes áreas de investigación o trabajo.",
+        "age" : 19
+    },
+
+    {
+        "name" : "Miguel",
+        "lastName": "Rodríguez Mendoza",
+        "img" : "imgMembers/MiguelRodriguez.jpeg",
+        "email" : {
+            "personal" : "correo@gmail.com",
+            "institutional" : "correo@correo.udistrital.edu.co"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : 0,
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "Colaborador",
+            "yearsInGroup": 0
+        },
+        "programmingLanguages" : ["Java","Javascript","Angular","React","PHP","Laravel","Python"],
+        "description" : "Persona apasionada por las historias y la tecnología.",
+        "age" : 19
+    },
+
+    {
+        "name" : "Julieth Tatiana",
+        "lastName": "Riaño Mora",
+        "img" : "imgMembers/JulietMora.jpg",
+        "email" : {
+            "personal" : "correo@gmail.com",
+            "institutional" : "correo@correo.udistrital.edu.co"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : 0,
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "Colaborador",
+            "yearsInGroup": 0
+        },
+        "programmingLanguages" : ["Polymer","NodeJS","Bootstrap","PHP","JavaScript"],
+        "description" : "Estudiante en ingeniería de sistemas con certificado alto en cursos de entrenamiento en programacion",
+        "age" : 17
+    },
+
+    {
+        "name" : "Diego Alejandro",
+        "lastName": "Hernandez Martinez",
+        "img" : "imgMembers/DiegoHernandez.jpg",
+        "email" : {
+            "personal" : "dahm1997@gmail.com",
+            "institutional" : "correo@correo.udistrital.edu.co"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : 10,
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "Colaborador",
+            "yearsInGroup": 0
+        },
+
+        "programmingLanguages" : ["Java","Python","C++","JavaScript","Latex"],
+
+        "description" : "Apasionado a las nuevas tecnologías. Me caracterizo por ser una persona amable y respetuosa, preocupada por mantener la armonía en los grupos de trabajo, manteniendo comunicación constante y eficiente.",
+        "age" : 21
+    },
+
+    {
+        "name" : "Daniel Alejandro",
+        "lastName": "Montiel Rodriguez",
+        "img" : "imgMembers/DanielMontiel.jpg",
+        "email" : {
+            "personal" : "correo@gmail.com",
+            "institutional" : "correo@correo.udistrital.edu.co"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : "true",
+            "currentSemester" : 0,
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "Colaborador",
+            "yearsInGroup": 0
+        },
+
+        "programmingLanguages" : ["c++"],
+
+        "description" : "Estudiante en ingeniería de sistemas en la Universidad Distrital Francisco José de Caldas",
+        "age" : 19
+    },
+
+    {
+        "name" : "Andres",
+        "lastName": "Ramirez",
+        "img" : "imgMembers/AndresRamirez.jpeg",
+        "email" : {
+            "personal" : "correo@gmail.com",
+            "institutional" : "correo@correo.udistrital.edu.co"
+        },
+        "occupation" : "Student", 
+        "academicLevel" : "Pregrado",
+        "infoStudent" : {
+            "status" : true,
+            "currentSemester" : 0,
+            "universityDegree" : "Systems Engineer",
+            "levelDegree" : "Pregrado",
+            "totalSemester" : 10 
+        },
+
+        "infoACM" : {
+            "occupation" : "Colaborador",
+            "yearsInGroup": 0
+        },
+
+        "programmingLanguages" : ["c++"],
+
+        "description" : "Estudiante en ingeniería de sistemas en la Universidad Distrital Francisco José de Caldas",
+        "age" : 21
+    }
+]
