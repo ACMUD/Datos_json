@@ -1,4 +1,5 @@
 [{
+  "logo":"GIWEB.png",
   "Abreviacion":"GIWEB",
   "Nombre": "Grupo de Interes en Desarrollo Web",
   "Responsables": ["Luis Gutierrez"],
@@ -28,6 +29,7 @@
 
 },
 {
+  "logo":"GIGAME.png",
   "Abreviacion":"GIGAME",
   "nombre": "grupo de interés en desarrollo de videojuegos",
   "Responsables": ["Edwar Diaz Ruiz"],
@@ -77,6 +79,7 @@
 
 },
   {
+    "logo":"GISAC.png",
     "Abreviacion":"GISAC",
     "nombre": "Grupo de interes de seguridad, auditoria y control",
     "Responsables": ["Cristian Eduardo Ríos Guarín"],
@@ -118,6 +121,7 @@
 
   },
 {
+  "logo":"GICLOUD.png",
   "Abreviacion":"GICLOUD",
   "nombre": "GICLOUD",
   "Responsables": ["Diego Alejandro Correa Ramirez"],
@@ -164,6 +168,7 @@
 
 },
   {
+    "logo":"PYGROUP.png",
     "Abreviacion":"PyGroup",
     "nombre": "PyGroup",
     "Responsables": ["Daniel Alejandro Rodríguez", "Javier Pérez", "Javier Castañeda"],
@@ -211,6 +216,7 @@
 
   },
   {
+    "logo":"GUMP.jpg",
     "Abreviacion":"GUMP",
     "nombre": "Grupo Universitario de Maratones de Programación",
     "Responsables": ["Edison Peñuela"],
