@@ -1,21 +1,10 @@
 [{
+  "logo":"GIWEB.png",
   "Abreviacion":"GIWEB",
-  "nombre": "Grupo de Interes en Desarrollo Web",
-  "Responsable": "Luis Gutierrez",
-  "Descripción": "",
-  "Prerrequisitos":[{
-    "nombre": "conocimientos basicos en javascript"
-    },
-    {
-      "nombre": "conocimientos basicos en html"
-    },
-    {
-      "nombre": "conocimientos basicos en css"
-    },
-    {
-      "nombre": "conocimiento del modelo: vista-controlador"
-    }
-  ],
+  "Nombre": "Grupo de Interes en Desarrollo Web",
+  "Responsables": ["Luis Gutierrez"],
+  "Descripcion": "",
+  "Prerrequisitos":["conocimientos basicos en javascript","conocimientos basicos en html","conocimientos basicos en css","conocimiento del modelo: vista-controlador"],
   "TemasTrabajados":[{
     "nombre": "Framework Angular 2+",
     "descripcion": ""
@@ -40,13 +29,12 @@
 
 },
 {
+  "logo":"GIGAME.png",
   "Abreviacion":"GIGAME",
   "nombre": "grupo de interés en desarrollo de videojuegos",
-  "Responsable": "Edwar Diaz Ruiz",
-  "Descripción": "grupos enfocado el desarrollo de videojuegos , actualmente enfocado al desarrollo mediante unreal engine",
-  "Prerrequisitos":[{
-    "nombre": "tener un PC que corra unreal"
-  }
+  "Responsables": ["Edwar Diaz Ruiz"],
+  "Descripcion": "grupos enfocado el desarrollo de videojuegos , actualmente enfocado al desarrollo mediante unreal engine",
+  "Prerrequisitos":["tener un PC que corra unreal"
   ],
   "TemasTrabajados":[{
     "nombre": "manejo del motor Unreal",
@@ -90,46 +78,184 @@
   }]
 
 },
+  {
+    "logo":"GISAC.png",
+    "Abreviacion":"GISAC",
+    "nombre": "Grupo de interes de seguridad, auditoria y control",
+    "Responsables": ["Cristian Eduardo Ríos Guarín"],
+    "Descripcion": "La cadena de seguridad de una organización es tan fuerte como lo es su eslabón más débil. Este es un ejemplo de cómo funciona la seguridad de la información, y, con esta premisa en mente, es necesario advertir a la sociedad de lo vulnerables que son (ellos y su información) en un mundo digital que no para de evolucionar a pasos agigantados. Por eso, en este grupo buscamos aprender e informar a la comunidad sobre temas relacionados con la seguridad informática, para lograr así mermar la vulnerabilidad que tienen las personas en la sociedad donde que vivimos.",
+    "Prerrequisitos":["ninguno"
+    ],
+    "TemasTrabajados":[{
+      "nombre": "Seguridad de la información",
+      "descripcion": "Breve introducción acerca de la temática del grupo, su historia y conceptos claves para comprender el mundo de la seguridad informática."
+    },
+      {
+        "nombre": "Hacking ético",
+        "descripcion":"Presentación de la “ética del profesional de seguridad informática”, la importancia de la seguridad de la información y de la integridad de los profesionales encargados de esta misma. Se introducen técnicas y herramientas que serán de gran ayuda para la realización de esta tarea."
+      },
+      {
+        "nombre": "Ingeniería social.",
+        "descripcion":"Herramientas de lenguaje, psicología y aplicaciones informáticas, cuya finalidad es aumentar la capacidad de recolección de información del profesional de seguridad."
+      },
+      {
+        "nombre": "Introducción a Linux (Kali Linux).",
+        "descripcion":"Manejo del sistema operativo, estructura, arquitectura, jerarquía, permisos de usuario y utilización de recursos por parte del mismo."
+      },
+      {
+        "nombre": "Pentesting.",
+        "descripcion":"Metodologías y fases necesarios para realizar una “prueba de intrusión” de manera profesional."
+      }
+    ],
+    "ProyectosRealizados":[
+      {
+        "nombre": "Taller - Spyware.",
+        "descripcion": "Concientización sobre la vulnerabilidad que tienen las personas y lo fácil que es para un atacante obtener información personal y privada, simplemente con una herramienta spyware."
+      }
+    ],
+    "horarios":[{
+      "dia":"Viernes",
+      "hora":"12:00-14:00.",
+      "lugar": "Sede Calle 34."
+    }]
+
+  },
 {
-  "Abreviacion":"GISAC",
-  "nombre": "Grupo de interes de seguridad, auditoria y control",
-  "Responsable": "Cristian Eduardo Ríos Guarín",
-  "Descripción": "La cadena de seguridad de una organización es tan fuerte como lo es su eslabón más débil. Este es un ejemplo de cómo funciona la seguridad de la información, y, con esta premisa en mente, es necesario advertir a la sociedad de lo vulnerables que son (ellos y su información) en un mundo digital que no para de evolucionar a pasos agigantados. Por eso, en este grupo buscamos aprender e informar a la comunidad sobre temas relacionados con la seguridad informática, para lograr así mermar la vulnerabilidad que tienen las personas en la sociedad donde que vivimos.",
-  "Prerrequisitos":[{
-    "nombre": ""
-  }
+  "logo":"GICLOUD.png",
+  "Abreviacion":"GICLOUD",
+  "nombre": "GICLOUD",
+  "Responsables": ["Diego Alejandro Correa Ramirez"],
+  "Descripcion": "Aprender a usar las herramientas que ofrece google cloud para soportar aplicaciones en la nube",
+  "Prerrequisitos":["Programacion orientada a objetos"
   ],
   "TemasTrabajados":[{
-    "nombre": "Seguridad de la información",
-    "descripcion": "Breve introducción acerca de la temática del grupo, su historia y conceptos claves para comprender el mundo de la seguridad informática."
+    "nombre": "Explorando la plataforma",
+    "descripcion": "Familiarizacion con la consola de google y ver donde encontrar cada cosa que se necesite."
   },
     {
-      "nombre": "Hacking ético",
-      "descripcion":"Presentación de la “ética del profesional de seguridad informática”, la importancia de la seguridad de la información y de la integridad de los profesionales encargados de esta misma. Se introducen técnicas y herramientas que serán de gran ayuda para la realización de esta tarea."
+      "nombre": "Herramientas",
+      "descripcion":"Instalacion de las herramientas para el curso que son Docker y Google Cloud SDK."
     },
     {
-      "nombre": "Ingeniería social.",
-      "descripcion":"Herramientas de lenguaje, psicología y aplicaciones informáticas, cuya finalidad es aumentar la capacidad de recolección de información del profesional de seguridad."
+      "nombre": "CloudSQL",
+      "descripcion":"Interaccion con el motor Mysql provisto por google y ver como conectarse al mismo."
     },
     {
-      "nombre": "Introducción a Linux (Kali Linux).",
-      "descripcion":"Manejo del sistema operativo, estructura, arquitectura, jerarquía, permisos de usuario y utilización de recursos por parte del mismo."
+      "nombre": "Docker",
+      "descripcion":"Exposicion de que es Docker y como se usa (a nivel teorico) para ejecutar aplicacion."
     },
     {
-      "nombre": "Pentesting.",
-      "descripcion":"Metodologías y fases necesarios para realizar una “prueba de intrusión” de manera profesional."
+      "nombre": "Ejecucion de Docker",
+      "descripcion":"Practica para conocer como usar docker para ejecutar una aplicacion web."
+    },
+    {
+      "nombre": "Despliegue",
+      "descripcion":"Practica para desplegar una aplicacion en la plataforma de google cloud y como vincular los diferentes recursos en un sistema funcional."
+    },
+    {
+      "nombre": "Automatizacion",
+      "descripcion":"Practica para automitizar despliegues de aplicaciones en google cloud."
     }
   ],
   "ProyectosRealizados":[
-    {
-      "nombre": "Taller - Spyware.",
-      "descripcion": "Concientización sobre la vulnerabilidad que tienen las personas y lo fácil que es para un atacante obtener información personal y privada, simplemente con una herramienta spyware."
-    }
+
   ],
   "horarios":[{
-    "dia":"Viernes",
-    "hora":"12:00-14:00.",
+    "dia":"Jueves",
+    "hora":"10:00-12:00.",
     "lugar": "Sede Calle 34."
   }]
 
-}]
+},
+  {
+    "logo":"PYGROUP.png",
+    "Abreviacion":"PyGroup",
+    "nombre": "PyGroup",
+    "Responsables": ["Daniel Alejandro Rodríguez", "Javier Pérez", "Javier Castañeda"],
+    "Descripcion": "En este grupo de trabajo vas a aprender a programar en python, desde el nivel mas básico hasta un nivel medio, llegando al final a poder montar sitios web, programar video juegos y hacer análisis de datos.",
+    "Prerrequisitos":[],
+    "TemasTrabajados":[{
+      "nombre": "Introducción a python",
+      "descripcion": "Se explican las características que hacen distinto a el lenguaje, sus diferencias y similitudes respecto a otros lenguajes y lo que se puede llegar a hacer con el."
+    },
+      {
+        "nombre": "Básicos e indispensables",
+        "descripcion":"Uso básico de la consola de python y entornos de desarrollo; explicación de la sintaxis, variables, condicionales y ciclos."
+      },
+      {
+        "nombre": "Estructuras de datos",
+        "descripcion":"Tipos de estructuras, listas, pilas, tuplas, diccionarios junto a las operaciones que se pueden realizar con estas."
+      },
+      {
+        "nombre": "Orientación a objetos",
+        "descripcion":"Breve presentación del paradigma, uso de las clases, programación de métodos y encapsulamiento."
+      },
+      {
+        "nombre": "Extras",
+        "descripcion":"Entornos virtuales y funciones lambda."
+      },
+      {
+        "nombre": "Pygame",
+        "descripcion":"Que es? Como usarlo, desarrollo de juegos con la librería."
+      },
+      {
+        "nombre": "Paginas web",
+        "descripcion":"Frameworks de desarrollo, flask y django."
+      },
+      {
+        "nombre": "Análisis de datos",
+        "descripcion":"Que es? Uso de numpy, manejo de datasets con pandas, visualización con matplotlib."
+      }
+    ],
+    "ProyectosRealizados":[],
+    "horarios":[{
+      "dia":"Viernes",
+      "hora":"10:00-12:00.",
+      "lugar": "Sede Calle 34."
+    }]
+
+  },
+  {
+    "logo":"GUMP.jpg",
+    "Abreviacion":"GUMP",
+    "nombre": "Grupo Universitario de Maratones de Programación",
+    "Responsables": ["Edison Peñuela"],
+    "Descripcion": "El grupo universitario de maratones de programación (GUMP) es un grupo estudiantil enfocado a mejorar las prácticas en la programación competitiva mediante el aprendizaje y la implementación de algoritmos basados en las ciencias de la computación y matemáticas básicas que permitan resolver problemas mediante soluciones que optimicen el tiempo de ejecución.",
+    "Prerrequisitos":["Programación Básica"
+    ],
+    "TemasTrabajados":[{
+      "nombre": "Estructuras de Datos",
+      "descripcion": "Manejo de estructuras de datos básicas como arreglos, listas y diccionarios."
+    },
+      {
+        "nombre": "Strings",
+        "descripcion":"Manejo de cadenas de texto y manipulación de caracteres."
+      },
+      {
+        "nombre": "Aritmetica y Algebra",
+        "descripcion":"Fundamentos matemáticos y algebraicos para reducir algoritmos en funciones numéricas."
+      },
+      {
+        "nombre": "Teoría de Números",
+        "descripcion":"Introducción a la teoría de números desde el enfoque computacional."
+      },
+      {
+        "nombre": "Algoritmos Avanzado",
+        "descripcion":"Introducción a los diferentes tipos de algoritmos, según los cuales se pueden crear soluciones diferentes ante el mismo problema."
+      },
+      {
+        "nombre": "Programación Dinámica",
+        "descripcion":"Principios de la programación dinámica en la tarde solución de problemas complejos."
+      }
+    ],
+    "ProyectosRealizados":[
+
+    ],
+    "horarios":[{
+      "dia":"Martes",
+      "hora":"10:00-12:00.",
+      "lugar": "Sede Calle 34."
+    }]
+
+  }
+  ]
