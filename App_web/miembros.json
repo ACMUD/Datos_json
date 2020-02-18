@@ -1,4 +1,46 @@
 [
+    {
+        "name": "Mauricio",
+        "lastName": "Alvarado",
+        "age": 22,
+        "description": [
+          "Investigador y emprendedor en tecnología avanzada. Enfocado a la Seguridad Informática",
+          "los servicios interconectados",
+          "sistemas operativos y manejo de información."
+        ],
+        "email": {
+          "personal": "mauricio-alvarado@outlook.com",
+          "institutional": "emrianoa@correo.udistrital.edu.co"
+        },
+    
+        "occupation": "Student",
+        "academicLevel": "Pregrado",
+        "infoStudent": {
+          "status": true,
+          "currentSemester": 5,
+          "universityDegree": "Systems Engineer"
+        },
+    
+        "infoACM": {
+          "occupation": "Presidente",
+          "yearsInGroup": 2
+        },
+    
+        "programmingLanguages": [
+          "AWS",
+          "C++",
+          "CSS",
+          "Haskell",
+          "Java",
+          "JavaScript",
+          "Kotlin",
+          "Lua",
+          "PHP",
+          "R",
+          "Ruby"
+        ],
+        "img": "imgMembers/Igor.jpg"
+      },
   {
     "name": "Edwar",
     "lastName": "Diaz",
@@ -189,35 +231,6 @@
     "description": "Estudiante en ingeniería de sistemas en la Universidad Distrital Francisco José de Caldas",
     "age": 19
   },
-
-  {
-    "name": "Andres",
-    "lastName": "Ramirez",
-    "img": "imgMembers/AndresRamirez.jpeg",
-    "email": {
-      "personal": "correo@gmail.com",
-      "institutional": "correo@correo.udistrital.edu.co"
-    },
-    "occupation": "Student",
-    "academicLevel": "Pregrado",
-    "infoStudent": {
-      "status": true,
-      "currentSemester": 0,
-      "universityDegree": "Systems Engineer",
-      "levelDegree": "Pregrado",
-      "totalSemester": 10
-    },
-
-    "infoACM": {
-      "occupation": "Colaborador",
-      "yearsInGroup": 0
-    },
-
-    "programmingLanguages": ["c++"],
-
-    "description": "Estudiante en ingeniería de sistemas en la Universidad Distrital Francisco José de Caldas",
-    "age": 21
-  },
   {
     "name": "Cristian",
     "lastName": "Ríos",
@@ -259,7 +272,7 @@
       "Python",
       "Ruby"
     ],
-    "img": "imgMembers/AndresRamirez.jpeg"
+    "img": "imgMembers/CristianRios.jpg"
   },
   {
     "name": "Javier Steven",
@@ -301,49 +314,7 @@
       "Python",
       "TypeScript"
     ],
-    "img": "imgMembers/AndresRamirez.jpeg"
-  },
-  {
-    "name": "Mauricio",
-    "lastName": "Alvarado",
-    "age": 22,
-    "description": [
-      "Investigador y emprendedor en tecnología avanzada. Enfocado a la Seguridad Informática",
-      "los servicios interconectados",
-      "sistemas operativos y manejo de información."
-    ],
-    "email": {
-      "personal": "mauricio-alvarado@outlook.com",
-      "institutional": "emrianoa@correo.udistrital.edu.co"
-    },
-
-    "occupation": "Student",
-    "academicLevel": "Pregrado",
-    "infoStudent": {
-      "status": true,
-      "currentSemester": 5,
-      "universityDegree": "Systems Engineer"
-    },
-
-    "infoACM": {
-      "occupation": "Presidente",
-      "yearsInGroup": 2
-    },
-
-    "programmingLanguages": [
-      "AWS",
-      "C++",
-      "CSS",
-      "Haskell",
-      "Java",
-      "JavaScript",
-      "Kotlin",
-      "Lua",
-      "PHP",
-      "R",
-      "Ruby"
-    ],
-    "img": "imgMembers/AndresRamirez.jpeg"
+    "img": "imgMembers/JavierPerez.png"
   },
   {
     "name": "Andres Felipe",
@@ -411,7 +382,7 @@
 
     "programmingLanguages": ["Git", "Java", "Python", "R"],
     "Otros conocimientos": "Arduino",
-    "img": "imgMembers/AndresRamirez.jpeg"
+    "img": "imgMembers/DanielRodriguez.png"
   },
   {
     "name": "Diego Alejandro",
@@ -448,7 +419,7 @@
       "TypeScript"
     ],
     "Otros conocimientos": ["Postma", "GCloud", "Mongo", "PostgreSQL"],
-    "img": "imgMembers/AndresRamirez.jpeg"
+    "img": "imgMembers/DanielRodriguez.png"
   },
   {
     "name": "José",
@@ -486,7 +457,7 @@
       "Ruby"
     ],
     "Otros conocimientos": ["SQL", "Oracle", "Postgre"],
-    "img": "imgMembers/AndresRamirez.jpeg"
+    "img": "imgMembers/JoseQuintero.jpg"
   },
   {
     "name": "Yeimer ",
@@ -512,7 +483,7 @@
     },
 
     "programmingLanguages": "Java",
-    "img": "imgMembers/AndresRamirez.jpeg"
+    "img": "imgMembers/YeimerSerrano.jpg"
   },
   {
     "name": "Kevin Santiago",
@@ -542,6 +513,6 @@
       "yearsInGroup": 0
     },
     "programmingLanguages": ["C++", "Git", "Java"],
-    "img": "imgMembers/AndresRamirez.jpeg"
+    "img": "imgMembers/KevinGarcia.jpeg"
   }
 ]
