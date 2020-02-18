@@ -1,61 +1,30 @@
 [
   {
-    "name": "Edwar",
-    "lastName": "Diaz",
-    "Edad": 23,
-    "description": "me gusta compartir mis conocimientos y realizar proyectos en colaboración experimentando diferentes temáticas",
-    "email": {},
-    "personal": "edwar004@hotmail.com",
-    "institutional": "eddiazr@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
-    "academicLevel": "Pregrado",
-    "infoStudent": {
-      "status": true,
-      "currentSemester": 9,
-      "universityDegree": "Ingenieria de Sistemas"
-    },
-
-    "infoACM": {
-      "occupation": "Miembro",
-      "yearsInGroup": 3
-    },
-
-    "programmingLanguages": [
-      "AWS",
-      "CSS",
-      "Docker",
-      "Game Maker Language",
-      "Git",
-      "Go",
-      "HTML",
-      "JavaScript",
-      "Python",
-      "TypeScript"
-    ],
-    "Otros conocimientos": ["Unreal Engine", ""],
-    "img": "https://drive.google.com/open?id=1Z6NTemLjtneBtLGPkqy3N2s9ZAr_f_Mg"
-  },
-  {
     "name": "Cristian",
     "lastName": "Ríos",
-    "Edad": 22,
+    "age": 22,
     "description": [
       "Técnico mecatrónico y Estudiante de ingeniería de Sistemas",
       "apasionado por la tecnología",
       "los videojuegos y especialmente fascinado por la seguridad informática."
     ],
-    "email": {},
-    "personal": "criosgu@gmail.com",
-    "institutional": "ceriosg@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "criosgu@gmail.com",
+      "institutional": "ceriosg@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
       "status": true,
       "currentSemester": 9,
-      "universityDegree": "Ing. De Sistemas"
+      "universityDegree": "Systems Engineer"
     },
 
-    "infoACM": { "¿Que rol tienes en ACM?": "Miembro", "yearsInGroup": 2 },
+    "infoACM": {
+      "occupation": "Miembro",
+      "yearsInGroup": 2
+    },
 
     "programmingLanguages": [
       "C",
@@ -76,7 +45,7 @@
   {
     "name": "Javier Steven",
     "lastName": "Pérez Fernández",
-    "Edad": 22,
+    "age": 22,
     "description": [
       "Estudiante universitario del programa de Ingeniería de Sistemas con capacidades de comunicación",
       "responsabilidad y excelencia. Tengo una afinidad hacia el aprendizaje constante",
@@ -84,18 +53,24 @@
       "en lograr un crecimiento que no se limite al nivel personal sino que afecte a las personas alrededor mío",
       "de igual forma me gusta escuchar a los demás y lograr establecer conexiones."
     ],
-    "email": {},
-    "personal": "perez2850@gmail.com",
-    "institutional": "jeperezf@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "perez2850@gmail.com",
+      "institutional": "jeperezf@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 10,
-    "universityDegree": "Ingeniería de Sistemas",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": "Tesorero",
-    "yearsInGroup": 2,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 10,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Tesorero",
+      "yearsInGroup": 2
+    },
+
     "programmingLanguages": [
       "C++",
       "CSS",
@@ -112,24 +87,30 @@
   {
     "name": "Mauricio",
     "lastName": "Alvarado",
-    "Edad": 22,
+    "age": 22,
     "description": [
       "Investigador y emprendedor en tecnología avanzada. Enfocado a la Seguridad Informática",
       "los servicios interconectados",
       "sistemas operativos y manejo de información."
     ],
-    "email": {},
-    "personal": "mauricio-alvarado@outlook.com",
-    "institutional": "emrianoa@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "mauricio-alvarado@outlook.com",
+      "institutional": "emrianoa@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 5,
-    "universityDegree": "Ingeniería de Sistemas",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": "Presidente",
-    "yearsInGroup": 2,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 5,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Presidente",
+      "yearsInGroup": 2
+    },
+
     "programmingLanguages": [
       "AWS",
       "C++",
@@ -148,24 +129,29 @@
   {
     "name": "Andres Felipe",
     "lastName": "Ramirez Hernandez",
-    "Edad": 21,
+    "age": 21,
     "description": [
       "Soy una persona responsable siempre con ganas de aprender",
       "que busca dar lo mejor de si a cada momento con cada cosa que hace. Aprovecho cada oportunidad para crecer",
       "para demostrarme que puedo ser mejor cada dia."
     ],
-    "email": {},
-    "personal": "afelrh@hotmail.com",
-    "institutional": "aframirezh@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "afelrh@hotmail.com",
+      "institutional": "aframirezh@correo.udistrital.edu.co"
+    },
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 8,
-    "universityDegree": "Ingenieria de sistemas",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": "Miembro",
-    "yearsInGroup": 0,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 8,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Miembro",
+      "yearsInGroup": 0
+    },
+
     "programmingLanguages": [
       "C++",
       "CSS",
@@ -179,25 +165,31 @@
   {
     "name": "Daniel Alejandro",
     "lastName": "Rodriguez Suarez",
-    "Edad": 20,
+    "age": 20,
     "description": [
       "Tutor del grupo de trabajo Pygroup. Líder del semillero de investigación en ciencia de cohetes ATL",
       "adscrito al grupo de investigación LIDER.\n\nApasionado por la ciencia de cohetes",
       "las tecnologías aeroespaciales",
       "satelitales y la ciencia de datos."
     ],
-    "email": {},
-    "personal": "daniel_arod@protonmail.com",
-    "institutional": "danarodriguezs@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "daniel_arod@protonmail.com",
+      "institutional": "danarodriguezs@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 5,
-    "universityDegree": "Ingeniería de Sistemas",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": ["Miembro", "Colaborador"],
-    "yearsInGroup": 0,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 5,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Miembro",
+      "yearsInGroup": 0
+    },
+
     "programmingLanguages": ["Git", "Java", "Python", "R"],
     "Otros conocimientos": "Arduino",
     "img": "https://drive.google.com/open?id=1mYtRngeQBU_9uY6If095hTER1rJIZgKx"
@@ -205,24 +197,30 @@
   {
     "name": "Diego Alejandro",
     "lastName": "Correa Ramirez",
-    "Edad": 23,
+    "age": 23,
     "description": [
       "Con intensa chispa",
       "pero solo queda en eso",
       "en chispa"
     ],
-    "email": {},
-    "personal": "alejandroramirez.ramirezz485@gmail.com",
-    "institutional": "diacorrear@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "alejandroramirez.ramirezz485@gmail.com",
+      "institutional": "diacorrear@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 10,
-    "universityDegree": "Ingeniería de Sistemas",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": "Vicepresidente",
-    "yearsInGroup": 1,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 10,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Vicepresidente",
+      "yearsInGroup": 1
+    },
+
     "programmingLanguages": [
       "Docker",
       "Git",
@@ -236,23 +234,29 @@
   {
     "name": "José",
     "lastName": "Quintero",
-    "Edad": 19,
+    "age": 19,
     "description": [
       "Técnico en programación y estudiante de ingeniería de sistemas",
       "interesado en los temas de inteligencia artificial y bases de datos. Me gustan los videojuegos y bailar salsa ♬♪♫ (~˘▽˘)~ ♪♬ ~(˘▽˘)~ ♬♪ ~(˘▽˘~) ♫♪♬"
     ],
-    "email": {},
-    "personal": "jquinteroc@acm.org",
-    "institutional": "jolquinteroc@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "jquinteroc@acm.org",
+      "institutional": "jolquinteroc@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 4,
-    "universityDegree": "Ingeniería de sistemas",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": "Miembro",
-    "yearsInGroup": 0,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 4,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Miembro",
+      "yearsInGroup": 0
+    },
+
     "programmingLanguages": [
       "C#",
       "C++",
@@ -268,45 +272,56 @@
   {
     "name": "Yeimer ",
     "lastName": "Serrano Navarro",
-    "Edad": 18,
+    "age": 18,
     "description": "Aficionado a lo videojuegos ",
-    "email": {},
-    "personal": "yeimer.serrano@gmail.com",
-    "institutional": "yeserranon@correo.udistirtal.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "yeimer.serrano@gmail.com",
+      "institutional": "yeserranon@correo.udistirtal.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 4,
-    "universityDegree": "Ingenieria de Sistemas",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": "Miembro",
-    "yearsInGroup": 0,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 4,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Miembro",
+      "yearsInGroup": 0
+    },
+
     "programmingLanguages": "Java",
     "img": "https://drive.google.com/open?id=1A02NaEQwWun3L9su-z5N1LJ5hrz1Pu4v"
   },
   {
     "name": "Kevin Santiago",
     "lastName": "García Cuellar ",
-    "Edad": 19,
+    "age": 19,
     "description": [
       "Técnico mecatrónico",
       "estudiante de ingeniería de sistemas",
       "con interés en el desarrollo de videojuegos y desarrollo de personajes",
       "amante de la animación y el diseño gráfico."
     ],
-    "email": {},
-    "personal": "kevingarcia.cuellar94@gmail.com",
-    "institutional": "kesgarciac@correo.udistrital.edu.co",
-    "occupation": "Estudiante",
+    "email": {
+      "personal": "kevingarcia.cuellar94@gmail.com",
+      "institutional": "kesgarciac@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
     "academicLevel": "Pregrado",
-    "infoStudent": {},
-    "status": true,
-    "currentSemester": 4,
-    "universityDegree": "Ingeniería de Sistemas ",
-    "infoACM": {},
-    "¿Que rol tienes en ACM?": "Miembro",
-    "yearsInGroup": 0,
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 4,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Miembro",
+      "yearsInGroup": 0
+    },
     "programmingLanguages": ["C++", "Git", "Java"],
     "img": "https://drive.google.com/open?id=1mCrr2ZbPKYxrOeZhqjgFvNsAijkwYeFy"
   }
