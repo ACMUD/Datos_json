@@ -1,46 +1,78 @@
 [
-    {
-        "name": "Mauricio",
-        "lastName": "Alvarado",
-        "age": 22,
-        "description": [
-          "Investigador y emprendedor en tecnología avanzada. Enfocado a la Seguridad Informática",
-          "los servicios interconectados",
-          "sistemas operativos y manejo de información."
-        ],
-        "email": {
-          "personal": "mauricio-alvarado@outlook.com",
-          "institutional": "emrianoa@correo.udistrital.edu.co"
-        },
-    
-        "occupation": "Student",
-        "academicLevel": "Pregrado",
-        "infoStudent": {
-          "status": true,
-          "currentSemester": 5,
-          "universityDegree": "Systems Engineer"
-        },
-    
-        "infoACM": {
-          "occupation": "Presidente",
-          "yearsInGroup": 2
-        },
-    
-        "programmingLanguages": [
-          "AWS",
-          "C++",
-          "CSS",
-          "Haskell",
-          "Java",
-          "JavaScript",
-          "Kotlin",
-          "Lua",
-          "PHP",
-          "R",
-          "Ruby"
-        ],
-        "img": "imgMembers/Igor.jpg"
-      },
+  {
+    "name": "Mauricio",
+    "lastName": "Alvarado",
+    "age": 22,
+    "description": [
+      "Investigador y emprendedor en tecnología avanzada. Enfocado a la Seguridad Informática",
+      "los servicios interconectados",
+      "sistemas operativos y manejo de información."
+    ],
+    "email": {
+      "personal": "mauricio-alvarado@outlook.com",
+      "institutional": "emrianoa@correo.udistrital.edu.co"
+    },
+
+    "occupation": "Student",
+    "academicLevel": "Pregrado",
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 5,
+      "universityDegree": "Systems Engineer"
+    },
+
+    "infoACM": {
+      "occupation": "Presidente",
+      "yearsInGroup": 2
+    },
+
+    "programmingLanguages": [
+      "AWS",
+      "C++",
+      "CSS",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Kotlin",
+      "Lua",
+      "PHP",
+      "R",
+      "Ruby"
+    ],
+    "img": "imgMembers/Igor.jpg"
+  },
+  {
+    "name": "Julieth Tatiana",
+    "lastName": "Riaño Mora",
+    "img": "imgMembers/JulietMora.jpg",
+    "email": {
+      "personal": "correo@gmail.com",
+      "institutional": "correo@correo.udistrital.edu.co"
+    },
+    "occupation": "Student",
+    "academicLevel": "Pregrado",
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 0,
+      "universityDegree": "Systems Engineer",
+      "levelDegree": "Pregrado",
+      "totalSemester": 10
+    },
+
+    "infoACM": {
+      "occupation": "Colaborador",
+      "yearsInGroup": 0
+    },
+    "programmingLanguages": [
+      "Polymer",
+      "NodeJS",
+      "Bootstrap",
+      "PHP",
+      "JavaScript"
+    ],
+    "description": "Estudiante en ingeniería de sistemas con certificado alto en cursos de entrenamiento en programacion",
+    "age": 17
+  },
   {
     "name": "Edwar",
     "lastName": "Diaz",
@@ -142,39 +174,6 @@
   },
 
   {
-    "name": "Julieth Tatiana",
-    "lastName": "Riaño Mora",
-    "img": "imgMembers/JulietMora.jpg",
-    "email": {
-      "personal": "correo@gmail.com",
-      "institutional": "correo@correo.udistrital.edu.co"
-    },
-    "occupation": "Student",
-    "academicLevel": "Pregrado",
-    "infoStudent": {
-      "status": true,
-      "currentSemester": 0,
-      "universityDegree": "Systems Engineer",
-      "levelDegree": "Pregrado",
-      "totalSemester": 10
-    },
-
-    "infoACM": {
-      "occupation": "Colaborador",
-      "yearsInGroup": 0
-    },
-    "programmingLanguages": [
-      "Polymer",
-      "NodeJS",
-      "Bootstrap",
-      "PHP",
-      "JavaScript"
-    ],
-    "description": "Estudiante en ingeniería de sistemas con certificado alto en cursos de entrenamiento en programacion",
-    "age": 17
-  },
-
-  {
     "name": "Diego Alejandro",
     "lastName": "Hernandez Martinez",
     "img": "imgMembers/DiegoHernandez.jpg",
@@ -201,35 +200,6 @@
 
     "description": "Apasionado a las nuevas tecnologías. Me caracterizo por ser una persona amable y respetuosa, preocupada por mantener la armonía en los grupos de trabajo, manteniendo comunicación constante y eficiente.",
     "age": 21
-  },
-
-  {
-    "name": "Daniel Alejandro",
-    "lastName": "Montiel Rodriguez",
-    "img": "imgMembers/DanielMontiel.jpg",
-    "email": {
-      "personal": "correo@gmail.com",
-      "institutional": "correo@correo.udistrital.edu.co"
-    },
-    "occupation": "Student",
-    "academicLevel": "Pregrado",
-    "infoStudent": {
-      "status": "true",
-      "currentSemester": 0,
-      "universityDegree": "Systems Engineer",
-      "levelDegree": "Pregrado",
-      "totalSemester": 10
-    },
-
-    "infoACM": {
-      "occupation": "Colaborador",
-      "yearsInGroup": 0
-    },
-
-    "programmingLanguages": ["c++"],
-
-    "description": "Estudiante en ingeniería de sistemas en la Universidad Distrital Francisco José de Caldas",
-    "age": 19
   },
   {
     "name": "Cristian",
@@ -482,7 +452,7 @@
       "yearsInGroup": 0
     },
 
-    "programmingLanguages": "Java",
+    "programmingLanguages": ["Java"],
     "img": "imgMembers/YeimerSerrano.jpg"
   },
   {
