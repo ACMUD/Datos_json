@@ -3,19 +3,14 @@
   "Abreviacion":"GIWEB",
   "Nombre": "Grupo de Interes en Desarrollo Web",
   "Responsables": ["Luis Gutierrez"],
-  "Descripcion": "",
+  "Descripcion": "Grupo Enfocado en el Desarrollo web frontend",
   "Prerrequisitos":["conocimientos basicos en javascript","conocimientos basicos en html","conocimientos basicos en css","conocimiento del modelo: vista-controlador"],
   "TemasTrabajados":[{
     "nombre": "Framework Angular 2+",
     "descripcion": ""
   }
   ],
-  "ProyectosRealizados":[
-    {
-      "nombre": "",
-      "descripcion": ""
-    }
-  ],
+  "ProyectosRealizados":[],
   "horarios":[{
     "dia":"Martes",
     "hora":"8:00 pm - 10:00 pm",
@@ -33,7 +28,7 @@
   "Abreviacion":"GIGAME",
   "nombre": "grupo de interés en desarrollo de videojuegos",
   "Responsables": ["Edwar Diaz Ruiz"],
-  "Descripcion": "grupos enfocado el desarrollo de videojuegos , actualmente enfocado al desarrollo mediante unreal engine",
+  "Descripcion": "Grupo enfocado el desarrollo de videojuegos , actualmente enfocado al desarrollo mediante unreal engine",
   "Prerrequisitos":["tener un PC que corra unreal"
   ],
   "TemasTrabajados":[{
@@ -79,7 +74,7 @@
 
 },
   {
-    "logo":"imgGrupos/GISAC.svg",
+    "logo":"imgGrupos/GISAC.png",
     "Abreviacion":"GISAC",
     "nombre": "Grupo de interes de seguridad, auditoria y control",
     "Responsables": ["Cristian Eduardo Ríos Guarín"],
