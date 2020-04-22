@@ -19,10 +19,12 @@
         "text": "En ACMUD creemos que estar dentro de una Comunidad Académica dentro de la Universidad puede cambiar nuestra trayectoria como profesionales, logrando mejorar y trabajando en equipo para lograr resultados mejores y mas eficientes"
     }, {
         "name": "Relaciones",
-        "text": "Participa en la comunidad a medida que participas en ACMUD y aprende a tu ritmo",
-        "relation_ship": "Conectare con capítulos ACM en todo el mundo",
-        "participation": "Mejora tus habilidades, aprendiendo algo nuevo",
-        "profile": "Creemos que la educación no debe tener privilegios, todos podemos participar y aprender"
+        "text": [
+            "Participa en la comunidad a medida que participas en ACMUD y aprende a tu ritmo",
+            "Conectare con capítulos ACM en todo el mundo",
+            "Mejora tus habilidades, aprendiendo algo nuevo",
+            "Creemos que la educación no debe tener privilegios, todos podemos participar y aprender"
+        ]
     }],
     "mision": "Crear una comunidad dedicada al aprendizaje y socialización de conocimiento en computación, realizando actividades académicas que cuenten con á participación de estudiantes, profesionales, investigadores y empresas nacionales e internacionales. Motivando a los estudiantes en su propia formación con servicios académicos y herramientas tecnológicas que son vigentes en la comunidad internacional de la computación",
     "vision": "El Capitulo Estudiantil de la Association for Computing Machine, de la Universidad Distrital Francisca José de Caldas, se proyecta como un grupo sólido, can reconocimiento a nivel nacional e internacional, que aporta activamente a la comunidad cientlfica en el área de la camputación con publicación de articulas y el desarrollo de proyectos innovadores, permitiendo el avance y el desarrollo científico profesional"
