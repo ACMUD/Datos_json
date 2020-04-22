@@ -12,7 +12,6 @@
       "personal": "mauricio-alvarado@outlook.com",
       "institutional": "emrianoa@correo.udistrital.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
@@ -20,12 +19,10 @@
       "currentSemester": 5,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Presidente",
       "yearsInGroup": 2
     },
-
     "programmingLanguages": [
       "AWS",
       "C++",
@@ -58,7 +55,6 @@
       "levelDegree": "Pregrado",
       "totalSemester": 10
     },
-
     "infoACM": {
       "occupation": "Colaborador",
       "yearsInGroup": 0
@@ -74,6 +70,77 @@
     "age": 17
   },
   {
+    "name": "Kevin Santiago",
+    "lastName": "García Cuellar ",
+    "age": 19,
+    "description": [
+      "Técnico mecatrónico",
+      "estudiante de ingeniería de sistemas",
+      "con interés en el desarrollo de videojuegos y desarrollo de personajes",
+      "amante de la animación y el diseño gráfico."
+    ],
+    "email": {
+      "personal": "kevingarcia.cuellar94@gmail.com",
+      "institutional": "kesgarciac@correo.udistrital.edu.co"
+    },
+    "occupation": "Student",
+    "academicLevel": "Pregrado",
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 4,
+      "universityDegree": "Systems Engineer"
+    },
+    "infoACM": {
+      "occupation": "Vicepresidente",
+      "yearsInGroup": 0
+    },
+    "programmingLanguages": [
+      "C++",
+      "Git",
+      "Java"
+    ],
+    "img": "imgMembers/KevinGarcia.jpeg"
+  },
+  {
+    "name": "José",
+    "lastName": "Quintero",
+    "age": 19,
+    "description": [
+      "Técnico en programación y estudiante de ingeniería de sistemas",
+      "interesado en los temas de inteligencia artificial y bases de datos. Me gustan los videojuegos y bailar salsa ♬♪♫ (~˘▽˘)~ ♪♬ ~(˘▽˘)~ ♬♪ ~(˘▽˘~) ♫♪♬"
+    ],
+    "email": {
+      "personal": "jquinteroc@acm.org",
+      "institutional": "jolquinteroc@correo.udistrital.edu.co"
+    },
+    "occupation": "Student",
+    "academicLevel": "Pregrado",
+    "infoStudent": {
+      "status": true,
+      "currentSemester": 4,
+      "universityDegree": "Systems Engineer"
+    },
+    "infoACM": {
+      "occupation": "Tesorero",
+      "yearsInGroup": 0
+    },
+    "programmingLanguages": [
+      "C#",
+      "C++",
+      "Git",
+      "HTML",
+      "Java",
+      "Python",
+      "Ruby"
+    ],
+    "Otros conocimientos": [
+      "SQL",
+      "Oracle",
+      "Postgre"
+    ],
+    "img": "imgMembers/JoseQuintero.jpg"
+  },
+  {
     "name": "Edwar",
     "lastName": "Diaz",
     "img": "imgMembers/EdwarDiaz.jpg",
@@ -83,7 +150,6 @@
       "personal": "edwar004@hotmail.com",
       "institutional": "eddiazr@correo.udistrital.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
@@ -91,12 +157,10 @@
       "currentSemester": 9,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Miembro",
       "yearsInGroup": 3
     },
-
     "programmingLanguages": [
       "AWS",
       "CSS",
@@ -109,7 +173,10 @@
       "Python",
       "TypeScript"
     ],
-    "Otros conocimientos": ["Unreal Engine", ""]
+    "Otros conocimientos": [
+      "Unreal Engine",
+      ""
+    ]
   },
   {
     "name": "Mauricio",
@@ -128,16 +195,16 @@
       "levelDegree": "Pregrado",
       "totalSemester": 10
     },
-
     "infoACM": {
       "occupation": "Colaborador",
       "yearsInGroup": 0
     },
-    "programmingLanguages": ["Python"],
+    "programmingLanguages": [
+      "Python"
+    ],
     "description": "Tengo un interés en el mundo de la programación con el fin de automatizar procesos y desarrollar herramientas que puedan dar soluciones o facilitar las tareas cotidianas. Actualmente estoy en segundo semestre en la Universidad Distrital Francisco José de Caldas con el objetivo de adquirir varios conocimientos y participar en diferentes áreas de investigación o trabajo.",
     "age": 19
   },
-
   {
     "name": "Miguel",
     "lastName": "Rodríguez Mendoza",
@@ -155,7 +222,6 @@
       "levelDegree": "Pregrado",
       "totalSemester": 10
     },
-
     "infoACM": {
       "occupation": "Colaborador",
       "yearsInGroup": 0
@@ -172,35 +238,6 @@
     "description": "Persona apasionada por las historias y la tecnología.",
     "age": 19
   },
-
-  {
-    "name": "Diego Alejandro",
-    "lastName": "Hernandez Martinez",
-    "img": "imgMembers/DiegoHernandez.jpg",
-    "email": {
-      "personal": "dahm1997@gmail.com",
-      "institutional": "correo@correo.udistrital.edu.co"
-    },
-    "occupation": "Student",
-    "academicLevel": "Pregrado",
-    "infoStudent": {
-      "status": true,
-      "currentSemester": 10,
-      "universityDegree": "Systems Engineer",
-      "levelDegree": "Pregrado",
-      "totalSemester": 10
-    },
-
-    "infoACM": {
-      "occupation": "Colaborador",
-      "yearsInGroup": 0
-    },
-
-    "programmingLanguages": ["Java", "Python", "C++", "JavaScript", "Latex"],
-
-    "description": "Apasionado a las nuevas tecnologías. Me caracterizo por ser una persona amable y respetuosa, preocupada por mantener la armonía en los grupos de trabajo, manteniendo comunicación constante y eficiente.",
-    "age": 21
-  },
   {
     "name": "Cristian",
     "lastName": "Ríos",
@@ -214,7 +251,6 @@
       "personal": "criosgu@gmail.com",
       "institutional": "ceriosg@correo.udistrital.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
@@ -222,12 +258,10 @@
       "currentSemester": 9,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Miembro",
       "yearsInGroup": 2
     },
-
     "programmingLanguages": [
       "C",
       "C++",
@@ -259,7 +293,6 @@
       "personal": "perez2850@gmail.com",
       "institutional": "jeperezf@correo.udistrital.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
@@ -267,12 +300,10 @@
       "currentSemester": 10,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Miembro",
       "yearsInGroup": 2
     },
-
     "programmingLanguages": [
       "C++",
       "CSS",
@@ -306,12 +337,10 @@
       "currentSemester": 8,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Miembro",
       "yearsInGroup": 0
     },
-
     "programmingLanguages": [
       "C++",
       "CSS",
@@ -336,7 +365,6 @@
       "personal": "daniel_arod@protonmail.com",
       "institutional": "danarodriguezs@correo.udistrital.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
@@ -344,13 +372,16 @@
       "currentSemester": 5,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Miembro",
       "yearsInGroup": 0
     },
-
-    "programmingLanguages": ["Git", "Java", "Python", "R"],
+    "programmingLanguages": [
+      "Git",
+      "Java",
+      "Python",
+      "R"
+    ],
     "Otros conocimientos": "Arduino",
     "img": "imgMembers/DanielRodriguez.png"
   },
@@ -367,7 +398,6 @@
       "personal": "alejandroramirez.ramirezz485@gmail.com",
       "institutional": "diacorrear@correo.udistrital.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
@@ -375,12 +405,10 @@
       "currentSemester": 10,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Miembro",
       "yearsInGroup": 1
     },
-
     "programmingLanguages": [
       "Docker",
       "Git",
@@ -388,46 +416,13 @@
       "Node JS",
       "TypeScript"
     ],
-    "Otros conocimientos": ["Postma", "GCloud", "Mongo", "PostgreSQL"],
+    "Otros conocimientos": [
+      "Postma",
+      "GCloud",
+      "Mongo",
+      "PostgreSQL"
+    ],
     "img": "imgMembers/DiegoCorrea.jpg"
-  },
-  {
-    "name": "José",
-    "lastName": "Quintero",
-    "age": 19,
-    "description": [
-      "Técnico en programación y estudiante de ingeniería de sistemas",
-      "interesado en los temas de inteligencia artificial y bases de datos. Me gustan los videojuegos y bailar salsa ♬♪♫ (~˘▽˘)~ ♪♬ ~(˘▽˘)~ ♬♪ ~(˘▽˘~) ♫♪♬"
-    ],
-    "email": {
-      "personal": "jquinteroc@acm.org",
-      "institutional": "jolquinteroc@correo.udistrital.edu.co"
-    },
-
-    "occupation": "Student",
-    "academicLevel": "Pregrado",
-    "infoStudent": {
-      "status": true,
-      "currentSemester": 4,
-      "universityDegree": "Systems Engineer"
-    },
-
-    "infoACM": {
-      "occupation": "Tesorero",
-      "yearsInGroup": 0
-    },
-
-    "programmingLanguages": [
-      "C#",
-      "C++",
-      "Git",
-      "HTML",
-      "Java",
-      "Python",
-      "Ruby"
-    ],
-    "Otros conocimientos": ["SQL", "Oracle", "Postgre"],
-    "img": "imgMembers/JoseQuintero.jpg"
   },
   {
     "name": "Yeimer ",
@@ -438,7 +433,6 @@
       "personal": "yeimer.serrano@gmail.com",
       "institutional": "yeserranon@correo.udistirtal.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
@@ -446,43 +440,44 @@
       "currentSemester": 4,
       "universityDegree": "Systems Engineer"
     },
-
     "infoACM": {
       "occupation": "Miembro",
       "yearsInGroup": 0
     },
-
-    "programmingLanguages": ["Java"],
+    "programmingLanguages": [
+      "Java"
+    ],
     "img": "imgMembers/YeimerSerrano.jpg"
   },
   {
-    "name": "Kevin Santiago",
-    "lastName": "García Cuellar ",
-    "age": 19,
-    "description": [
-      "Técnico mecatrónico",
-      "estudiante de ingeniería de sistemas",
-      "con interés en el desarrollo de videojuegos y desarrollo de personajes",
-      "amante de la animación y el diseño gráfico."
-    ],
+    "name": "Diego Alejandro",
+    "lastName": "Hernandez Martinez",
+    "img": "imgMembers/DiegoHernandez.jpg",
     "email": {
-      "personal": "kevingarcia.cuellar94@gmail.com",
-      "institutional": "kesgarciac@correo.udistrital.edu.co"
+      "personal": "dahm1997@gmail.com",
+      "institutional": "correo@correo.udistrital.edu.co"
     },
-
     "occupation": "Student",
     "academicLevel": "Pregrado",
     "infoStudent": {
       "status": true,
-      "currentSemester": 4,
-      "universityDegree": "Systems Engineer"
+      "currentSemester": 10,
+      "universityDegree": "Systems Engineer",
+      "levelDegree": "Pregrado",
+      "totalSemester": 10
     },
-
     "infoACM": {
-      "occupation": "Vicepresidente",
+      "occupation": "Colaborador",
       "yearsInGroup": 0
     },
-    "programmingLanguages": ["C++", "Git", "Java"],
-    "img": "imgMembers/KevinGarcia.jpeg"
+    "programmingLanguages": [
+      "Java",
+      "Python",
+      "C++",
+      "JavaScript",
+      "Latex"
+    ],
+    "description": "Apasionado a las nuevas tecnologías. Me caracterizo por ser una persona amable y respetuosa, preocupada por mantener la armonía en los grupos de trabajo, manteniendo comunicación constante y eficiente.",
+    "age": 21
   }
 ]
