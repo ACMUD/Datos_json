@@ -269,7 +269,7 @@
     },
 
     "infoACM": {
-      "occupation": "Tesorero",
+      "occupation": "Miembro",
       "yearsInGroup": 2
     },
 
@@ -377,7 +377,7 @@
     },
 
     "infoACM": {
-      "occupation": "Vicepresidente",
+      "occupation": "Miembro",
       "yearsInGroup": 1
     },
 
@@ -413,7 +413,7 @@
     },
 
     "infoACM": {
-      "occupation": "Miembro",
+      "occupation": "Tesorero",
       "yearsInGroup": 0
     },
 
@@ -479,7 +479,7 @@
     },
 
     "infoACM": {
-      "occupation": "Miembro",
+      "occupation": "Vicepresidente",
       "yearsInGroup": 0
     },
     "programmingLanguages": ["C++", "Git", "Java"],
