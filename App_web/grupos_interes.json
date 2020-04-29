@@ -1,5 +1,6 @@
 [{
   "logo":"imgGrupos/GIWEB.png",
+  "link": "https://bit.ly/acm20201",
   "Abreviacion":"GIWEB",
   "Nombre": "Grupo de Interes en Desarrollo Web",
   "Responsables": ["Luis Gutierrez"],
@@ -25,6 +26,7 @@
 },
 {
   "logo":"imgGrupos/GIGAME.png",
+  "link": "https://bit.ly/acm20201",
   "Abreviacion":"GIGAME",
   "nombre": "grupo de interés en desarrollo de videojuegos",
   "Responsables": ["Edwar Diaz Ruiz"],
@@ -75,6 +77,7 @@
 },
   {
     "logo":"imgGrupos/GISAC.png",
+    "link": "https://bit.ly/acm20201",
     "Abreviacion":"GISAC",
     "nombre": "Grupo de interes de seguridad, auditoria y control",
     "Responsables": ["Cristian Eduardo Ríos Guarín"],
@@ -117,6 +120,7 @@
   },
 {
   "logo":"imgGrupos/GICLOUD.png",
+  "link": "https://bit.ly/acm20201",
   "Abreviacion":"GICLOUD",
   "nombre": "GICLOUD",
   "Responsables": ["Diego Alejandro Correa Ramirez"],
@@ -164,6 +168,7 @@
 },
   {
     "logo":"imgGrupos/PYGROUP.png",
+    "link": "https://bit.ly/acm20201",
     "Abreviacion":"PyGroup",
     "nombre": "PyGroup",
     "Responsables": ["Daniel Alejandro Rodríguez", "Javier Pérez", "Javier Castañeda"],
@@ -205,49 +210,6 @@
     "ProyectosRealizados":[],
     "horarios":[{
       "dia":"Viernes",
-      "hora":"10:00-12:00.",
-      "lugar": "Sede Calle 34."
-    }]
-
-  },
-  {
-    "logo":"imgGrupos/GUMP.jpg",
-    "Abreviacion":"GUMP",
-    "nombre": "Grupo Universitario de Maratones de Programación",
-    "Responsables": ["Edison Peñuela"],
-    "Descripcion": "El grupo universitario de maratones de programación (GUMP) es un grupo estudiantil enfocado a mejorar las prácticas en la programación competitiva mediante el aprendizaje y la implementación de algoritmos basados en las ciencias de la computación y matemáticas básicas que permitan resolver problemas mediante soluciones que optimicen el tiempo de ejecución.",
-    "Prerrequisitos":["Programación Básica"
-    ],
-    "TemasTrabajados":[{
-      "nombre": "Estructuras de Datos",
-      "descripcion": "Manejo de estructuras de datos básicas como arreglos, listas y diccionarios."
-    },
-      {
-        "nombre": "Strings",
-        "descripcion":"Manejo de cadenas de texto y manipulación de caracteres."
-      },
-      {
-        "nombre": "Aritmetica y Algebra",
-        "descripcion":"Fundamentos matemáticos y algebraicos para reducir algoritmos en funciones numéricas."
-      },
-      {
-        "nombre": "Teoría de Números",
-        "descripcion":"Introducción a la teoría de números desde el enfoque computacional."
-      },
-      {
-        "nombre": "Algoritmos Avanzado",
-        "descripcion":"Introducción a los diferentes tipos de algoritmos, según los cuales se pueden crear soluciones diferentes ante el mismo problema."
-      },
-      {
-        "nombre": "Programación Dinámica",
-        "descripcion":"Principios de la programación dinámica en la tarde solución de problemas complejos."
-      }
-    ],
-    "ProyectosRealizados":[
-
-    ],
-    "horarios":[{
-      "dia":"Martes",
       "hora":"10:00-12:00.",
       "lugar": "Sede Calle 34."
     }]
