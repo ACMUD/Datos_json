@@ -1,31 +1,34 @@
-[{
-    "name": "Student Chapter ACM",
-    "university": "Distrital University Francisco Jose de Caldas",
-    "siglas": "ACMUD",
-    "acm": "Association for Computing Machinery (ACM)",
-    "lema": "En la búsqueda de la excelencia y el compromiso profesional con el campo de la informática y la tecnología de la información",
-    "beneficios": [
-        "Suscripción complementaria a comunicaciones: los miembros del Capítulo son elegibles para una suscripción electrónica complementaria de tres meses a la publicación principal de ACM, Comunicaciones de la ACM.",
-        "Dirección de correo electrónico de acm.org: los miembros del capítulo son elegibles para una dirección de reenvío de correo electrónico «acm.org» con filtro",
-        "Recibo de los populares boletines electrónicos de ACM – TechNews, las últimas noticias sobre computación, 3 veces por semana; CareerNews, las últimas noticias sobre la carrera y la industria, cada dos meses; y MemberNet, todo sobre personas y eventos de ACM mensualmente.",
-        "Suscripción electrónica de todo el año a XRDS, la revista para estudiantes de ACM.",
-        "Quick Takes (SQT) de ACM, un boletín trimestral por correo electrónico con cada problema que destaca las actividades, programas y ofertas de interés de ACM",
-        "Librerías Privadas de ACM",
-        "Recursos para el aprendizaje",
-        "Acceso a la Red de Miembros"
-    ],
-    "description": [{
-        "name": "Para el Mundo",
-        "text": "En ACMUD creemos que estar dentro de una Comunidad Académica dentro de la Universidad puede cambiar nuestra trayectoria como profesionales, logrando mejorar y trabajando en equipo para lograr resultados mejores y mas eficientes"
-    }, {
-        "name": "Relaciones",
-        "text": [
+[
+    {
+        "name": "Student Chapter ACM",
+        "university": "Distrital University Francisco Jose de Caldas",
+        "siglas": "ACMUD",
+        "acm": "Association for Computing Machinery (ACM)",
+        "lema": "En la búsqueda de la excelencia y el compromiso profesional con el campo de la informática y la tecnología de la información",
+        "beneficios": [
             "Participa en la comunidad a medida que participas en ACMUD y aprende a tu ritmo",
             "Conectare con capítulos ACM en todo el mundo",
             "Mejora tus habilidades, aprendiendo algo nuevo",
-            "Creemos que la educación no debe tener privilegios, todos podemos participar y aprender"
-        ]
-    }],
-    "mision": "Crear una comunidad dedicada al aprendizaje y socialización de conocimiento en computación, realizando actividades académicas que cuenten con á participación de estudiantes, profesionales, investigadores y empresas nacionales e internacionales. Motivando a los estudiantes en su propia formación con servicios académicos y herramientas tecnológicas que son vigentes en la comunidad internacional de la computación",
-    "vision": "El Capitulo Estudiantil de la Association for Computing Machine, de la Universidad Distrital Francisca José de Caldas, se proyecta como un grupo sólido, can reconocimiento a nivel nacional e internacional, que aporta activamente a la comunidad cientlfica en el área de la camputación con publicación de articulas y el desarrollo de proyectos innovadores, permitiendo el avance y el desarrollo científico profesional"
-}]
+            "Creemos que la educación no debe tener privilegios, todos podemos participar y aprender",
+            "Aceso al cronograma de actividades de los capitulos acm al rededor del mundo",
+            "Colaboración con las actividades de acm y así dejar huella y llegar a ser parte del consejo de acm. (La máxima autoridad de gobierno de la asociación)",
+            "Suscripción complementaria a comunicaciones: los miembros del Capítulo son elegibles para una suscripción electrónica complementaria de tres meses a la publicación principal de ACM, Comunicaciones de la ACM.",
+            "Dirección de correo electrónico de @acm.org",
+            "Recibo de los populares boletines electrónicos de ACM – TechNews, las últimas noticias sobre computación, 3 veces por semana; CareerNews, las últimas noticias sobre la carrera y la industria, cada dos meses; y MemberNet, todo sobre personas y eventos de ACM mensualmente.",
+            "Suscripción electrónica de todo el año a XRDS, la revista para estudiantes de ACM.",
+            "Quick Takes (SQT) de ACM, un boletín trimestral por correo electrónico con cada problema que destaca las actividades, programas y ofertas de interés de ACM",
+            "Librerías Privadas de ACM",
+            "Recursos para el aprendizaje",
+            "Puedes elegir el futuro de la asociación.",
+            "Acceso a la Red de Miembros"
+        ],
+        "description": [
+            {
+                "name": "",
+                "text": "Unirse a ACM es atreverse ser un mejor profesional, abrir puertas y ser parte de una comunidad estudiantil y académica en la Universidad Distritalcon un alcance global."
+            }
+        ],
+        "mision": "Crear una comunidad dedicada al aprendizaje y socialización de conocimiento en computación, realizando actividades académicas que cuenten con á participación de estudiantes, profesionales, investigadores y empresas nacionales e internacionales. Motivando a los estudiantes en su propia formación con servicios académicos y herramientas tecnológicas que son vigentes en la comunidad internacional de la computación",
+        "vision": "El Capitulo Estudiantil de la Association for Computing Machine, de la Universidad Distrital Francisca José de Caldas, se proyecta como un grupo sólido, can reconocimiento a nivel nacional e internacional, que aporta activamente a la comunidad cientlfica en el área de la camputación con publicación de articulas y el desarrollo de proyectos innovadores, permitiendo el avance y el desarrollo científico profesional"
+    }
+]
