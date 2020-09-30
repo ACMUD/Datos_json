@@ -1,7 +1,7 @@
 [
   {
     "Nombre": "GIWEB - Introducción a Frontend Web",
-    "Abreviacion": "GIWEB",
+    "Abreviacion": "GIWEB - Introducción a Frontend Web",
     "logo": "imgGrupos/GIWEB.png",
     "link": "https://forms.gle/Kcy4V77NFSWjUB9j8",
     "Responsables": [
@@ -62,163 +62,374 @@
         "hora": "4:00 pm a 6:00 pm",
         "lugar": "Virtual"
       }
-    ],
-    "Descripcion": "Introducción a Frontend Web"
+    ]
   },
-  
-  
   {
-    "logo": "imgGrupos/GISAC.png",
-    "link": "https://bit.ly/acm20201",
-    "Abreviacion": "GISAC",
-    "nombre": "Grupo de interes de seguridad, auditoria y control",
+    "Nombre": "GIWEB - Backend NodeJs - NestJs",
+    "Abreviacion": "GIWEB - Backend NodeJs - NestJs",
+    "logo": "imgGrupos/GIWEB.png",
+    "link": "https://forms.gle/WMNyZq5HGPRy7L1B8",
     "Responsables": [
-      "Cristian Eduardo Ríos Guarín"
+      "Edwar Diaz"
     ],
-    "Descripcion": "La cadena de seguridad de una organización es tan fuerte como lo es su eslabón más débil. Este es un ejemplo de cómo funciona la seguridad de la información, y, con esta premisa en mente, es necesario advertir a la sociedad de lo vulnerables que son (ellos y su información) en un mundo digital que no para de evolucionar a pasos agigantados. Por eso, en este grupo buscamos aprender e informar a la comunidad sobre temas relacionados con la seguridad informática, para lograr así mermar la vulnerabilidad que tienen las personas en la sociedad donde que vivimos.",
     "Prerrequisitos": [
-      "ninguno"
+      "Conocimientos basicos en Git.",
+      "Fundamentos en POO."
     ],
     "TemasTrabajados": [
       {
-        "nombre": "Seguridad de la información",
-        "descripcion": "Breve introducción acerca de la temática del grupo, su historia y conceptos claves para comprender el mundo de la seguridad informática."
+        "nombre": "Typescript",
+        "descripcion": ""
       },
       {
-        "nombre": "Hacking ético",
-        "descripcion": "Presentación de la “ética del profesional de seguridad informática”, la importancia de la seguridad de la información y de la integridad de los profesionales encargados de esta misma. Se introducen técnicas y herramientas que serán de gran ayuda para la realización de esta tarea."
+        "nombre": "Que es un api",
+        "descripcion": ""
       },
       {
-        "nombre": "Ingeniería social.",
-        "descripcion": "Herramientas de lenguaje, psicología y aplicaciones informáticas, cuya finalidad es aumentar la capacidad de recolección de información del profesional de seguridad."
+        "nombre": "Creacion de endpoints.",
+        "descripcion": ""
       },
       {
-        "nombre": "Introducción a Linux (Kali Linux).",
-        "descripcion": "Manejo del sistema operativo, estructura, arquitectura, jerarquía, permisos de usuario y utilización de recursos por parte del mismo."
+        "nombre": "Peticiones http",
+        "descripcion": ""
       },
       {
-        "nombre": "Pentesting.",
-        "descripcion": "Metodologías y fases necesarios para realizar una “prueba de intrusión” de manera profesional."
-      }
-    ],
-    "ProyectosRealizados": [
+        "nombre": "Consumo de servicios de terceros.",
+        "descripcion": ""
+      },
       {
-        "nombre": "Taller - Spyware.",
-        "descripcion": "Concientización sobre la vulnerabilidad que tienen las personas y lo fácil que es para un atacante obtener información personal y privada, simplemente con una herramienta spyware."
+        "nombre": "Recepción y envió de datos.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Procesamiento de datos.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Conexión a base de datos.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Creación de documentación.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Prueba de api con Postman.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Dockerizacion",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Nest y mongo (mini proyecto de chat).",
+        "descripcion": ""
       }
     ],
     "horarios": [
       {
-        "dia": "Viernes",
-        "hora": "12:00-14:00.",
-        "lugar": "Sede Calle 34."
+        "dia": "Miercoles",
+        "hora": "2:00 pm a 4:00 pm",
+        "lugar": "Virtual"
       }
     ]
   },
   {
-    "logo": "imgGrupos/GICLOUD.png",
-    "link": "https://bit.ly/acm20201",
-    "Abreviacion": "GICLOUD",
-    "nombre": "GICLOUD",
+    "Nombre": "GIWEB - Angular",
+    "Abreviacion": "GIWEB - Angular",
+    "logo": "imgGrupos/GIWEB.png",
+    "link": "https://forms.gle/xnMyPWTrHDVJoisZA",
     "Responsables": [
-      "Diego Alejandro Correa Ramirez"
+      "Luis Gutiérrez"
     ],
-    "Descripcion": "Aprender a usar las herramientas que ofrece google cloud para soportar aplicaciones en la nube",
     "Prerrequisitos": [
-      "Programacion orientada a objetos"
+      "Conocimientos en HTML - CSS3.",
+      "Fundamentos en POO.",
+      "Git"
     ],
     "TemasTrabajados": [
       {
-        "nombre": "Explorando la plataforma",
-        "descripcion": "Familiarizacion con la consola de google y ver donde encontrar cada cosa que se necesite."
+        "nombre": "AngularCli",
+        "descripcion": ""
       },
       {
-        "nombre": "Herramientas",
-        "descripcion": "Instalacion de las herramientas para el curso que son Docker y Google Cloud SDK."
+        "nombre": "Directivas estructurales *ngIf - *ngFor",
+        "descripcion": ""
       },
       {
-        "nombre": "CloudSQL",
-        "descripcion": "Interaccion con el motor Mysql provisto por google y ver como conectarse al mismo."
+        "nombre": "Aplicaciones SPA",
+        "descripcion": ""
       },
       {
-        "nombre": "Docker",
-        "descripcion": "Exposicion de que es Docker y como se usa (a nivel teorico) para ejecutar aplicacion."
+        "nombre": "PIPES - Transformaciones Visuales.",
+        "descripcion": ""
       },
       {
-        "nombre": "Ejecucion de Docker",
-        "descripcion": "Practica para conocer como usar docker para ejecutar una aplicacion web."
+        "nombre": "Directivas y Ciclos de Vida.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Manejo de peticiones Http y Servicios",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Respaldo con Firebase.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Autenticación con AuthGoogle.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Respaldo con Firestone.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Real Data con Sockets",
+        "descripcion": ""
       },
       {
         "nombre": "Despliegue",
-        "descripcion": "Practica para desplegar una aplicacion en la plataforma de google cloud y como vincular los diferentes recursos en un sistema funcional."
-      },
-      {
-        "nombre": "Automatizacion",
-        "descripcion": "Practica para automitizar despliegues de aplicaciones en google cloud."
+        "descripcion": ""
       }
     ],
-    "ProyectosRealizados": [],
     "horarios": [
       {
+        "dia": "Martes",
+        "hora": "4:00 pm a 6:00 pm",
+        "lugar": "Virtual"
+      },
+      {
         "dia": "Jueves",
-        "hora": "10:00-12:00.",
-        "lugar": "Sede Calle 34."
+        "hora": "10:00 am a 12 de mediodía",
+        "lugar": "Virtual"
       }
     ]
   },
   {
-    "logo": "imgGrupos/PYGROUP.png",
-    "link": "https://bit.ly/acm20201",
-    "Abreviacion": "PyGroup",
-    "nombre": "PyGroup",
+    "Nombre": "GIWEB - React",
+    "Abreviacion": "GIWEB - React",
+    "logo": "imgGrupos/GIWEB.png",
+    "link": "https://forms.gle/6zpeHWJiKTJZvceZ6",
     "Responsables": [
-      "Daniel Alejandro Rodríguez",
-      "Javier Pérez",
-      "Javier Castañeda"
+      "Edison Peñuela"
     ],
-    "Descripcion": "En este grupo de trabajo vas a aprender a programar en python, desde el nivel mas básico hasta un nivel medio, llegando al final a poder montar sitios web, programar video juegos y hacer análisis de datos.",
-    "Prerrequisitos": [],
+    "Prerrequisitos": [
+      "Conocimientos en HTML - CSS3.",
+      "Fundamentos en POO.",
+      "Git"
+    ],
     "TemasTrabajados": [
       {
-        "nombre": "Introducción a python",
-        "descripcion": "Se explican las características que hacen distinto a el lenguaje, sus diferencias y similitudes respecto a otros lenguajes y lo que se puede llegar a hacer con el."
+        "nombre": "EcmaScript6, Babel y Webpack",
+        "descripcion": ""
       },
       {
-        "nombre": "Básicos e indispensables",
-        "descripcion": "Uso básico de la consola de python y entornos de desarrollo; explicación de la sintaxis, variables, condicionales y ciclos."
+        "nombre": "Librería React y JSX",
+        "descripcion": ""
       },
       {
-        "nombre": "Estructuras de datos",
-        "descripcion": "Tipos de estructuras, listas, pilas, tuplas, diccionarios junto a las operaciones que se pueden realizar con estas."
+        "nombre": "Componentes React (de Función y de Clase)",
+        "descripcion": ""
       },
       {
-        "nombre": "Orientación a objetos",
-        "descripcion": "Breve presentación del paradigma, uso de las clases, programación de métodos y encapsulamiento."
+        "nombre": "Manejo de Estados",
+        "descripcion": ""
       },
       {
-        "nombre": "Extras",
-        "descripcion": "Entornos virtuales y funciones lambda."
+        "nombre": "Ciclo de vida de los componentes",
+        "descripcion": ""
       },
       {
-        "nombre": "Pygame",
-        "descripcion": "Que es? Como usarlo, desarrollo de juegos con la librería."
+        "nombre": "Promesas y Consumo de Apis",
+        "descripcion": ""
       },
       {
-        "nombre": "Paginas web",
-        "descripcion": "Frameworks de desarrollo, flask y django."
-      },
-      {
-        "nombre": "Análisis de datos",
-        "descripcion": "Que es? Uso de numpy, manejo de datasets con pandas, visualización con matplotlib."
+        "nombre": "React Router, Redux y Hooks (Según el tiempo)",
+        "descripcion": ""
       }
     ],
-    "ProyectosRealizados": [],
+    "horarios": [
+      {
+        "dia": "Miercoles",
+        "hora": "10:00 am a 12 de mediodía",
+        "lugar": "Virtual"
+      },
+      {
+        "dia": "Viernes",
+        "hora": "10:00 am a 12 de mediodía",
+        "lugar": "Virtual"
+      }
+    ],
+    "Descripcion": "Si quieres llevar tus habilidades a otro nivel y aprender todo sobre el desarrollo de aplicaciones web modernas, debes aprender Reactjs la librería número 1 para la creación de interfaces altamente interactivas de forma rápida y sencilla, con react podrás crear desde pequeñas interfaces de usuario o páginas estáticas, hasta aplicaciones de una sola página (SPA), aplicaciones moviles (hibridas) o plataformas completas, todo en un solo lugar."
+  },
+  {
+    "Nombre": "GISAC I - Introducción a la seguridad informatica",
+    "Abreviacion": "GISAC I - Introducción a la seguridad informatica",
+    "logo": "imgGrupos/GISAC.png",
+    "link": "https://forms.gle/JxXGW5nEqXiTTstd8",
+    "Responsables": [
+      "Andres Ramírez",
+      "Yeimer Serrano"
+    ],
+    "Prerrequisitos": [
+      "PC que soporte maquinas virtuales",
+      "Conceptos básicos de redes (opcional)"
+    ],
+    "TemasTrabajados": [
+      {
+        "nombre": "Conceptos básicos de ciberseguridad",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Ingeniería Social",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Introducción Malware",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Vulnerabilidades y Ciberataques",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Criptografía",
+        "descripcion": ""
+      }
+    ],
+    "horarios": [
+      {
+        "dia": "Sabado",
+        "hora": "10:00 am a 12 de mediodía",
+        "lugar": "Virtual"
+      }
+    ],
+    "Descripcion": ""
+  },
+  {
+    "Nombre": "GISAC II - Seguridad Avanzada",
+    "Abreviacion": "GISAC II - Seguridad Avanzada",
+    "logo": "imgGrupos/GISAC.png",
+    "link": "https://forms.gle/qDHevhcecFneRDss7",
+    "Responsables": [
+      "Cristián Rios"
+    ],
+    "Prerrequisitos": [
+      "GISAC INTRODUCTORIO",
+      "Conocimiento sobre redes",
+      "Conocimiento sobre Sistemas Operativos",
+      "Conocimiento sobre programación"
+    ],
+    "TemasTrabajados": [
+      {
+        "nombre": "Seguridad Defensiva",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Informática Forense",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Inteligencia de Amenazas",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Seguridad Física",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Análisis de Phishing",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Análisis de vulnerabilidades",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Seguridad Informática Ofensiva",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Desarrollo de Exploits",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Pentesting (Metodología)",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Pentesting (Aplicación)",
+        "descripcion": ""
+      }
+    ],
     "horarios": [
       {
         "dia": "Viernes",
-        "hora": "10:00-12:00.",
-        "lugar": "Sede Calle 34."
+        "hora": "12:00 de mediodía a 2:00 pm",
+        "lugar": "Virtual"
       }
-    ]
+    ],
+    "Descripcion": ""
+  },
+  {
+    "Nombre": "PyGroup - Web Edition",
+    "Abreviacion": "PyGroup - Web Edition",
+    "logo": "imgGrupos/PYGROUP.png",
+    "link": "https://forms.gle/LVauFGWseoJJKPt78",
+    "Responsables": [
+      "Camila Guerrero "
+    ],
+    "Prerrequisitos": [
+      "Python básico",
+      "Manejo de Terminal",
+      "Git"
+    ],
+    "TemasTrabajados": [
+      {
+        "nombre": " Internet y el protocolo HTTP",
+        "descripcion": ""
+      },
+      {
+        "nombre": "APIs con Flask",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Bases de datos (SQLAlchemy)",
+        "descripcion": ""
+      },
+      {
+        "nombre": "OpenAPI y Swagger (Documentación)",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Autenticación",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Pruebas Unitarias",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Pruebas de Integración",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Pruebas Funcionales",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Proyecto Capstone: Desarrollo de aplicativo web con Django",
+        "descripcion": ""
+      }
+    ],
+    "horarios": [
+      {
+        "dia": "Viernes",
+        "hora": "8:00 am a 10:00 am",
+        "lugar": "Virtual"
+      }
+    ],
+    "Descripcion": ""
   }
 ]
