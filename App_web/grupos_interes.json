@@ -1,5 +1,70 @@
 [
   {
+    "Nombre": "GIWEB - Introducción a Frontend Web",
+    "Abreviacion": "GIWEB",
+    "logo": "imgGrupos/GIWEB.png",
+    "link": "https://forms.gle/Kcy4V77NFSWjUB9j8",
+    "Responsables": [
+      "Julieth Riaño "
+    ],
+    "Prerrequisitos": [
+      "Buena disposición"
+    ],
+    "TemasTrabajados": [
+      {
+        "nombre": "HTML-CSS-JS definición",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Manejo de etiquetas y estilos",
+        "descripcion": ""
+      },
+      {
+        "nombre": "DOM-CSSOM",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Variables js",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Como modificar html desde javascript",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Fórmularios (construcción)",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Validación de formularios y  expresiones regulares",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Peticiones (GET,POST,..) y respuestas (200,404,...)",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Bootstrap (navbar y menus)",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Web components",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Angular y polymer",
+        "descripcion": ""
+      }
+    ],
+    "horarios": [
+      {
+        "dia": "Lunes",
+        "hora": "4:00 pm a 6:00 pm",
+        "lugar": "Virtual"
+      }
+    ]
+  },
+  {
     "logo": "imgGrupos/GIWEB.png",
     "link": "https://bit.ly/acm20201",
     "Abreviacion": "GIWEB",
