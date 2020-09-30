@@ -1,5 +1,6 @@
 [
   {
+    "ProyectosRealizados": [],
     "Nombre": "GIWEB - Introducción a Frontend Web",
     "Abreviacion": "GIWEB - Introducción a Frontend Web",
     "logo": "imgGrupos/GIWEB.png",
@@ -65,6 +66,7 @@
     ]
   },
   {
+    "ProyectosRealizados": [],
     "Nombre": "GIWEB - Backend NodeJs - NestJs",
     "Abreviacion": "GIWEB - Backend NodeJs - NestJs",
     "logo": "imgGrupos/GIWEB.png",
@@ -135,6 +137,7 @@
     ]
   },
   {
+    "ProyectosRealizados": [],
     "Nombre": "GIWEB - Angular",
     "Abreviacion": "GIWEB - Angular",
     "logo": "imgGrupos/GIWEB.png",
@@ -207,6 +210,7 @@
     ]
   },
   {
+    "ProyectosRealizados": [],
     "Nombre": "GIWEB - React",
     "Abreviacion": "GIWEB - React",
     "logo": "imgGrupos/GIWEB.png",
@@ -264,6 +268,7 @@
     "Descripcion": "Si quieres llevar tus habilidades a otro nivel y aprender todo sobre el desarrollo de aplicaciones web modernas, debes aprender Reactjs la librería número 1 para la creación de interfaces altamente interactivas de forma rápida y sencilla, con react podrás crear desde pequeñas interfaces de usuario o páginas estáticas, hasta aplicaciones de una sola página (SPA), aplicaciones moviles (hibridas) o plataformas completas, todo en un solo lugar."
   },
   {
+    "ProyectosRealizados": [],
     "Nombre": "GISAC I - Introducción a la seguridad informatica",
     "Abreviacion": "GISAC I - Introducción a la seguridad informatica",
     "logo": "imgGrupos/GISAC.png",
@@ -308,6 +313,7 @@
     "Descripcion": ""
   },
   {
+    "ProyectosRealizados": [],
     "Nombre": "GISAC II - Seguridad Avanzada",
     "Abreviacion": "GISAC II - Seguridad Avanzada",
     "logo": "imgGrupos/GISAC.png",
@@ -373,6 +379,7 @@
     "Descripcion": ""
   },
   {
+    "ProyectosRealizados": [],
     "Nombre": "PyGroup - Web Edition",
     "Abreviacion": "PyGroup - Web Edition",
     "logo": "imgGrupos/PYGROUP.png",
