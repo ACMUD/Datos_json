@@ -438,5 +438,37 @@
       }
     ],
     "Descripcion": ""
+  },
+  {
+    "ProyectosRealizados": [],
+    "Nombre": "Proyecto - Novela Visual",
+    "Abreviacion": "Proyecto - Novela Visual",
+    "logo": "imgGrupos/PYGROUP.png",
+    "link": "https://forms.gle/DPgZhuD7E2kQijYUA",
+    "Responsables": [
+      "Fabio Ortiz "
+    ],
+    "Prerrequisitos": [
+      "Sin necesidad de requerimientos previos",
+      "Se enseña desde 0"
+    ],
+    "TemasTrabajados": [
+      {
+        "nombre": "Aprendizaje por reglas.",
+        "descripcion": ""
+      },
+      {
+        "nombre": "Redes neuronales básicas",
+        "descripcion": ""
+      }
+    ],
+    "horarios": [
+      {
+        "dia": "Sabado",
+        "hora": "2:00 pm a 4:00 pm",
+        "lugar": "Virtual"
+      }
+    ],
+    "Descripcion": ""
   }
 ]
